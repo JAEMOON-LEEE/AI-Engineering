@@ -40,12 +40,12 @@ print("X 크기:", X.shape)
 print("y 크기:", y.shape)
 
 # ==========================================
-# 5. Train / Test 분할
-#    80 : 20
-#    Revenue 비율 유지 (stratify)
+# 5. Train / Validation / Test 분할
+#    Train 70% / Validation 10% / Test 20%
 # ==========================================
 
-X_train, X_test, y_train, y_test = train_test_split(
+# 먼저 Test 20% 분리
+X_temp, X_test, y_temp, y_test = train_test_split(
     X,
     y,
     test_size=0.2,
@@ -53,35 +53,56 @@ X_train, X_test, y_train, y_test = train_test_split(
     stratify=y
 )
 
-print("\n===== Train / Test =====")
+# 남은 80%에서 Validation 10%가 되도록 분리
+# 10% / 80% = 0.125
+X_train, X_val, y_train, y_val = train_test_split(
+    X_temp,
+    y_temp,
+    test_size=0.125,
+    random_state=42,
+    stratify=y_temp
+)
+
+print("\n===== Train / Validation / Test =====")
 print("X_train:", X_train.shape)
+print("X_val  :", X_val.shape)
 print("X_test :", X_test.shape)
+
 print("y_train:", y_train.shape)
+print("y_val  :", y_val.shape)
 print("y_test :", y_test.shape)
 
 # ==========================================
-# 6. Train / Test의 Revenue 분포 확인
+# 6. Revenue 비율 확인
 # ==========================================
 
 print("\n===== Train Revenue 비율 =====")
 print(y_train.value_counts(normalize=True))
 
+print("\n===== Validation Revenue 비율 =====")
+print(y_val.value_counts(normalize=True))
+
 print("\n===== Test Revenue 비율 =====")
 print(y_test.value_counts(normalize=True))
 
 # ==========================================
-# 7. Train / Test 파일 저장
+# 7. 파일 저장
 # ==========================================
 
 train_data = X_train.copy()
 train_data["Revenue"] = y_train
 
+val_data = X_val.copy()
+val_data["Revenue"] = y_val
+
 test_data = X_test.copy()
 test_data["Revenue"] = y_test
 
 train_data.to_csv("train.csv", index=False)
+val_data.to_csv("validation.csv", index=False)
 test_data.to_csv("test.csv", index=False)
 
 print("\n===== 파일 저장 완료 =====")
 print("train.csv 저장 완료")
+print("validation.csv 저장 완료")
 print("test.csv 저장 완료")
