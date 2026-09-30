@@ -1,2 +1,6 @@
 # Excel 임시 잠금 파일
 ~$*
+__pycache__/
+.codex/
+_build/
+members/C1/experiment_log_C1_backup.xlsx
