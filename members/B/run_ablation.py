@@ -1,49 +1,28 @@
-"""클래스 가중치와 PageValues 특징의 영향을 5겹 교차검증으로 비교한다."""
+"""공식 validation에서 클래스 가중치와 PageValues 영향을 비교한다."""
 
 from __future__ import annotations
-
-import os
-from pathlib import Path
-
-
-def find_cache_root() -> Path:
-    for candidate in Path(__file__).resolve().parents:
-        if (candidate / "data" / "processed" / "train.csv").exists():
-            return candidate
-        if (candidate / "data" / "train.csv").exists():
-            return candidate
-    return Path("/tmp")
-
-
-os.environ.setdefault("MPLCONFIGDIR", str(find_cache_root() / ".matplotlib-cache"))
-
-import pandas as pd
-import seaborn as sns
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import StratifiedKFold, cross_val_predict
-from sklearn.pipeline import Pipeline
 
 from run_baseline import (
     FIGURE_DIR,
     METRIC_DIR,
     RANDOM_STATE,
-    ROOT,
-    build_preprocessor,
+    build_pipeline,
     calculate_metrics,
-    load_team_splits,
+    load_development_splits,
     prepare_directories,
+    preprocess_features,
 )
 
 import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.linear_model import LogisticRegression
 
 
 def main() -> None:
     prepare_directories()
-    train_x, train_y, _, _ = load_team_splits()
-    cross_validation = StratifiedKFold(
-        n_splits=5, shuffle=True, random_state=RANDOM_STATE
-    )
+    raw_train_x, train_y, raw_validation_x, validation_y = load_development_splits()
 
     configurations = [
         (
@@ -115,27 +94,20 @@ def main() -> None:
 
     rows = []
     for model_name, class_weight_label, feature_set, estimator in configurations:
-        current_x = (
-            train_x.drop(columns=["PageValues"])
-            if feature_set == "Without PageValues"
-            else train_x
+        current_train = raw_train_x.copy()
+        current_validation = raw_validation_x.copy()
+        if feature_set == "Without PageValues":
+            current_train = current_train.drop(columns=["PageValues"])
+            current_validation = current_validation.drop(columns=["PageValues"])
+
+        train_x, validation_x = preprocess_features(
+            current_train, current_validation
         )
-        pipeline = Pipeline(
-            [
-                ("preprocessor", build_preprocessor(current_x)),
-                ("model", estimator),
-            ]
-        )
-        probabilities = cross_val_predict(
-            pipeline,
-            current_x,
-            train_y,
-            cv=cross_validation,
-            method="predict_proba",
-            n_jobs=1,
-        )[:, 1]
+        pipeline = build_pipeline(estimator)
+        pipeline.fit(train_x, train_y)
+        probabilities = pipeline.predict_proba(validation_x)[:, 1]
         result = calculate_metrics(
-            train_y,
+            validation_y,
             probabilities,
             model_name=model_name,
             threshold=0.50,
@@ -158,7 +130,9 @@ def main() -> None:
         "average_precision",
     ]
     results = results[column_order]
-    results.to_csv(METRIC_DIR / "cv_ablation_metrics.csv", index=False)
+    results.to_csv(
+        METRIC_DIR / "validation_ablation_metrics.csv", index=False
+    )
 
     plot_data = results.copy()
     plot_data["configuration"] = (
@@ -183,14 +157,14 @@ def main() -> None:
         hue="metric",
         ax=axis,
     )
-    axis.set_title("Class weight and PageValues ablation")
+    axis.set_title("Official validation: class weight and PageValues ablation")
     axis.set_xlabel("")
     axis.set_ylabel("Score")
     axis.set_ylim(0, 1)
     axis.tick_params(axis="x", labelrotation=15)
     figure.tight_layout()
     figure.savefig(
-        FIGURE_DIR / "cv_ablation_comparison.png", dpi=180
+        FIGURE_DIR / "validation_ablation_comparison.png", dpi=180
     )
     plt.close(figure)
 

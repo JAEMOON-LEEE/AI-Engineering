@@ -1,4 +1,8 @@
-"""B 담당 기준선 모델을 학습하고 공통 평가 자료를 저장한다."""
+"""공식 분할에서 기준선 모델을 학습하고 공통 평가 자료를 저장한다.
+
+기본 실행은 data/final의 train과 validation만 사용한다. test_final.csv는
+--evaluate-test를 명시한 최종 평가에서만 읽는다.
+"""
 
 from __future__ import annotations
 
@@ -10,11 +14,11 @@ from pathlib import Path
 
 def find_project_root() -> Path:
     for candidate in Path(__file__).resolve().parents:
-        if (candidate / "data" / "processed" / "train.csv").exists():
+        if (candidate / "data" / "final" / "train_clean.csv").exists():
             return candidate
-        if (candidate / "data" / "train.csv").exists():
-            return candidate
-    raise FileNotFoundError("프로젝트 루트와 팀 train.csv를 찾을 수 없습니다.")
+    raise FileNotFoundError(
+        "data/final/train_clean.csv이 있는 프로젝트 루트를 찾을 수 없습니다."
+    )
 
 
 ROOT = find_project_root()
@@ -28,9 +32,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
-from sklearn.compose import ColumnTransformer
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.impute import SimpleImputer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import (
     PrecisionRecallDisplay,
@@ -43,23 +45,23 @@ from sklearn.metrics import (
     recall_score,
     roc_auc_score,
 )
-from sklearn.model_selection import StratifiedKFold, cross_val_predict
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.preprocessing import StandardScaler
 
 
-DATA_DIR = ROOT / "data"
-PROCESSED_DIR = (
-    DATA_DIR / "processed" if (DATA_DIR / "processed" / "train.csv").exists() else DATA_DIR
-)
-RAW_DIR = DATA_DIR / "raw" if (DATA_DIR / "raw").exists() else DATA_DIR
+FINAL_DIR = ROOT / "data" / "final"
+TRAIN_PATH = FINAL_DIR / "train_clean.csv"
+VALIDATION_PATH = FINAL_DIR / "validation_final.csv"
+TEST_PATH = FINAL_DIR / "test_final.csv"
+
 RESULT_ROOT = ROOT / "outputs" if (ROOT / "outputs").exists() else ROOT / "results" / "B"
 FIGURE_DIR = RESULT_ROOT / "figures"
 METRIC_DIR = RESULT_ROOT / "metrics"
 PREDICTION_DIR = RESULT_ROOT / "predictions"
 
 RANDOM_STATE = 42
-N_SPLITS = 5
+CATEGORICAL_COLUMNS = ["Month", "VisitorType"]
+EXPECTED_INPUT_DIM = 26
 
 warnings.filterwarnings(
     "ignore", category=RuntimeWarning, module=r"sklearn\.utils\.extmath"
@@ -67,65 +69,81 @@ warnings.filterwarnings(
 
 
 def prepare_directories() -> None:
-    for directory in (
-        RAW_DIR,
-        PROCESSED_DIR,
-        FIGURE_DIR,
-        METRIC_DIR,
-        PREDICTION_DIR,
-    ):
+    for directory in (FIGURE_DIR, METRIC_DIR, PREDICTION_DIR):
         directory.mkdir(parents=True, exist_ok=True)
 
 
-def load_team_splits() -> tuple[pd.DataFrame, pd.Series, pd.DataFrame, pd.Series]:
-    train_path = PROCESSED_DIR / "train.csv"
-    test_path = PROCESSED_DIR / "test.csv"
-    if not train_path.exists() or not test_path.exists():
-        raise FileNotFoundError(
-            "data/processed/train.csv과 test.csv가 필요합니다. "
-            "팀이 확정한 분할 파일을 복사하세요."
+def _read_split(path: Path, split_name: str) -> pd.DataFrame:
+    if not path.exists():
+        raise FileNotFoundError(f"공식 {split_name} 파일이 없습니다: {path}")
+    frame = pd.read_csv(path)
+    if "Revenue" not in frame.columns:
+        raise ValueError(f"{path.name}에 Revenue 컬럼이 없습니다.")
+    if frame.duplicated().any():
+        raise ValueError(f"{path.name}에 중복 행이 있습니다.")
+    if frame.isna().any().any():
+        raise ValueError(f"{path.name}에 결측치가 있습니다.")
+    return frame
+
+
+def load_development_splits() -> tuple[
+    pd.DataFrame, pd.Series, pd.DataFrame, pd.Series
+]:
+    """공식 train/validation만 읽고 행 겹침까지 검증한다."""
+    train = _read_split(TRAIN_PATH, "train")
+    validation = _read_split(VALIDATION_PATH, "validation")
+    if list(train.columns) != list(validation.columns):
+        raise ValueError("train과 validation의 컬럼 순서가 다릅니다.")
+
+    train_hashes = set(pd.util.hash_pandas_object(train, index=False))
+    validation_hashes = set(pd.util.hash_pandas_object(validation, index=False))
+    if train_hashes & validation_hashes:
+        raise ValueError("train과 validation 사이에 동일한 행이 있습니다.")
+
+    return (
+        train.drop(columns="Revenue"),
+        train["Revenue"].astype(int),
+        validation.drop(columns="Revenue"),
+        validation["Revenue"].astype(int),
+    )
+
+
+def preprocess_features(
+    train_features: pd.DataFrame,
+    evaluation_features: pd.DataFrame,
+) -> tuple[pd.DataFrame, pd.DataFrame]:
+    """C1/C2의 official_v1과 같은 26차원 전처리를 적용한다."""
+    train_x = train_features.copy()
+    evaluation_x = evaluation_features.copy()
+    train_x["Weekend"] = train_x["Weekend"].astype(int)
+    evaluation_x["Weekend"] = evaluation_x["Weekend"].astype(int)
+
+    train_x = pd.get_dummies(
+        train_x,
+        columns=CATEGORICAL_COLUMNS,
+        drop_first=True,
+        dtype=int,
+    )
+    evaluation_x = pd.get_dummies(
+        evaluation_x,
+        columns=CATEGORICAL_COLUMNS,
+        drop_first=False,
+        dtype=int,
+    ).reindex(columns=train_x.columns, fill_value=0)
+
+    if list(train_x.columns) != list(evaluation_x.columns):
+        raise AssertionError("전처리 후 train/evaluation 컬럼이 일치하지 않습니다.")
+    expected_dim = (
+        EXPECTED_INPUT_DIM
+        if "PageValues" in train_features.columns
+        else EXPECTED_INPUT_DIM - 1
+    )
+    if train_x.shape[1] != expected_dim:
+        raise ValueError(
+            f"전처리 입력 차원이 {train_x.shape[1]}입니다. "
+            f"현재 특징 집합에서는 {expected_dim}차원을 기대했습니다."
         )
-
-    train = pd.read_csv(train_path)
-    test = pd.read_csv(test_path)
-    if "Revenue" not in train or "Revenue" not in test:
-        raise ValueError("train.csv와 test.csv에 Revenue 컬럼이 필요합니다.")
-    if list(train.columns) != list(test.columns):
-        raise ValueError("train.csv와 test.csv의 컬럼 순서가 다릅니다.")
-    if train.duplicated().any() or test.duplicated().any():
-        raise ValueError("팀 분할 파일에 중복 행이 있습니다.")
-
-    train_x = train.drop(columns="Revenue")
-    train_y = train["Revenue"].astype(int)
-    test_x = test.drop(columns="Revenue")
-    test_y = test["Revenue"].astype(int)
-    return train_x, train_y, test_x, test_y
-
-
-def build_preprocessor(features: pd.DataFrame) -> ColumnTransformer:
-    categorical_columns = features.select_dtypes(
-        include=["object", "category", "bool"]
-    ).columns.tolist()
-    numeric_columns = features.columns.difference(categorical_columns).tolist()
-
-    numeric_pipeline = Pipeline(
-        [
-            ("imputer", SimpleImputer(strategy="median")),
-            ("scaler", StandardScaler()),
-        ]
-    )
-    categorical_pipeline = Pipeline(
-        [
-            ("imputer", SimpleImputer(strategy="most_frequent")),
-            ("onehot", OneHotEncoder(handle_unknown="ignore")),
-        ]
-    )
-    return ColumnTransformer(
-        [
-            ("numeric", numeric_pipeline, numeric_columns),
-            ("categorical", categorical_pipeline, categorical_columns),
-        ]
-    )
+    return train_x, evaluation_x
 
 
 def calculate_metrics(
@@ -165,9 +183,16 @@ def build_models() -> dict[str, object]:
     }
 
 
-def save_class_distribution(train_y: pd.Series, test_y: pd.Series) -> pd.DataFrame:
+def build_pipeline(estimator: object) -> Pipeline:
+    """MLP와 동일하게 모든 26개 입력을 train 기준으로 표준화한다."""
+    return Pipeline([("scaler", StandardScaler()), ("model", estimator)])
+
+
+def save_class_distribution(
+    train_y: pd.Series, validation_y: pd.Series
+) -> pd.DataFrame:
     rows = []
-    for split_name, target in (("train", train_y), ("test", test_y)):
+    for split_name, target in (("train", train_y), ("validation", validation_y)):
         counts = target.value_counts().sort_index()
         for label in (0, 1):
             count = int(counts.get(label, 0))
@@ -184,46 +209,90 @@ def save_class_distribution(train_y: pd.Series, test_y: pd.Series) -> pd.DataFra
     return distribution
 
 
-def main(evaluate_test: bool = False) -> None:
-    prepare_directories()
+def save_validation_figures(
+    validation_y: pd.Series,
+    probabilities_by_model: dict[str, np.ndarray],
+    class_distribution: pd.DataFrame,
+) -> None:
     sns.set_theme(style="whitegrid")
 
-    train_x, train_y, test_x, test_y = load_team_splits()
-    class_distribution = save_class_distribution(train_y, test_y)
-    cross_validation = StratifiedKFold(
-        n_splits=N_SPLITS, shuffle=True, random_state=RANDOM_STATE
+    figure, ax = plt.subplots(figsize=(8, 4.5))
+    sns.barplot(
+        data=class_distribution,
+        x="split",
+        y="count",
+        hue="class",
+        palette=["#6B7280", "#2563EB"],
+        ax=ax,
     )
-    estimators = build_models()
+    ax.set_title("Target class distribution by development split")
+    ax.set_xlabel("")
+    ax.set_ylabel("Sessions")
+    for container in ax.containers:
+        ax.bar_label(container, fmt="%d")
+    figure.tight_layout()
+    figure.savefig(FIGURE_DIR / "development_class_distribution.png", dpi=180)
+    plt.close(figure)
 
-    probabilities_by_model: dict[str, np.ndarray] = {}
+    figure, axes = plt.subplots(1, len(probabilities_by_model), figsize=(12, 4))
+    for axis, (model_name, probabilities) in zip(
+        axes, probabilities_by_model.items()
+    ):
+        predictions = (probabilities >= 0.50).astype(int)
+        matrix = confusion_matrix(validation_y, predictions)
+        sns.heatmap(matrix, annot=True, fmt="d", cmap="Blues", cbar=False, ax=axis)
+        axis.set_title(model_name)
+        axis.set_xlabel("Predicted")
+        axis.set_ylabel("Actual")
+    figure.tight_layout()
+    figure.savefig(FIGURE_DIR / "validation_confusion_matrices.png", dpi=180)
+    plt.close(figure)
+
+    figure, axes = plt.subplots(1, 2, figsize=(13, 5))
+    for model_name, probabilities in probabilities_by_model.items():
+        RocCurveDisplay.from_predictions(
+            validation_y, probabilities, name=model_name, ax=axes[0]
+        )
+        PrecisionRecallDisplay.from_predictions(
+            validation_y, probabilities, name=model_name, ax=axes[1]
+        )
+    axes[0].set_title("Official validation ROC curve")
+    axes[1].set_title("Official validation Precision-Recall curve")
+    figure.tight_layout()
+    figure.savefig(FIGURE_DIR / "validation_roc_pr_curves.png", dpi=180)
+    plt.close(figure)
+
+
+def evaluate_test_once(
+    raw_train_x: pd.DataFrame,
+    train_y: pd.Series,
+    raw_validation_x: pd.DataFrame,
+    validation_y: pd.Series,
+) -> None:
+    """명시적 플래그가 있을 때만 test를 읽어 최종 0.5 임계값 평가를 수행한다."""
+    test = _read_split(TEST_PATH, "test")
+    development_x = pd.concat([raw_train_x, raw_validation_x], ignore_index=True)
+    development_y = pd.concat([train_y, validation_y], ignore_index=True)
+    development_x, test_x = preprocess_features(
+        development_x, test.drop(columns="Revenue")
+    )
+    test_y = test["Revenue"].astype(int)
+
     metric_rows = []
     prediction_frames = []
-
-    for model_name, estimator in estimators.items():
-        pipeline = Pipeline(
-            [
-                ("preprocessor", build_preprocessor(train_x)),
-                ("model", estimator),
-            ]
-        )
-        probabilities = cross_val_predict(
-            pipeline,
-            train_x,
-            train_y,
-            cv=cross_validation,
-            method="predict_proba",
-            n_jobs=1,
-        )[:, 1]
-        probabilities_by_model[model_name] = probabilities
+    for model_name, estimator in build_models().items():
+        pipeline = build_pipeline(estimator)
+        pipeline.fit(development_x, development_y)
+        probabilities = pipeline.predict_proba(test_x)[:, 1]
         metric_rows.append(
-            calculate_metrics(train_y, probabilities, model_name, threshold=0.50)
+            calculate_metrics(test_y, probabilities, model_name, threshold=0.50)
         )
         prediction_frames.append(
             pd.DataFrame(
                 {
-                    "row_id": np.arange(len(train_x)),
-                    "split": "train_oof",
-                    "y_true": train_y.to_numpy(),
+                    "row_id": np.arange(len(test_x)),
+                    "split": "test",
+                    "y_true": test_y.to_numpy(),
                     "y_probability": probabilities,
                     "y_pred_0_5": (probabilities >= 0.50).astype(int),
                     "model_name": model_name,
@@ -231,11 +300,57 @@ def main(evaluate_test: bool = False) -> None:
             )
         )
 
-    baseline_metrics = pd.DataFrame(metric_rows).sort_values("f1", ascending=False)
-    baseline_metrics.insert(1, "evaluation", "5-fold out-of-fold")
-    baseline_metrics.to_csv(METRIC_DIR / "cv_baseline_metrics.csv", index=False)
+    pd.DataFrame(metric_rows).to_csv(
+        METRIC_DIR / "final_test_metrics.csv", index=False
+    )
     pd.concat(prediction_frames, ignore_index=True).to_csv(
-        PREDICTION_DIR / "cv_baseline_predictions.csv", index=False
+        PREDICTION_DIR / "final_test_predictions.csv", index=False
+    )
+    print("\nFinal test evaluation was explicitly requested and saved.")
+
+
+def main(evaluate_test: bool = False) -> None:
+    prepare_directories()
+    raw_train_x, train_y, raw_validation_x, validation_y = load_development_splits()
+    train_x, validation_x = preprocess_features(raw_train_x, raw_validation_x)
+    class_distribution = save_class_distribution(train_y, validation_y)
+
+    probabilities_by_model: dict[str, np.ndarray] = {}
+    metric_rows = []
+    prediction_frames = []
+
+    for model_name, estimator in build_models().items():
+        pipeline = build_pipeline(estimator)
+        pipeline.fit(train_x, train_y)
+        probabilities = pipeline.predict_proba(validation_x)[:, 1]
+        probabilities_by_model[model_name] = probabilities
+        metric_rows.append(
+            calculate_metrics(
+                validation_y, probabilities, model_name, threshold=0.50
+            )
+        )
+        prediction_frames.append(
+            pd.DataFrame(
+                {
+                    "row_id": np.arange(len(validation_x)),
+                    "split": "validation",
+                    "y_true": validation_y.to_numpy(),
+                    "y_probability": probabilities,
+                    "y_pred_0_5": (probabilities >= 0.50).astype(int),
+                    "model_name": model_name,
+                }
+            )
+        )
+
+    baseline_metrics = pd.DataFrame(metric_rows).sort_values(
+        "average_precision", ascending=False
+    )
+    baseline_metrics.insert(1, "evaluation", "official validation")
+    baseline_metrics.to_csv(
+        METRIC_DIR / "validation_baseline_metrics.csv", index=False
+    )
+    pd.concat(prediction_frames, ignore_index=True).to_csv(
+        PREDICTION_DIR / "validation_baseline_predictions.csv", index=False
     )
 
     threshold_rows = []
@@ -243,114 +358,42 @@ def main(evaluate_test: bool = False) -> None:
         for threshold in np.arange(0.20, 0.81, 0.05):
             threshold_rows.append(
                 calculate_metrics(
-                    train_y,
+                    validation_y,
                     probabilities,
                     model_name,
                     threshold=round(float(threshold), 2),
                 )
             )
     threshold_results = pd.DataFrame(threshold_rows)
-    threshold_results.to_csv(METRIC_DIR / "cv_threshold_analysis.csv", index=False)
+    threshold_results.to_csv(
+        METRIC_DIR / "validation_threshold_analysis.csv", index=False
+    )
     threshold_candidates = (
         threshold_results.sort_values(["model", "f1"], ascending=[True, False])
         .groupby("model", as_index=False)
         .head(3)
     )
     threshold_candidates.to_csv(
-        METRIC_DIR / "cv_threshold_candidates.csv", index=False
+        METRIC_DIR / "validation_threshold_candidates.csv", index=False
     )
 
-    train_distribution = class_distribution.query("split == 'train'")
-    figure, ax = plt.subplots(figsize=(7, 4))
-    sns.barplot(
-        data=train_distribution,
-        x="class",
-        y="count",
-        hue="class",
-        palette=["#6B7280", "#2563EB"],
-        legend=False,
-        ax=ax,
+    save_validation_figures(
+        validation_y, probabilities_by_model, class_distribution
     )
-    ax.set_title("Training target class distribution")
-    ax.set_xlabel("")
-    ax.set_ylabel("Sessions")
-    for container in ax.containers:
-        ax.bar_label(container, fmt="%d")
-    figure.tight_layout()
-    figure.savefig(FIGURE_DIR / "train_class_distribution.png", dpi=180)
-    plt.close(figure)
 
-    figure, axes = plt.subplots(1, len(estimators), figsize=(12, 4))
-    for axis, (model_name, probabilities) in zip(
-        axes, probabilities_by_model.items()
-    ):
-        predictions = (probabilities >= 0.50).astype(int)
-        matrix = confusion_matrix(train_y, predictions)
-        sns.heatmap(matrix, annot=True, fmt="d", cmap="Blues", cbar=False, ax=axis)
-        axis.set_title(model_name)
-        axis.set_xlabel("Predicted")
-        axis.set_ylabel("Actual")
-    figure.tight_layout()
-    figure.savefig(FIGURE_DIR / "cv_confusion_matrices.png", dpi=180)
-    plt.close(figure)
-
-    figure, axes = plt.subplots(1, 2, figsize=(13, 5))
-    for model_name, probabilities in probabilities_by_model.items():
-        RocCurveDisplay.from_predictions(
-            train_y, probabilities, name=model_name, ax=axes[0]
-        )
-        PrecisionRecallDisplay.from_predictions(
-            train_y, probabilities, name=model_name, ax=axes[1]
-        )
-    axes[0].set_title("ROC curve")
-    axes[1].set_title("Precision-Recall curve")
-    figure.tight_layout()
-    figure.savefig(FIGURE_DIR / "cv_roc_pr_curves.png", dpi=180)
-    plt.close(figure)
-
-    print(f"Team train: {len(train_x):,} rows, {train_x.shape[1]} features")
-    print(f"Held-out test: {len(test_x):,} rows (not evaluated)")
-    print("\n5-fold out-of-fold metrics at threshold 0.50")
+    print(f"Official train: {len(train_x):,} rows, {train_x.shape[1]} features")
+    print(f"Official validation: {len(validation_x):,} rows")
+    print("\nOfficial validation metrics at threshold 0.50")
     print(baseline_metrics.round(4).to_string(index=False))
-    print("\nTop threshold candidates by F1 (candidates only, not final)")
+    print("\nTop validation threshold candidates by F1 (candidates only)")
     print(threshold_candidates.round(4).to_string(index=False))
 
     if evaluate_test:
-        test_metric_rows = []
-        test_prediction_frames = []
-        for model_name, estimator in build_models().items():
-            pipeline = Pipeline(
-                [
-                    ("preprocessor", build_preprocessor(train_x)),
-                    ("model", estimator),
-                ]
-            )
-            pipeline.fit(train_x, train_y)
-            probabilities = pipeline.predict_proba(test_x)[:, 1]
-            test_metric_rows.append(
-                calculate_metrics(test_y, probabilities, model_name, threshold=0.50)
-            )
-            test_prediction_frames.append(
-                pd.DataFrame(
-                    {
-                        "row_id": np.arange(len(test_x)),
-                        "split": "test",
-                        "y_true": test_y.to_numpy(),
-                        "y_probability": probabilities,
-                        "y_pred_0_5": (probabilities >= 0.50).astype(int),
-                        "model_name": model_name,
-                    }
-                )
-            )
-        pd.DataFrame(test_metric_rows).to_csv(
-            METRIC_DIR / "final_test_metrics.csv", index=False
+        evaluate_test_once(
+            raw_train_x, train_y, raw_validation_x, validation_y
         )
-        pd.concat(test_prediction_frames, ignore_index=True).to_csv(
-            PREDICTION_DIR / "final_test_predictions.csv", index=False
-        )
-        print("\nFinal test evaluation was requested and saved.")
     else:
-        print("\nThe held-out test set remains untouched.")
+        print("\nThe held-out test file was not read.")
     print(f"\nSaved outputs under: {RESULT_ROOT}")
 
 
@@ -359,7 +402,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--evaluate-test",
         action="store_true",
-        help="설정을 확정한 뒤 최종 테스트를 한 번 실행한다.",
+        help="모든 설정을 확정한 뒤 test를 한 번만 최종 평가한다.",
     )
     arguments = parser.parse_args()
     main(evaluate_test=arguments.evaluate_test)
