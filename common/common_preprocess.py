@@ -34,13 +34,13 @@ def preprocess_train_val_test(train_df, val_df, test_df):
     categorical_cols = ["Month", "VisitorType"]
 
     train_x = pd.get_dummies(
-        train_df, columns=categorical_cols, drop_first=False
+       train_df, columns=categorical_cols, drop_first=True
     )
     val_x = pd.get_dummies(
-        val_df, columns=categorical_cols, drop_first=False
+        val_df, columns=categorical_cols, drop_first=True
     )
     test_x = pd.get_dummies(
-        test_df, columns=categorical_cols, drop_first=False
+        test_df, columns=categorical_cols, drop_first=True
     )
 
     # Train에 존재하는 컬럼을 기준으로 Val/Test 컬럼 맞추기
