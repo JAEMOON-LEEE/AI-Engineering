@@ -1,0 +1,5 @@
+split,class,count,ratio
+train,No purchase,7208,0.8437317101720707
+train,Purchase,1335,0.15626828982792929
+validation,No purchase,1030,0.8435708435708436
+validation,Purchase,191,0.15642915642915642

@@ -1,0 +1,3664 @@
+row_id,split,y_true,y_probability,y_pred_0_5,model_name
+0,validation,0,0.0476016281694346,0,Logistic Regression
+1,validation,0,0.0972725761751703,0,Logistic Regression
+2,validation,0,0.5318778023527555,1,Logistic Regression
+3,validation,0,0.2970913089323514,0,Logistic Regression
+4,validation,0,0.3750549192123774,0,Logistic Regression
+5,validation,1,0.984129194098698,1,Logistic Regression
+6,validation,0,0.1394636214871849,0,Logistic Regression
+7,validation,0,0.1665755209136785,0,Logistic Regression
+8,validation,0,0.1233314793306303,0,Logistic Regression
+9,validation,0,0.9185343182885868,1,Logistic Regression
+10,validation,0,0.7898030008006304,1,Logistic Regression
+11,validation,0,0.3208795031015342,0,Logistic Regression
+12,validation,0,0.1094964139205805,0,Logistic Regression
+13,validation,1,0.9999974801734326,1,Logistic Regression
+14,validation,0,0.4730385122316858,0,Logistic Regression
+15,validation,0,0.3474111001967498,0,Logistic Regression
+16,validation,0,0.2068247598013856,0,Logistic Regression
+17,validation,0,0.1509859099953096,0,Logistic Regression
+18,validation,0,0.122380408116216,0,Logistic Regression
+19,validation,0,0.66497379634302,1,Logistic Regression
+20,validation,0,0.1427401821693666,0,Logistic Regression
+21,validation,0,0.2023455957945704,0,Logistic Regression
+22,validation,0,0.1112192619914402,0,Logistic Regression
+23,validation,0,0.270904042455426,0,Logistic Regression
+24,validation,0,0.1561969951610513,0,Logistic Regression
+25,validation,0,0.1130875705338368,0,Logistic Regression
+26,validation,0,0.2506676465248973,0,Logistic Regression
+27,validation,0,0.1562186305899749,0,Logistic Regression
+28,validation,0,0.4617580846251336,0,Logistic Regression
+29,validation,0,0.590694750496494,1,Logistic Regression
+30,validation,0,0.7692600511559806,1,Logistic Regression
+31,validation,0,0.1336906797694705,0,Logistic Regression
+32,validation,0,0.0849961194162609,0,Logistic Regression
+33,validation,0,0.9342847832621416,1,Logistic Regression
+34,validation,0,0.1446046998448575,0,Logistic Regression
+35,validation,0,0.4491675856003395,0,Logistic Regression
+36,validation,0,0.2542344635043924,0,Logistic Regression
+37,validation,0,0.1110019920581392,0,Logistic Regression
+38,validation,0,0.0375780124592943,0,Logistic Regression
+39,validation,0,0.645069204911202,1,Logistic Regression
+40,validation,0,0.0920226383332319,0,Logistic Regression
+41,validation,0,0.0742260605942479,0,Logistic Regression
+42,validation,0,0.1802280002619449,0,Logistic Regression
+43,validation,1,0.9999949890381894,1,Logistic Regression
+44,validation,0,0.2486621495626845,0,Logistic Regression
+45,validation,1,0.444366004478346,0,Logistic Regression
+46,validation,0,0.0266876932387454,0,Logistic Regression
+47,validation,1,0.9985307556553168,1,Logistic Regression
+48,validation,1,0.9999695909028145,1,Logistic Regression
+49,validation,0,0.1269146297784852,0,Logistic Regression
+50,validation,0,0.335055762319414,0,Logistic Regression
+51,validation,1,0.9156767166341536,1,Logistic Regression
+52,validation,0,0.2396219633960493,0,Logistic Regression
+53,validation,0,0.2563902215182294,0,Logistic Regression
+54,validation,0,0.1366428509965285,0,Logistic Regression
+55,validation,0,0.2003533057231924,0,Logistic Regression
+56,validation,1,0.222307829683997,0,Logistic Regression
+57,validation,0,0.1652170995733057,0,Logistic Regression
+58,validation,0,0.2007048268053051,0,Logistic Regression
+59,validation,0,0.1837982851947463,0,Logistic Regression
+60,validation,0,0.2397100436741897,0,Logistic Regression
+61,validation,0,0.4778163495004425,0,Logistic Regression
+62,validation,0,0.2832433515546528,0,Logistic Regression
+63,validation,0,0.4216839412153548,0,Logistic Regression
+64,validation,0,0.4090990724195795,0,Logistic Regression
+65,validation,1,0.2316700377059531,0,Logistic Regression
+66,validation,0,0.5839230217265242,1,Logistic Regression
+67,validation,0,0.3203190388208787,0,Logistic Regression
+68,validation,1,0.7412274689433012,1,Logistic Regression
+69,validation,0,0.1915711757361284,0,Logistic Regression
+70,validation,1,0.800216653159526,1,Logistic Regression
+71,validation,0,0.588165617039411,1,Logistic Regression
+72,validation,0,0.0611328150821075,0,Logistic Regression
+73,validation,0,0.0067150443792339,0,Logistic Regression
+74,validation,0,0.3031191182128113,0,Logistic Regression
+75,validation,0,0.0430849947069474,0,Logistic Regression
+76,validation,0,0.3389949385268537,0,Logistic Regression
+77,validation,0,0.2148129796543234,0,Logistic Regression
+78,validation,1,0.9047043679737906,1,Logistic Regression
+79,validation,1,0.6552115706528878,1,Logistic Regression
+80,validation,0,0.0624411863862422,0,Logistic Regression
+81,validation,0,0.9998385307355864,1,Logistic Regression
+82,validation,0,0.5259575559897954,1,Logistic Regression
+83,validation,0,0.1922080837078209,0,Logistic Regression
+84,validation,0,0.2388850639772308,0,Logistic Regression
+85,validation,0,0.126620120460717,0,Logistic Regression
+86,validation,0,0.200843675903611,0,Logistic Regression
+87,validation,0,0.0234608259165755,0,Logistic Regression
+88,validation,0,0.2350554020536024,0,Logistic Regression
+89,validation,0,0.4684299262978207,0,Logistic Regression
+90,validation,0,0.4160206415442298,0,Logistic Regression
+91,validation,1,0.9762916998849672,1,Logistic Regression
+92,validation,0,0.1777963641756657,0,Logistic Regression
+93,validation,0,0.4328401119850008,0,Logistic Regression
+94,validation,0,0.1189128425199022,0,Logistic Regression
+95,validation,0,0.2195762091422043,0,Logistic Regression
+96,validation,0,0.0131484404571944,0,Logistic Regression
+97,validation,0,0.1778207475268054,0,Logistic Regression
+98,validation,0,0.5156232668482986,1,Logistic Regression
+99,validation,0,0.2081000485468649,0,Logistic Regression
+100,validation,0,0.3953292826105755,0,Logistic Regression
+101,validation,0,0.2851883530432186,0,Logistic Regression
+102,validation,0,0.3627866839354801,0,Logistic Regression
+103,validation,0,0.225900199169001,0,Logistic Regression
+104,validation,0,0.1216825869632345,0,Logistic Regression
+105,validation,0,0.1141947258955098,0,Logistic Regression
+106,validation,0,0.5058442818724257,1,Logistic Regression
+107,validation,0,0.4330326612435583,0,Logistic Regression
+108,validation,0,0.459975683855342,0,Logistic Regression
+109,validation,0,0.0086447282463994,0,Logistic Regression
+110,validation,0,0.3373275336470212,0,Logistic Regression
+111,validation,0,0.5342286869436375,1,Logistic Regression
+112,validation,0,0.4569133902568712,0,Logistic Regression
+113,validation,1,0.9999812716920924,1,Logistic Regression
+114,validation,0,0.1387098221285884,0,Logistic Regression
+115,validation,0,0.1104055125567922,0,Logistic Regression
+116,validation,0,0.1924313665071418,0,Logistic Regression
+117,validation,1,0.638267738744904,1,Logistic Regression
+118,validation,1,0.9999158440713918,1,Logistic Regression
+119,validation,1,0.9711543350032068,1,Logistic Regression
+120,validation,0,0.0184392130849879,0,Logistic Regression
+121,validation,0,0.2169356251681958,0,Logistic Regression
+122,validation,0,0.013798750373261,0,Logistic Regression
+123,validation,0,0.1323925545781155,0,Logistic Regression
+124,validation,1,0.4947600639742899,0,Logistic Regression
+125,validation,0,0.357929150784361,0,Logistic Regression
+126,validation,0,0.1927747262083881,0,Logistic Regression
+127,validation,0,0.3446992947848922,0,Logistic Regression
+128,validation,0,0.2735310609114049,0,Logistic Regression
+129,validation,0,0.1757623438019994,0,Logistic Regression
+130,validation,0,0.3176604432969006,0,Logistic Regression
+131,validation,0,0.0844379899116147,0,Logistic Regression
+132,validation,0,0.2103226501117343,0,Logistic Regression
+133,validation,0,0.0116309295544198,0,Logistic Regression
+134,validation,0,0.1646404627658434,0,Logistic Regression
+135,validation,0,0.1403387647740319,0,Logistic Regression
+136,validation,0,0.2060053424514906,0,Logistic Regression
+137,validation,1,0.990765875048422,1,Logistic Regression
+138,validation,1,0.814011755830193,1,Logistic Regression
+139,validation,0,0.285515101439037,0,Logistic Regression
+140,validation,1,0.6522301744358524,1,Logistic Regression
+141,validation,0,0.9999374767182896,1,Logistic Regression
+142,validation,0,0.2119345608510392,0,Logistic Regression
+143,validation,0,0.1241372938748988,0,Logistic Regression
+144,validation,1,0.8378894172119504,1,Logistic Regression
+145,validation,0,0.123572876677517,0,Logistic Regression
+146,validation,0,0.0110682174026849,0,Logistic Regression
+147,validation,0,0.4138487421957795,0,Logistic Regression
+148,validation,1,0.9944182276619764,1,Logistic Regression
+149,validation,0,0.5370508890779546,1,Logistic Regression
+150,validation,0,0.0651007854814944,0,Logistic Regression
+151,validation,0,0.1959210864293846,0,Logistic Regression
+152,validation,0,0.3591445597165081,0,Logistic Regression
+153,validation,0,0.2702484101761532,0,Logistic Regression
+154,validation,0,0.0944679348059897,0,Logistic Regression
+155,validation,0,0.2827653366407274,0,Logistic Regression
+156,validation,0,0.6686203280849701,1,Logistic Regression
+157,validation,0,0.9700527980258808,1,Logistic Regression
+158,validation,0,0.1830817570432854,0,Logistic Regression
+159,validation,1,0.2514189814148806,0,Logistic Regression
+160,validation,1,0.7240977315591355,1,Logistic Regression
+161,validation,0,0.2715741733955683,0,Logistic Regression
+162,validation,0,0.4349336620926179,0,Logistic Regression
+163,validation,0,0.6730174543861968,1,Logistic Regression
+164,validation,0,0.1889425826999253,0,Logistic Regression
+165,validation,1,0.99819829089778,1,Logistic Regression
+166,validation,0,0.0898688467636054,0,Logistic Regression
+167,validation,0,0.1538656926251731,0,Logistic Regression
+168,validation,0,0.1122440539580449,0,Logistic Regression
+169,validation,0,0.0514763807831532,0,Logistic Regression
+170,validation,0,0.4687361636997543,0,Logistic Regression
+171,validation,0,0.4198410319170655,0,Logistic Regression
+172,validation,0,0.0273579743860943,0,Logistic Regression
+173,validation,0,0.2279973650465682,0,Logistic Regression
+174,validation,0,0.979099962754554,1,Logistic Regression
+175,validation,0,0.1240902534972734,0,Logistic Regression
+176,validation,0,0.0084471483247428,0,Logistic Regression
+177,validation,0,0.2566720793210946,0,Logistic Regression
+178,validation,0,0.1821270254050093,0,Logistic Regression
+179,validation,0,0.1678169731670689,0,Logistic Regression
+180,validation,1,0.9773975171910751,1,Logistic Regression
+181,validation,0,0.3716806440359094,0,Logistic Regression
+182,validation,1,0.9970451962850424,1,Logistic Regression
+183,validation,1,0.9436831484379904,1,Logistic Regression
+184,validation,0,0.2891748563668793,0,Logistic Regression
+185,validation,0,0.1060218733979499,0,Logistic Regression
+186,validation,0,0.0692612040322823,0,Logistic Regression
+187,validation,1,0.4889115314448501,0,Logistic Regression
+188,validation,0,0.2108944845136848,0,Logistic Regression
+189,validation,0,0.761424811009924,1,Logistic Regression
+190,validation,0,0.122508045683481,0,Logistic Regression
+191,validation,0,0.7349473516916021,1,Logistic Regression
+192,validation,0,0.171315124770339,0,Logistic Regression
+193,validation,0,0.2796527795775165,0,Logistic Regression
+194,validation,1,0.4040657987026508,0,Logistic Regression
+195,validation,0,0.4994662729006869,0,Logistic Regression
+196,validation,0,0.1616108054137084,0,Logistic Regression
+197,validation,1,0.1383650366815038,0,Logistic Regression
+198,validation,0,0.1345505939780115,0,Logistic Regression
+199,validation,0,0.7304122095891051,1,Logistic Regression
+200,validation,0,0.1717503406309498,0,Logistic Regression
+201,validation,0,0.4064472964628401,0,Logistic Regression
+202,validation,0,0.1487776317381085,0,Logistic Regression
+203,validation,0,0.1301073615036403,0,Logistic Regression
+204,validation,0,0.3330652533647932,0,Logistic Regression
+205,validation,0,0.1529115336368114,0,Logistic Regression
+206,validation,1,0.1865502115215453,0,Logistic Regression
+207,validation,0,0.141778039098156,0,Logistic Regression
+208,validation,0,0.495478771726736,0,Logistic Regression
+209,validation,0,0.354986802117389,0,Logistic Regression
+210,validation,0,0.2211217753594966,0,Logistic Regression
+211,validation,0,0.1440026074610373,0,Logistic Regression
+212,validation,0,0.4020213746144596,0,Logistic Regression
+213,validation,1,0.9822774182181324,1,Logistic Regression
+214,validation,0,0.3993162227671424,0,Logistic Regression
+215,validation,0,0.5972014661770654,1,Logistic Regression
+216,validation,0,0.1895462995100875,0,Logistic Regression
+217,validation,0,0.0091796976572262,0,Logistic Regression
+218,validation,1,0.2271531922959724,0,Logistic Regression
+219,validation,1,0.980928635439648,1,Logistic Regression
+220,validation,0,0.4568427806577912,0,Logistic Regression
+221,validation,0,0.994415991037008,1,Logistic Regression
+222,validation,0,0.5932627657226875,1,Logistic Regression
+223,validation,0,0.6130241890193386,1,Logistic Regression
+224,validation,0,0.3990444864821104,0,Logistic Regression
+225,validation,1,0.1538285520265103,0,Logistic Regression
+226,validation,0,0.1896836303060068,0,Logistic Regression
+227,validation,1,0.999999999999994,1,Logistic Regression
+228,validation,0,0.2088887431402592,0,Logistic Regression
+229,validation,0,0.6086059116576356,1,Logistic Regression
+230,validation,1,0.999997060053591,1,Logistic Regression
+231,validation,1,0.2437850452898844,0,Logistic Regression
+232,validation,0,0.1124455776141377,0,Logistic Regression
+233,validation,0,0.3149323932283827,0,Logistic Regression
+234,validation,0,0.1393957730908444,0,Logistic Regression
+235,validation,0,0.0650915039655918,0,Logistic Regression
+236,validation,0,0.6768126118088683,1,Logistic Regression
+237,validation,0,0.2156966833732868,0,Logistic Regression
+238,validation,1,0.3128559429185237,0,Logistic Regression
+239,validation,0,0.5006601483371494,1,Logistic Regression
+240,validation,1,0.2118734785948617,0,Logistic Regression
+241,validation,0,0.3719683404960959,0,Logistic Regression
+242,validation,0,0.5480686446253678,1,Logistic Regression
+243,validation,0,0.1444250344174723,0,Logistic Regression
+244,validation,1,0.6503731563509101,1,Logistic Regression
+245,validation,0,0.1935867493607219,0,Logistic Regression
+246,validation,0,0.5050910707254028,1,Logistic Regression
+247,validation,0,0.2600224877621653,0,Logistic Regression
+248,validation,1,0.9396652341272792,1,Logistic Regression
+249,validation,0,0.1085569985493689,0,Logistic Regression
+250,validation,0,0.2326880203274421,0,Logistic Regression
+251,validation,1,0.9376753904465298,1,Logistic Regression
+252,validation,0,0.9999999645205632,1,Logistic Regression
+253,validation,0,0.1359663431303107,0,Logistic Regression
+254,validation,0,0.1585802835769984,0,Logistic Regression
+255,validation,1,0.3560135075470021,0,Logistic Regression
+256,validation,0,0.16810792005825,0,Logistic Regression
+257,validation,1,0.9092713471225974,1,Logistic Regression
+258,validation,0,0.0405585278332118,0,Logistic Regression
+259,validation,0,0.1527095147297414,0,Logistic Regression
+260,validation,0,0.0956350875659426,0,Logistic Regression
+261,validation,0,0.1031851667968991,0,Logistic Regression
+262,validation,0,0.2652341383511734,0,Logistic Regression
+263,validation,1,0.9958196524464138,1,Logistic Regression
+264,validation,0,0.0313588983997435,0,Logistic Regression
+265,validation,0,0.999854716211217,1,Logistic Regression
+266,validation,0,0.0375326194291804,0,Logistic Regression
+267,validation,0,0.1210692837877969,0,Logistic Regression
+268,validation,0,0.0726391273695535,0,Logistic Regression
+269,validation,1,0.8176975367082816,1,Logistic Regression
+270,validation,0,0.2076401901074822,0,Logistic Regression
+271,validation,0,0.4796689196889739,0,Logistic Regression
+272,validation,0,0.1209708293219095,0,Logistic Regression
+273,validation,0,0.4978217361228072,0,Logistic Regression
+274,validation,0,0.6040939183347549,1,Logistic Regression
+275,validation,0,0.4019234309954606,0,Logistic Regression
+276,validation,0,0.4741836206345802,0,Logistic Regression
+277,validation,0,0.3435664360670095,0,Logistic Regression
+278,validation,0,0.01648447449663,0,Logistic Regression
+279,validation,0,0.117255993409953,0,Logistic Regression
+280,validation,0,0.0087371153579047,0,Logistic Regression
+281,validation,0,0.4075386964000368,0,Logistic Regression
+282,validation,0,0.2026786489211722,0,Logistic Regression
+283,validation,0,0.3599519663502901,0,Logistic Regression
+284,validation,0,0.4503557410163446,0,Logistic Regression
+285,validation,0,0.0817358841371448,0,Logistic Regression
+286,validation,0,0.1642928732777347,0,Logistic Regression
+287,validation,0,0.1613080256725629,0,Logistic Regression
+288,validation,1,0.9984757795519398,1,Logistic Regression
+289,validation,0,0.0197161767090939,0,Logistic Regression
+290,validation,0,0.1515020222783197,0,Logistic Regression
+291,validation,0,0.4475764648067449,0,Logistic Regression
+292,validation,0,0.0831088003343386,0,Logistic Regression
+293,validation,0,0.1964898344006592,0,Logistic Regression
+294,validation,0,0.0658200819475384,0,Logistic Regression
+295,validation,0,0.1259112457398068,0,Logistic Regression
+296,validation,1,0.9999951534427374,1,Logistic Regression
+297,validation,0,0.2849149904051976,0,Logistic Regression
+298,validation,0,0.9910691712796496,1,Logistic Regression
+299,validation,0,0.9936751855220478,1,Logistic Regression
+300,validation,0,0.497186577562326,0,Logistic Regression
+301,validation,0,0.1372914392689561,0,Logistic Regression
+302,validation,0,0.0089756798120396,0,Logistic Regression
+303,validation,0,0.1055995439518987,0,Logistic Regression
+304,validation,0,0.2456466338905817,0,Logistic Regression
+305,validation,0,0.2419831419010891,0,Logistic Regression
+306,validation,0,0.797636018910666,1,Logistic Regression
+307,validation,0,0.2008224585226275,0,Logistic Regression
+308,validation,0,0.4704227492132219,0,Logistic Regression
+309,validation,0,0.2939759737872938,0,Logistic Regression
+310,validation,0,0.1591517706288828,0,Logistic Regression
+311,validation,0,0.1291453374890406,0,Logistic Regression
+312,validation,0,0.0467051015671277,0,Logistic Regression
+313,validation,0,0.8534743028543826,1,Logistic Regression
+314,validation,0,0.0781075937802166,0,Logistic Regression
+315,validation,0,0.7089059185022037,1,Logistic Regression
+316,validation,0,0.1788779481259274,0,Logistic Regression
+317,validation,0,0.4794139159672473,0,Logistic Regression
+318,validation,0,0.4632635406527732,0,Logistic Regression
+319,validation,0,0.431624480498836,0,Logistic Regression
+320,validation,0,0.161281066066913,0,Logistic Regression
+321,validation,0,0.3807729541088173,0,Logistic Regression
+322,validation,0,0.4851416112845895,0,Logistic Regression
+323,validation,0,0.0600364444670933,0,Logistic Regression
+324,validation,0,0.1745549833546849,0,Logistic Regression
+325,validation,0,0.4285893938885988,0,Logistic Regression
+326,validation,0,0.4661467960381656,0,Logistic Regression
+327,validation,0,0.3935483187113234,0,Logistic Regression
+328,validation,0,0.9934212301831588,1,Logistic Regression
+329,validation,0,0.1267642924039255,0,Logistic Regression
+330,validation,0,0.0321494338616468,0,Logistic Regression
+331,validation,0,0.4040066898742949,0,Logistic Regression
+332,validation,0,0.8029464503260346,1,Logistic Regression
+333,validation,0,0.2070385570256896,0,Logistic Regression
+334,validation,0,0.0080220045258337,0,Logistic Regression
+335,validation,0,0.4588253576980116,0,Logistic Regression
+336,validation,0,0.1684597573410188,0,Logistic Regression
+337,validation,0,0.0306456922378803,0,Logistic Regression
+338,validation,0,0.1389483421428264,0,Logistic Regression
+339,validation,0,0.1264200549386832,0,Logistic Regression
+340,validation,0,0.2988278047449642,0,Logistic Regression
+341,validation,0,0.2856177030589989,0,Logistic Regression
+342,validation,1,0.8461797999165573,1,Logistic Regression
+343,validation,1,0.9365650585542272,1,Logistic Regression
+344,validation,0,0.0068697312293121,0,Logistic Regression
+345,validation,0,0.1939204724100766,0,Logistic Regression
+346,validation,0,0.1475411654065768,0,Logistic Regression
+347,validation,0,0.0321099267322892,0,Logistic Regression
+348,validation,0,0.2512885331687128,0,Logistic Regression
+349,validation,0,0.2045691265893606,0,Logistic Regression
+350,validation,0,0.2205697198382806,0,Logistic Regression
+351,validation,0,0.1725801125654449,0,Logistic Regression
+352,validation,0,0.1462884988068981,0,Logistic Regression
+353,validation,1,0.5576098050032814,1,Logistic Regression
+354,validation,0,0.2193185683060593,0,Logistic Regression
+355,validation,0,0.4514638263588253,0,Logistic Regression
+356,validation,0,0.2473882813390009,0,Logistic Regression
+357,validation,0,0.0823249652432206,0,Logistic Regression
+358,validation,0,0.6100671284023177,1,Logistic Regression
+359,validation,0,0.1370634412029712,0,Logistic Regression
+360,validation,0,0.2066180208442277,0,Logistic Regression
+361,validation,1,0.9991379328085388,1,Logistic Regression
+362,validation,0,0.2292926376264397,0,Logistic Regression
+363,validation,0,0.1067412098393808,0,Logistic Regression
+364,validation,0,0.2539056056829195,0,Logistic Regression
+365,validation,0,0.1511640643072524,0,Logistic Regression
+366,validation,0,0.1482656243226423,0,Logistic Regression
+367,validation,0,0.1498146535318315,0,Logistic Regression
+368,validation,0,0.3700834041011624,0,Logistic Regression
+369,validation,0,0.0283669648796286,0,Logistic Regression
+370,validation,0,0.2646942679557583,0,Logistic Regression
+371,validation,0,0.3593120995963268,0,Logistic Regression
+372,validation,0,0.2823939643033357,0,Logistic Regression
+373,validation,0,0.2412945657722938,0,Logistic Regression
+374,validation,0,0.6001324758189799,1,Logistic Regression
+375,validation,0,0.1791842891433678,0,Logistic Regression
+376,validation,0,0.0221240286631368,0,Logistic Regression
+377,validation,0,0.3551881889199326,0,Logistic Regression
+378,validation,0,0.2679262070047795,0,Logistic Regression
+379,validation,0,0.0357860916319333,0,Logistic Regression
+380,validation,0,0.1280082624483783,0,Logistic Regression
+381,validation,0,0.2555726286298294,0,Logistic Regression
+382,validation,0,0.2112391350942342,0,Logistic Regression
+383,validation,0,0.2358663665570983,0,Logistic Regression
+384,validation,0,0.3567673892780874,0,Logistic Regression
+385,validation,1,0.7346551059927295,1,Logistic Regression
+386,validation,0,0.0927386067589425,0,Logistic Regression
+387,validation,0,0.1759301483694973,0,Logistic Regression
+388,validation,0,0.8141876641090088,1,Logistic Regression
+389,validation,1,0.9626255727429108,1,Logistic Regression
+390,validation,0,0.0063678071187111,0,Logistic Regression
+391,validation,0,0.008208359380291,0,Logistic Regression
+392,validation,0,0.1942124193878042,0,Logistic Regression
+393,validation,0,0.0020352586541764,0,Logistic Regression
+394,validation,1,0.2319856932345741,0,Logistic Regression
+395,validation,0,0.419103243692923,0,Logistic Regression
+396,validation,0,0.0048217459567025,0,Logistic Regression
+397,validation,1,0.8972175207862562,1,Logistic Regression
+398,validation,0,0.6239638994613712,1,Logistic Regression
+399,validation,0,0.4509090947621174,0,Logistic Regression
+400,validation,0,0.7256452908246502,1,Logistic Regression
+401,validation,0,0.5488944519972155,1,Logistic Regression
+402,validation,0,0.2991658014613674,0,Logistic Regression
+403,validation,0,0.1570243650381743,0,Logistic Regression
+404,validation,0,0.2425804861137654,0,Logistic Regression
+405,validation,1,0.2009490104889,0,Logistic Regression
+406,validation,0,0.1488211094420752,0,Logistic Regression
+407,validation,0,0.4728388251436029,0,Logistic Regression
+408,validation,0,0.006209117973924,0,Logistic Regression
+409,validation,0,0.8971827735161286,1,Logistic Regression
+410,validation,0,0.3044397428940418,0,Logistic Regression
+411,validation,0,0.1234487453689114,0,Logistic Regression
+412,validation,0,0.4310733165233512,0,Logistic Regression
+413,validation,0,0.1005023460207684,0,Logistic Regression
+414,validation,1,0.9979863986078648,1,Logistic Regression
+415,validation,0,0.1358784826416717,0,Logistic Regression
+416,validation,0,0.3954945266295336,0,Logistic Regression
+417,validation,1,0.9996867819097456,1,Logistic Regression
+418,validation,0,0.0833271353070446,0,Logistic Regression
+419,validation,0,0.0526997307066577,0,Logistic Regression
+420,validation,1,0.6144872042824346,1,Logistic Regression
+421,validation,1,0.9999999999996736,1,Logistic Regression
+422,validation,0,0.1997130539201833,0,Logistic Regression
+423,validation,0,0.0336464180604012,0,Logistic Regression
+424,validation,0,0.1775450744233611,0,Logistic Regression
+425,validation,0,0.2577628453179099,0,Logistic Regression
+426,validation,0,0.1713347991185359,0,Logistic Regression
+427,validation,0,0.9999807464944156,1,Logistic Regression
+428,validation,0,0.1755516767890908,0,Logistic Regression
+429,validation,0,0.5745135093628296,1,Logistic Regression
+430,validation,0,0.3601488718486922,0,Logistic Regression
+431,validation,0,0.2452841783991126,0,Logistic Regression
+432,validation,1,0.5804572478367618,1,Logistic Regression
+433,validation,0,0.4795315842854953,0,Logistic Regression
+434,validation,0,0.5238274719148066,1,Logistic Regression
+435,validation,0,0.0651638634780987,0,Logistic Regression
+436,validation,0,0.1868519696647516,0,Logistic Regression
+437,validation,0,0.140539413095209,0,Logistic Regression
+438,validation,0,0.4113673803542207,0,Logistic Regression
+439,validation,1,0.9906772058893156,1,Logistic Regression
+440,validation,0,0.1629665850580267,0,Logistic Regression
+441,validation,0,0.2991084449766611,0,Logistic Regression
+442,validation,0,0.2208688094789123,0,Logistic Regression
+443,validation,0,0.3393570698472796,0,Logistic Regression
+444,validation,0,0.4501297103186079,0,Logistic Regression
+445,validation,1,0.9384051890711704,1,Logistic Regression
+446,validation,0,0.5501349749843136,1,Logistic Regression
+447,validation,0,0.1215501696052078,0,Logistic Regression
+448,validation,0,0.1061114489507448,0,Logistic Regression
+449,validation,0,0.190154637761382,0,Logistic Regression
+450,validation,0,0.2076103181320148,0,Logistic Regression
+451,validation,0,0.2224867944769276,0,Logistic Regression
+452,validation,0,0.9580427148504526,1,Logistic Regression
+453,validation,0,0.1811122087059753,0,Logistic Regression
+454,validation,0,0.1825544062179405,0,Logistic Regression
+455,validation,0,0.2003687939342129,0,Logistic Regression
+456,validation,0,0.0666153277522842,0,Logistic Regression
+457,validation,0,0.3353817869275439,0,Logistic Regression
+458,validation,0,0.0787168985398925,0,Logistic Regression
+459,validation,1,0.1681107854784614,0,Logistic Regression
+460,validation,0,0.994880610014406,1,Logistic Regression
+461,validation,0,0.3567170203143906,0,Logistic Regression
+462,validation,0,0.1963117577669392,0,Logistic Regression
+463,validation,0,0.6043433571848477,1,Logistic Regression
+464,validation,0,0.9999613160248112,1,Logistic Regression
+465,validation,1,0.8275943414840848,1,Logistic Regression
+466,validation,0,0.0974296451033441,0,Logistic Regression
+467,validation,0,0.1638786905911783,0,Logistic Regression
+468,validation,0,0.170933338382184,0,Logistic Regression
+469,validation,0,0.9527970376474876,1,Logistic Regression
+470,validation,1,0.458058305506502,0,Logistic Regression
+471,validation,1,0.512419200699638,1,Logistic Regression
+472,validation,0,0.1041431713486774,0,Logistic Regression
+473,validation,0,0.1705249942611046,0,Logistic Regression
+474,validation,0,0.9971274916218034,1,Logistic Regression
+475,validation,0,0.314251509352263,0,Logistic Regression
+476,validation,1,0.2418751199993542,0,Logistic Regression
+477,validation,0,0.3135109317032574,0,Logistic Regression
+478,validation,0,0.2103797459565564,0,Logistic Regression
+479,validation,1,0.435755351049532,0,Logistic Regression
+480,validation,0,0.3929054807754688,0,Logistic Regression
+481,validation,0,0.0616840302537507,0,Logistic Regression
+482,validation,0,0.0601168459791712,0,Logistic Regression
+483,validation,0,0.1845239430135219,0,Logistic Regression
+484,validation,0,0.0980117121049076,0,Logistic Regression
+485,validation,0,0.3409309684846723,0,Logistic Regression
+486,validation,0,0.1140242530738666,0,Logistic Regression
+487,validation,0,0.2614449767151771,0,Logistic Regression
+488,validation,0,0.1272751558538894,0,Logistic Regression
+489,validation,0,0.9756397007027808,1,Logistic Regression
+490,validation,0,0.1502221138023922,0,Logistic Regression
+491,validation,0,0.3462368205056395,0,Logistic Regression
+492,validation,0,0.5935494931957088,1,Logistic Regression
+493,validation,0,0.0026771116803099,0,Logistic Regression
+494,validation,1,0.9999873762472544,1,Logistic Regression
+495,validation,0,0.2026716413984013,0,Logistic Regression
+496,validation,0,0.4197791928846501,0,Logistic Regression
+497,validation,1,0.527689769734896,1,Logistic Regression
+498,validation,0,0.1238180820522739,0,Logistic Regression
+499,validation,0,0.3199269860092126,0,Logistic Regression
+500,validation,0,0.0093286524296818,0,Logistic Regression
+501,validation,0,0.1201233004106653,0,Logistic Regression
+502,validation,0,0.4846689063045585,0,Logistic Regression
+503,validation,0,0.0376076604208446,0,Logistic Regression
+504,validation,0,0.3239842556023124,0,Logistic Regression
+505,validation,1,0.7654356548787433,1,Logistic Regression
+506,validation,0,0.1897136990582106,0,Logistic Regression
+507,validation,1,0.9973530660885372,1,Logistic Regression
+508,validation,1,0.235488887784882,0,Logistic Regression
+509,validation,0,0.101851510520932,0,Logistic Regression
+510,validation,0,0.046933959541155,0,Logistic Regression
+511,validation,1,0.5196391205356878,1,Logistic Regression
+512,validation,0,0.6246759402779195,1,Logistic Regression
+513,validation,0,0.2153999826788324,0,Logistic Regression
+514,validation,0,0.129573894687081,0,Logistic Regression
+515,validation,0,0.0303618353845705,0,Logistic Regression
+516,validation,0,0.280231661317472,0,Logistic Regression
+517,validation,1,0.9041442033730512,1,Logistic Regression
+518,validation,0,0.944641860001674,1,Logistic Regression
+519,validation,0,0.0710469600284972,0,Logistic Regression
+520,validation,0,0.0176740579856245,0,Logistic Regression
+521,validation,0,0.4452073608688763,0,Logistic Regression
+522,validation,1,0.9160576830124756,1,Logistic Regression
+523,validation,0,0.224034794352977,0,Logistic Regression
+524,validation,0,0.1195900167919368,0,Logistic Regression
+525,validation,0,0.0930322909581503,0,Logistic Regression
+526,validation,1,0.3454659269535208,0,Logistic Regression
+527,validation,0,0.1088136797493648,0,Logistic Regression
+528,validation,0,0.1959982641095646,0,Logistic Regression
+529,validation,1,0.9456010597842052,1,Logistic Regression
+530,validation,0,0.0342318059230969,0,Logistic Regression
+531,validation,0,0.5428766392746045,1,Logistic Regression
+532,validation,0,0.4663722881169554,0,Logistic Regression
+533,validation,1,0.8543772211605658,1,Logistic Regression
+534,validation,0,0.1177092425163096,0,Logistic Regression
+535,validation,0,0.1686866653375937,0,Logistic Regression
+536,validation,0,0.227210472407245,0,Logistic Regression
+537,validation,0,0.216685017064302,0,Logistic Regression
+538,validation,0,0.0872032020812739,0,Logistic Regression
+539,validation,0,0.0575422677107642,0,Logistic Regression
+540,validation,0,0.0885670982839451,0,Logistic Regression
+541,validation,0,0.1975158543164368,0,Logistic Regression
+542,validation,0,0.3279789476915939,0,Logistic Regression
+543,validation,0,0.0625426233145681,0,Logistic Regression
+544,validation,0,0.4276678219791405,0,Logistic Regression
+545,validation,0,0.2463778248953852,0,Logistic Regression
+546,validation,1,0.5330839283430663,1,Logistic Regression
+547,validation,0,0.2512131578218114,0,Logistic Regression
+548,validation,0,0.3717112453455275,0,Logistic Regression
+549,validation,0,0.2466448037243526,0,Logistic Regression
+550,validation,0,0.2009143780485456,0,Logistic Regression
+551,validation,0,0.17858102747343,0,Logistic Regression
+552,validation,0,0.1877991969556925,0,Logistic Regression
+553,validation,0,0.0107345178152922,0,Logistic Regression
+554,validation,0,0.2232350521564448,0,Logistic Regression
+555,validation,0,0.3092709154380033,0,Logistic Regression
+556,validation,0,0.3999841002621263,0,Logistic Regression
+557,validation,1,0.4757716335265358,0,Logistic Regression
+558,validation,0,0.1540893977972288,0,Logistic Regression
+559,validation,0,0.3163343169382873,0,Logistic Regression
+560,validation,1,0.9981949122908116,1,Logistic Regression
+561,validation,0,0.0468397835715279,0,Logistic Regression
+562,validation,0,0.3458052501507959,0,Logistic Regression
+563,validation,1,0.9894997423399589,1,Logistic Regression
+564,validation,0,0.1792534079611425,0,Logistic Regression
+565,validation,0,0.1205168769409216,0,Logistic Regression
+566,validation,1,0.4837988225612643,0,Logistic Regression
+567,validation,0,0.2428386445953174,0,Logistic Regression
+568,validation,0,0.2127473704225984,0,Logistic Regression
+569,validation,1,0.2125367747450427,0,Logistic Regression
+570,validation,0,0.0093071681635263,0,Logistic Regression
+571,validation,0,0.3172516134783333,0,Logistic Regression
+572,validation,0,0.0086057915832413,0,Logistic Regression
+573,validation,0,0.5042399646469199,1,Logistic Regression
+574,validation,0,0.5308253076099572,1,Logistic Regression
+575,validation,0,0.443274396704292,0,Logistic Regression
+576,validation,0,0.0325269537787726,0,Logistic Regression
+577,validation,1,0.5784800899922965,1,Logistic Regression
+578,validation,0,0.049761839333622,0,Logistic Regression
+579,validation,0,0.9917042116168736,1,Logistic Regression
+580,validation,0,0.2370863291710544,0,Logistic Regression
+581,validation,0,0.1115961530892306,0,Logistic Regression
+582,validation,1,0.9988402375039428,1,Logistic Regression
+583,validation,0,0.1070961781207089,0,Logistic Regression
+584,validation,0,0.9771224152217244,1,Logistic Regression
+585,validation,0,0.1277147671456426,0,Logistic Regression
+586,validation,0,0.0806578754361888,0,Logistic Regression
+587,validation,0,0.1188525755234288,0,Logistic Regression
+588,validation,0,0.0290022962686455,0,Logistic Regression
+589,validation,0,0.1063525342609096,0,Logistic Regression
+590,validation,0,0.0208636198169408,0,Logistic Regression
+591,validation,0,0.3823525296405569,0,Logistic Regression
+592,validation,0,0.1426662903231444,0,Logistic Regression
+593,validation,1,0.9245172449041172,1,Logistic Regression
+594,validation,0,0.1676483190349221,0,Logistic Regression
+595,validation,0,0.1540726420811811,0,Logistic Regression
+596,validation,0,0.1228816077894956,0,Logistic Regression
+597,validation,0,0.0335524204470018,0,Logistic Regression
+598,validation,0,0.223016235115621,0,Logistic Regression
+599,validation,0,0.1703654591100871,0,Logistic Regression
+600,validation,1,0.6606005784854762,1,Logistic Regression
+601,validation,0,0.1613440427996859,0,Logistic Regression
+602,validation,0,0.1421005697180658,0,Logistic Regression
+603,validation,1,0.994403087870972,1,Logistic Regression
+604,validation,0,0.1989096610529365,0,Logistic Regression
+605,validation,0,0.0930512762354712,0,Logistic Regression
+606,validation,0,0.0375586425157572,0,Logistic Regression
+607,validation,0,0.0822469086705753,0,Logistic Regression
+608,validation,0,0.0285429098548065,0,Logistic Regression
+609,validation,0,0.1392361568738471,0,Logistic Regression
+610,validation,0,0.1559052876205121,0,Logistic Regression
+611,validation,1,0.2644666321937373,0,Logistic Regression
+612,validation,1,0.8039065728287225,1,Logistic Regression
+613,validation,0,0.1817148409934373,0,Logistic Regression
+614,validation,0,0.0782779730592286,0,Logistic Regression
+615,validation,0,0.1526174274862351,0,Logistic Regression
+616,validation,0,0.6629083241904187,1,Logistic Regression
+617,validation,0,0.4334157163219884,0,Logistic Regression
+618,validation,0,0.1958898337269525,0,Logistic Regression
+619,validation,0,0.5189525149171091,1,Logistic Regression
+620,validation,0,0.0729227676075221,0,Logistic Regression
+621,validation,0,0.196551623775545,0,Logistic Regression
+622,validation,0,0.1572246240575618,0,Logistic Regression
+623,validation,1,0.6098621650253148,1,Logistic Regression
+624,validation,0,0.1834768396459764,0,Logistic Regression
+625,validation,0,0.8505001657691966,1,Logistic Regression
+626,validation,0,0.1004070923121581,0,Logistic Regression
+627,validation,0,0.1135361223825493,0,Logistic Regression
+628,validation,1,0.4527280874961473,0,Logistic Regression
+629,validation,1,0.6133687026401107,1,Logistic Regression
+630,validation,0,0.2493898321139239,0,Logistic Regression
+631,validation,0,0.4554203441218738,0,Logistic Regression
+632,validation,0,0.903886893747886,1,Logistic Regression
+633,validation,0,0.0153806482768622,0,Logistic Regression
+634,validation,0,0.0769340647852718,0,Logistic Regression
+635,validation,0,0.758754778410529,1,Logistic Regression
+636,validation,0,0.0528850227282564,0,Logistic Regression
+637,validation,0,0.457147298543267,0,Logistic Regression
+638,validation,0,0.2259722759231411,0,Logistic Regression
+639,validation,0,0.00772887838205,0,Logistic Regression
+640,validation,0,0.349162968922965,0,Logistic Regression
+641,validation,0,0.0494637495000338,0,Logistic Regression
+642,validation,0,0.4935323561826966,0,Logistic Regression
+643,validation,0,0.914617288998684,1,Logistic Regression
+644,validation,1,0.9999922788515782,1,Logistic Regression
+645,validation,0,0.2163896436626205,0,Logistic Regression
+646,validation,0,0.1697552228486558,0,Logistic Regression
+647,validation,0,0.3806096336077686,0,Logistic Regression
+648,validation,0,0.0627952533813167,0,Logistic Regression
+649,validation,0,0.1870737004905915,0,Logistic Regression
+650,validation,0,0.2832509325882118,0,Logistic Regression
+651,validation,0,0.1256658197028542,0,Logistic Regression
+652,validation,0,0.348251397352898,0,Logistic Regression
+653,validation,1,0.9901316999290694,1,Logistic Regression
+654,validation,0,0.3561527453157713,0,Logistic Regression
+655,validation,1,0.9128782896634764,1,Logistic Regression
+656,validation,0,0.3944495194158431,0,Logistic Regression
+657,validation,0,0.4380609754430706,0,Logistic Regression
+658,validation,1,0.9660030873960808,1,Logistic Regression
+659,validation,0,0.1244716519067909,0,Logistic Regression
+660,validation,0,0.986649040344982,1,Logistic Regression
+661,validation,1,0.9998951874661246,1,Logistic Regression
+662,validation,0,0.2261160587917528,0,Logistic Regression
+663,validation,0,0.9020951809308242,1,Logistic Regression
+664,validation,0,0.1565225496254714,0,Logistic Regression
+665,validation,0,0.1202697945828306,0,Logistic Regression
+666,validation,0,0.0130522232222057,0,Logistic Regression
+667,validation,0,0.0579960475210269,0,Logistic Regression
+668,validation,1,0.5261515723414426,1,Logistic Regression
+669,validation,0,0.3036475366698519,0,Logistic Regression
+670,validation,0,0.1956003859073199,0,Logistic Regression
+671,validation,0,0.4976264587087847,0,Logistic Regression
+672,validation,1,0.9020434167841006,1,Logistic Regression
+673,validation,0,0.1097040110892211,0,Logistic Regression
+674,validation,0,0.2613700485660482,0,Logistic Regression
+675,validation,0,0.4308543827034499,0,Logistic Regression
+676,validation,0,0.0103843236741682,0,Logistic Regression
+677,validation,0,0.2478712516775373,0,Logistic Regression
+678,validation,0,0.2123529981843535,0,Logistic Regression
+679,validation,0,0.5049476399836761,1,Logistic Regression
+680,validation,0,0.3843497465499499,0,Logistic Regression
+681,validation,0,0.4392344553186916,0,Logistic Regression
+682,validation,1,0.9954526542333844,1,Logistic Regression
+683,validation,0,0.4979940961516258,0,Logistic Regression
+684,validation,0,0.020532748556482,0,Logistic Regression
+685,validation,0,0.5022628985881769,1,Logistic Regression
+686,validation,0,0.1706414666331812,0,Logistic Regression
+687,validation,0,0.8356923492315684,1,Logistic Regression
+688,validation,0,0.2352543407050485,0,Logistic Regression
+689,validation,1,0.4308072930825884,0,Logistic Regression
+690,validation,0,0.0076911835276746,0,Logistic Regression
+691,validation,0,0.3037218612697269,0,Logistic Regression
+692,validation,1,0.8393593470517501,1,Logistic Regression
+693,validation,1,0.702212268769208,1,Logistic Regression
+694,validation,0,0.2472870784557144,0,Logistic Regression
+695,validation,0,0.5003143147743986,1,Logistic Regression
+696,validation,0,0.0460817582515787,0,Logistic Regression
+697,validation,0,0.1385530705730596,0,Logistic Regression
+698,validation,0,0.0591145115034628,0,Logistic Regression
+699,validation,0,0.1639601464726389,0,Logistic Regression
+700,validation,0,0.2811779326879996,0,Logistic Regression
+701,validation,0,0.6917707039956963,1,Logistic Regression
+702,validation,0,0.1950825773214966,0,Logistic Regression
+703,validation,0,0.2594621926510266,0,Logistic Regression
+704,validation,0,0.9802692368885842,1,Logistic Regression
+705,validation,0,0.1923236238334352,0,Logistic Regression
+706,validation,0,0.1344285171222901,0,Logistic Regression
+707,validation,0,0.1232132721823925,0,Logistic Regression
+708,validation,0,0.4547822189179539,0,Logistic Regression
+709,validation,0,0.008385145010505,0,Logistic Regression
+710,validation,0,0.4373532892400272,0,Logistic Regression
+711,validation,0,0.1482559872422988,0,Logistic Regression
+712,validation,1,0.6877795589072574,1,Logistic Regression
+713,validation,1,0.815570190137856,1,Logistic Regression
+714,validation,1,0.941477876715754,1,Logistic Regression
+715,validation,0,0.6521071539163324,1,Logistic Regression
+716,validation,0,0.1241842707642488,0,Logistic Regression
+717,validation,0,0.1530919219358626,0,Logistic Regression
+718,validation,0,0.2036076008206043,0,Logistic Regression
+719,validation,0,0.5671250871723551,1,Logistic Regression
+720,validation,1,0.9674350382356164,1,Logistic Regression
+721,validation,1,0.3638891945596688,0,Logistic Regression
+722,validation,0,0.3211139421155373,0,Logistic Regression
+723,validation,0,0.0603549628996077,0,Logistic Regression
+724,validation,0,0.0065495038533541,0,Logistic Regression
+725,validation,0,0.1160371574576724,0,Logistic Regression
+726,validation,0,0.433249875130188,0,Logistic Regression
+727,validation,0,0.3053116351905485,0,Logistic Regression
+728,validation,1,0.3637953231621817,0,Logistic Regression
+729,validation,0,0.5016528478076918,1,Logistic Regression
+730,validation,1,0.3466813193196401,0,Logistic Regression
+731,validation,1,0.9909389685963164,1,Logistic Regression
+732,validation,0,0.3701805436107984,0,Logistic Regression
+733,validation,0,0.0840377809225781,0,Logistic Regression
+734,validation,0,0.1703031640856062,0,Logistic Regression
+735,validation,1,0.9999427327002036,1,Logistic Regression
+736,validation,0,0.1355798229351324,0,Logistic Regression
+737,validation,0,0.2472531490131425,0,Logistic Regression
+738,validation,0,0.1645911304398678,0,Logistic Regression
+739,validation,0,0.2136472244938868,0,Logistic Regression
+740,validation,0,0.2041316829018919,0,Logistic Regression
+741,validation,0,0.2065235071162219,0,Logistic Regression
+742,validation,0,0.0428018427862713,0,Logistic Regression
+743,validation,0,0.2829058537626515,0,Logistic Regression
+744,validation,0,0.1568137207735134,0,Logistic Regression
+745,validation,0,0.0911606608379861,0,Logistic Regression
+746,validation,1,0.719199116989225,1,Logistic Regression
+747,validation,0,0.0648531953526394,0,Logistic Regression
+748,validation,0,0.2489826755789777,0,Logistic Regression
+749,validation,1,0.2054655248463311,0,Logistic Regression
+750,validation,0,0.5631913256447031,1,Logistic Regression
+751,validation,0,0.1289294486809379,0,Logistic Regression
+752,validation,0,0.1357701842520349,0,Logistic Regression
+753,validation,0,0.1969862087995912,0,Logistic Regression
+754,validation,0,0.1151688934861614,0,Logistic Regression
+755,validation,0,0.3174639310509369,0,Logistic Regression
+756,validation,0,0.0018734103324882,0,Logistic Regression
+757,validation,0,0.5124679243865514,1,Logistic Regression
+758,validation,0,0.0613678911924981,0,Logistic Regression
+759,validation,0,0.1672107224890771,0,Logistic Regression
+760,validation,0,0.9360207818840176,1,Logistic Regression
+761,validation,0,0.8298644642446238,1,Logistic Regression
+762,validation,0,0.1909915535096782,0,Logistic Regression
+763,validation,0,0.1564719711041426,0,Logistic Regression
+764,validation,0,0.1755289106092973,0,Logistic Regression
+765,validation,0,0.2317833995129816,0,Logistic Regression
+766,validation,0,0.132141177872626,0,Logistic Regression
+767,validation,0,0.2186698113262763,0,Logistic Regression
+768,validation,0,0.0813119442579577,0,Logistic Regression
+769,validation,0,0.4899089459265469,0,Logistic Regression
+770,validation,0,0.3159624020732458,0,Logistic Regression
+771,validation,0,0.1840221889649357,0,Logistic Regression
+772,validation,0,0.1567565638673341,0,Logistic Regression
+773,validation,0,0.0813578740385425,0,Logistic Regression
+774,validation,0,0.2015886913851412,0,Logistic Regression
+775,validation,0,0.239038426681776,0,Logistic Regression
+776,validation,0,0.3711073037485515,0,Logistic Regression
+777,validation,1,0.4475768395620776,0,Logistic Regression
+778,validation,0,0.1412920588291406,0,Logistic Regression
+779,validation,0,0.9787397908732745,1,Logistic Regression
+780,validation,0,0.4321267333866944,0,Logistic Regression
+781,validation,1,0.4916549206363425,0,Logistic Regression
+782,validation,0,0.3848711387946825,0,Logistic Regression
+783,validation,0,0.0961624157799564,0,Logistic Regression
+784,validation,0,0.2910998772577963,0,Logistic Regression
+785,validation,0,0.0550723051375325,0,Logistic Regression
+786,validation,0,0.1506981590695145,0,Logistic Regression
+787,validation,0,0.2026921383893176,0,Logistic Regression
+788,validation,0,0.1315159361252132,0,Logistic Regression
+789,validation,0,0.1189274441297751,0,Logistic Regression
+790,validation,0,0.1276956369585711,0,Logistic Regression
+791,validation,0,0.30343581440012,0,Logistic Regression
+792,validation,0,0.2262067308876771,0,Logistic Regression
+793,validation,0,0.2436406989557458,0,Logistic Regression
+794,validation,0,0.3176566456028837,0,Logistic Regression
+795,validation,0,0.052119725426334,0,Logistic Regression
+796,validation,0,0.2642451822711468,0,Logistic Regression
+797,validation,0,0.4442357269171326,0,Logistic Regression
+798,validation,0,0.12282446136576,0,Logistic Regression
+799,validation,0,0.5440700758212085,1,Logistic Regression
+800,validation,0,0.0076454922602424,0,Logistic Regression
+801,validation,1,0.361585379577319,0,Logistic Regression
+802,validation,1,0.3169600496142453,0,Logistic Regression
+803,validation,0,0.1570025037650112,0,Logistic Regression
+804,validation,0,0.1248489702388453,0,Logistic Regression
+805,validation,0,0.1763016748260398,0,Logistic Regression
+806,validation,0,0.4345354672308033,0,Logistic Regression
+807,validation,0,0.2595791074389254,0,Logistic Regression
+808,validation,0,0.0339549005843495,0,Logistic Regression
+809,validation,0,0.1902705733619664,0,Logistic Regression
+810,validation,0,0.0105393155708596,0,Logistic Regression
+811,validation,0,0.1439521935538522,0,Logistic Regression
+812,validation,0,0.4568953860605696,0,Logistic Regression
+813,validation,0,0.2028453163951645,0,Logistic Regression
+814,validation,0,0.186127743711528,0,Logistic Regression
+815,validation,0,0.207878159300578,0,Logistic Regression
+816,validation,1,0.9966345734707464,1,Logistic Regression
+817,validation,1,0.5067391173796518,1,Logistic Regression
+818,validation,1,0.2732250337228212,0,Logistic Regression
+819,validation,1,0.849781532184989,1,Logistic Regression
+820,validation,0,0.1657837692660393,0,Logistic Regression
+821,validation,0,0.1803920300534825,0,Logistic Regression
+822,validation,0,0.1225636715839493,0,Logistic Regression
+823,validation,0,0.1123605992378645,0,Logistic Regression
+824,validation,0,0.0392224643890721,0,Logistic Regression
+825,validation,0,0.2168694700879428,0,Logistic Regression
+826,validation,0,0.0972597575845082,0,Logistic Regression
+827,validation,0,0.1990157833109676,0,Logistic Regression
+828,validation,0,0.3301370237204373,0,Logistic Regression
+829,validation,0,0.1776453103979538,0,Logistic Regression
+830,validation,0,0.1738492085935194,0,Logistic Regression
+831,validation,0,0.0975279941474585,0,Logistic Regression
+832,validation,0,0.5049003626942438,1,Logistic Regression
+833,validation,0,0.2254912201217373,0,Logistic Regression
+834,validation,0,0.2203253250398196,0,Logistic Regression
+835,validation,0,0.1309087128518619,0,Logistic Regression
+836,validation,0,0.1262275181780236,0,Logistic Regression
+837,validation,0,0.1846361296424128,0,Logistic Regression
+838,validation,0,0.6320283265047295,1,Logistic Regression
+839,validation,0,0.0624250575238781,0,Logistic Regression
+840,validation,0,0.1873164631591756,0,Logistic Regression
+841,validation,0,0.397095433273505,0,Logistic Regression
+842,validation,0,0.1366485699951324,0,Logistic Regression
+843,validation,0,0.266784950365135,0,Logistic Regression
+844,validation,0,0.2714218480570282,0,Logistic Regression
+845,validation,0,0.1231189564814012,0,Logistic Regression
+846,validation,0,0.6237594173408175,1,Logistic Regression
+847,validation,0,0.2075996406884462,0,Logistic Regression
+848,validation,0,0.4114886611410587,0,Logistic Regression
+849,validation,0,0.3670303254719572,0,Logistic Regression
+850,validation,0,0.1429903575271556,0,Logistic Regression
+851,validation,0,0.0532672060292131,0,Logistic Regression
+852,validation,0,0.0924500069815138,0,Logistic Regression
+853,validation,1,0.508208997747493,1,Logistic Regression
+854,validation,1,0.2229702115173218,0,Logistic Regression
+855,validation,0,0.2646274124025002,0,Logistic Regression
+856,validation,0,0.2466802033105116,0,Logistic Regression
+857,validation,0,0.7290276345746931,1,Logistic Regression
+858,validation,0,0.3034417609665102,0,Logistic Regression
+859,validation,0,0.0663680920178551,0,Logistic Regression
+860,validation,0,0.8747043812202585,1,Logistic Regression
+861,validation,0,0.1799132513450076,0,Logistic Regression
+862,validation,0,0.0899591328448389,0,Logistic Regression
+863,validation,0,0.2466709881967228,0,Logistic Regression
+864,validation,0,0.1940433541780953,0,Logistic Regression
+865,validation,0,0.3697524670570352,0,Logistic Regression
+866,validation,0,0.2829564586792299,0,Logistic Regression
+867,validation,0,0.1041581974146863,0,Logistic Regression
+868,validation,0,0.1465870891233953,0,Logistic Regression
+869,validation,0,0.1068215200993605,0,Logistic Regression
+870,validation,0,0.0836548920857552,0,Logistic Regression
+871,validation,1,0.9698293386392342,1,Logistic Regression
+872,validation,1,0.8760303069266554,1,Logistic Regression
+873,validation,0,0.1613886522129197,0,Logistic Regression
+874,validation,0,0.0651363332376921,0,Logistic Regression
+875,validation,0,0.020704531522018,0,Logistic Regression
+876,validation,0,0.0089361398045571,0,Logistic Regression
+877,validation,0,0.4048646683770869,0,Logistic Regression
+878,validation,0,0.5004580624703807,1,Logistic Regression
+879,validation,0,0.1128455068016907,0,Logistic Regression
+880,validation,0,0.033711309056097,0,Logistic Regression
+881,validation,0,0.2121054670867206,0,Logistic Regression
+882,validation,0,0.119435563224983,0,Logistic Regression
+883,validation,0,0.1661772563380968,0,Logistic Regression
+884,validation,0,0.2557027778357168,0,Logistic Regression
+885,validation,0,0.4806949303576221,0,Logistic Regression
+886,validation,0,0.1583877952068507,0,Logistic Regression
+887,validation,0,0.1912227811735086,0,Logistic Regression
+888,validation,0,0.1118762806027603,0,Logistic Regression
+889,validation,1,0.563044293327217,1,Logistic Regression
+890,validation,0,0.3768683135405534,0,Logistic Regression
+891,validation,0,0.0903581314898919,0,Logistic Regression
+892,validation,0,0.4098632595167266,0,Logistic Regression
+893,validation,0,0.0499001358416406,0,Logistic Regression
+894,validation,0,0.5310964447522183,1,Logistic Regression
+895,validation,0,0.5234516654454838,1,Logistic Regression
+896,validation,0,0.9684968154266508,1,Logistic Regression
+897,validation,0,0.0339421172710631,0,Logistic Regression
+898,validation,0,0.1176631392514151,0,Logistic Regression
+899,validation,0,0.4506407182475828,0,Logistic Regression
+900,validation,0,0.1583370304644132,0,Logistic Regression
+901,validation,1,0.9999999610179306,1,Logistic Regression
+902,validation,0,0.1482763994215328,0,Logistic Regression
+903,validation,0,0.3455164975677028,0,Logistic Regression
+904,validation,1,0.9105362348829622,1,Logistic Regression
+905,validation,0,0.0019362351522357,0,Logistic Regression
+906,validation,1,0.7176035244181693,1,Logistic Regression
+907,validation,0,0.1305619604642741,0,Logistic Regression
+908,validation,0,0.460971205478306,0,Logistic Regression
+909,validation,0,0.1215618593518827,0,Logistic Regression
+910,validation,0,0.4548984187833585,0,Logistic Regression
+911,validation,0,0.0076899457938959,0,Logistic Regression
+912,validation,0,0.1682896815279544,0,Logistic Regression
+913,validation,0,0.1881891900449071,0,Logistic Regression
+914,validation,0,0.183648064051495,0,Logistic Regression
+915,validation,0,0.4641275609420976,0,Logistic Regression
+916,validation,0,0.054506399072442,0,Logistic Regression
+917,validation,0,0.1351081981301793,0,Logistic Regression
+918,validation,0,0.0072158495491109,0,Logistic Regression
+919,validation,1,0.9862158195209484,1,Logistic Regression
+920,validation,0,0.6346544978633992,1,Logistic Regression
+921,validation,0,0.1055144583453847,0,Logistic Regression
+922,validation,0,0.1215322962574553,0,Logistic Regression
+923,validation,1,0.8870826550671786,1,Logistic Regression
+924,validation,0,0.3433311763040718,0,Logistic Regression
+925,validation,0,0.1001718338241711,0,Logistic Regression
+926,validation,0,0.447479733790686,0,Logistic Regression
+927,validation,0,0.9177761325265716,1,Logistic Regression
+928,validation,0,0.2094808391490166,0,Logistic Regression
+929,validation,0,0.0299655274869514,0,Logistic Regression
+930,validation,1,0.6262297557857781,1,Logistic Regression
+931,validation,0,0.0084508019738812,0,Logistic Regression
+932,validation,0,0.1605404701180462,0,Logistic Regression
+933,validation,1,0.9322125129204796,1,Logistic Regression
+934,validation,0,0.0914524637397822,0,Logistic Regression
+935,validation,0,0.1070376963899981,0,Logistic Regression
+936,validation,0,0.0170692780032821,0,Logistic Regression
+937,validation,0,0.2362959443262496,0,Logistic Regression
+938,validation,0,0.4951966891718005,0,Logistic Regression
+939,validation,0,0.4725043831318818,0,Logistic Regression
+940,validation,0,0.1645750413833309,0,Logistic Regression
+941,validation,0,0.1429986128151989,0,Logistic Regression
+942,validation,0,0.1715314335640589,0,Logistic Regression
+943,validation,1,0.6295490170866168,1,Logistic Regression
+944,validation,1,0.377960699663185,0,Logistic Regression
+945,validation,0,0.3900015547569706,0,Logistic Regression
+946,validation,0,0.2996492636926341,0,Logistic Regression
+947,validation,0,0.7424169644138944,1,Logistic Regression
+948,validation,0,0.0479540713953031,0,Logistic Regression
+949,validation,1,0.995269937036514,1,Logistic Regression
+950,validation,0,0.0423547243431209,0,Logistic Regression
+951,validation,0,0.1393245670773058,0,Logistic Regression
+952,validation,0,0.4823286811867479,0,Logistic Regression
+953,validation,0,0.3727445538585593,0,Logistic Regression
+954,validation,0,0.5331168635949824,1,Logistic Regression
+955,validation,0,0.2452968325974631,0,Logistic Regression
+956,validation,0,0.374202991796279,0,Logistic Regression
+957,validation,0,0.4161770261961256,0,Logistic Regression
+958,validation,0,0.0349254813388587,0,Logistic Regression
+959,validation,0,0.9999999806956078,1,Logistic Regression
+960,validation,1,0.3745756591593809,0,Logistic Regression
+961,validation,0,0.4374037621587437,0,Logistic Regression
+962,validation,0,0.0490078470205806,0,Logistic Regression
+963,validation,0,0.0493446670674998,0,Logistic Regression
+964,validation,1,0.6407266642257665,1,Logistic Regression
+965,validation,1,0.9999999582083188,1,Logistic Regression
+966,validation,0,0.3335130063063787,0,Logistic Regression
+967,validation,0,0.2316269277482625,0,Logistic Regression
+968,validation,0,0.3492508374167432,0,Logistic Regression
+969,validation,0,0.0598266453606788,0,Logistic Regression
+970,validation,0,0.1598011581471847,0,Logistic Regression
+971,validation,0,0.1496985888957431,0,Logistic Regression
+972,validation,0,0.5410435741808952,1,Logistic Regression
+973,validation,1,0.8626379955958652,1,Logistic Regression
+974,validation,0,0.3259262015063626,0,Logistic Regression
+975,validation,1,0.5206636170346939,1,Logistic Regression
+976,validation,0,0.2374835158934615,0,Logistic Regression
+977,validation,0,0.1535987296614241,0,Logistic Regression
+978,validation,1,0.9989672625250722,1,Logistic Regression
+979,validation,0,0.2351183193444586,0,Logistic Regression
+980,validation,0,0.1817348485624806,0,Logistic Regression
+981,validation,0,0.1615512960430233,0,Logistic Regression
+982,validation,0,0.1385105328733593,0,Logistic Regression
+983,validation,0,0.2765570224395641,0,Logistic Regression
+984,validation,0,0.1956100965398126,0,Logistic Regression
+985,validation,0,0.9759349918320952,1,Logistic Regression
+986,validation,1,0.9795352444696364,1,Logistic Regression
+987,validation,0,0.8156790397247183,1,Logistic Regression
+988,validation,0,0.1531720780385329,0,Logistic Regression
+989,validation,0,0.3551637933324936,0,Logistic Regression
+990,validation,0,0.2231662933791799,0,Logistic Regression
+991,validation,0,0.2012801432929946,0,Logistic Regression
+992,validation,0,0.3574288623969796,0,Logistic Regression
+993,validation,0,0.7734318783933,1,Logistic Regression
+994,validation,0,0.4132098071191711,0,Logistic Regression
+995,validation,0,0.4012397959328224,0,Logistic Regression
+996,validation,1,0.9989450148618514,1,Logistic Regression
+997,validation,0,0.1862669809910529,0,Logistic Regression
+998,validation,0,0.2148102287552607,0,Logistic Regression
+999,validation,0,0.3542647294303525,0,Logistic Regression
+1000,validation,0,0.0319886178891503,0,Logistic Regression
+1001,validation,0,0.7035386539871894,1,Logistic Regression
+1002,validation,1,0.8769403452582561,1,Logistic Regression
+1003,validation,0,0.1844347652402578,0,Logistic Regression
+1004,validation,1,0.3089545151082004,0,Logistic Regression
+1005,validation,0,0.2115870841823147,0,Logistic Regression
+1006,validation,0,0.6228357166401537,1,Logistic Regression
+1007,validation,0,0.0720472525830531,0,Logistic Regression
+1008,validation,0,0.2101964165030644,0,Logistic Regression
+1009,validation,0,0.3720222213367576,0,Logistic Regression
+1010,validation,1,0.8470673081283157,1,Logistic Regression
+1011,validation,0,0.3469233283368917,0,Logistic Regression
+1012,validation,0,0.3226372950348181,0,Logistic Regression
+1013,validation,0,0.2528813756859314,0,Logistic Regression
+1014,validation,0,0.196652330401454,0,Logistic Regression
+1015,validation,1,0.9095980503808774,1,Logistic Regression
+1016,validation,1,0.8776323593288672,1,Logistic Regression
+1017,validation,0,0.184052614086813,0,Logistic Regression
+1018,validation,0,0.1489683301228486,0,Logistic Regression
+1019,validation,0,0.4066785181038025,0,Logistic Regression
+1020,validation,0,0.1535857735212478,0,Logistic Regression
+1021,validation,0,0.8569438606651142,1,Logistic Regression
+1022,validation,1,0.9701076002449892,1,Logistic Regression
+1023,validation,0,0.1221942777433148,0,Logistic Regression
+1024,validation,0,0.3732629291872381,0,Logistic Regression
+1025,validation,0,0.3605503016774192,0,Logistic Regression
+1026,validation,0,0.1097845956297227,0,Logistic Regression
+1027,validation,0,0.1905782928984195,0,Logistic Regression
+1028,validation,0,0.016644605595298,0,Logistic Regression
+1029,validation,0,0.1878598954673942,0,Logistic Regression
+1030,validation,1,0.7443733138557247,1,Logistic Regression
+1031,validation,0,0.1929763191102123,0,Logistic Regression
+1032,validation,0,0.1952709086506678,0,Logistic Regression
+1033,validation,0,0.0260604433029337,0,Logistic Regression
+1034,validation,0,0.1325279144262223,0,Logistic Regression
+1035,validation,1,0.9916805060910656,1,Logistic Regression
+1036,validation,0,0.1004331741840882,0,Logistic Regression
+1037,validation,0,0.5841381507331447,1,Logistic Regression
+1038,validation,0,0.4973268263976086,0,Logistic Regression
+1039,validation,1,0.2688369632413678,0,Logistic Regression
+1040,validation,0,0.112980570517906,0,Logistic Regression
+1041,validation,0,0.2446659461393917,0,Logistic Regression
+1042,validation,0,0.1119934492355735,0,Logistic Regression
+1043,validation,0,0.0705907244640088,0,Logistic Regression
+1044,validation,0,0.6422211681435462,1,Logistic Regression
+1045,validation,1,0.2878876306552883,0,Logistic Regression
+1046,validation,0,0.1736118808742616,0,Logistic Regression
+1047,validation,0,0.1751761027903958,0,Logistic Regression
+1048,validation,0,0.1953496484664191,0,Logistic Regression
+1049,validation,0,0.1090830741487803,0,Logistic Regression
+1050,validation,1,0.707314127983798,1,Logistic Regression
+1051,validation,0,0.0940714031303836,0,Logistic Regression
+1052,validation,0,0.0748989053744923,0,Logistic Regression
+1053,validation,0,0.054009876990283,0,Logistic Regression
+1054,validation,0,0.7244584470388832,1,Logistic Regression
+1055,validation,0,0.1952598798999662,0,Logistic Regression
+1056,validation,0,0.3208514489683828,0,Logistic Regression
+1057,validation,0,0.1999717416685318,0,Logistic Regression
+1058,validation,0,0.5013276248813276,1,Logistic Regression
+1059,validation,0,0.5423973542191317,1,Logistic Regression
+1060,validation,0,0.4411674624676139,0,Logistic Regression
+1061,validation,0,0.1995111774291069,0,Logistic Regression
+1062,validation,1,0.3428524106280159,0,Logistic Regression
+1063,validation,1,0.9999947813811986,1,Logistic Regression
+1064,validation,0,0.328048019757039,0,Logistic Regression
+1065,validation,0,0.3721519128414575,0,Logistic Regression
+1066,validation,0,0.2131933646995179,0,Logistic Regression
+1067,validation,0,0.2339432739714937,0,Logistic Regression
+1068,validation,0,0.7762378958416394,1,Logistic Regression
+1069,validation,0,0.0090417246042342,0,Logistic Regression
+1070,validation,1,0.2493596597332608,0,Logistic Regression
+1071,validation,0,0.1751776715904269,0,Logistic Regression
+1072,validation,1,0.9997696478129692,1,Logistic Regression
+1073,validation,0,0.1460144968656349,0,Logistic Regression
+1074,validation,0,0.3703902172319165,0,Logistic Regression
+1075,validation,0,0.1183077717843601,0,Logistic Regression
+1076,validation,0,0.2961469522853717,0,Logistic Regression
+1077,validation,0,0.0741248927990462,0,Logistic Regression
+1078,validation,0,0.026787797036106,0,Logistic Regression
+1079,validation,1,0.3637301723889786,0,Logistic Regression
+1080,validation,0,0.0878029443684544,0,Logistic Regression
+1081,validation,0,0.2972412155266734,0,Logistic Regression
+1082,validation,0,0.1358535695653546,0,Logistic Regression
+1083,validation,0,0.2437924604626044,0,Logistic Regression
+1084,validation,0,0.1113244187639486,0,Logistic Regression
+1085,validation,0,0.2003554082338732,0,Logistic Regression
+1086,validation,0,0.2597342211486908,0,Logistic Regression
+1087,validation,0,0.117709676179618,0,Logistic Regression
+1088,validation,0,0.1848807799041781,0,Logistic Regression
+1089,validation,0,0.4878043996356072,0,Logistic Regression
+1090,validation,0,0.1161667077506899,0,Logistic Regression
+1091,validation,0,0.0958060410734927,0,Logistic Regression
+1092,validation,0,0.376917251431856,0,Logistic Regression
+1093,validation,1,0.9851334256938596,1,Logistic Regression
+1094,validation,0,0.2341541421796713,0,Logistic Regression
+1095,validation,1,0.9977470625048994,1,Logistic Regression
+1096,validation,0,0.0091571955278915,0,Logistic Regression
+1097,validation,0,0.3836849619456158,0,Logistic Regression
+1098,validation,0,0.0915047682031621,0,Logistic Regression
+1099,validation,0,0.1925990562223238,0,Logistic Regression
+1100,validation,0,0.5607986333880384,1,Logistic Regression
+1101,validation,0,0.4764746345175178,0,Logistic Regression
+1102,validation,0,0.0071718168411396,0,Logistic Regression
+1103,validation,1,0.8964405974112846,1,Logistic Regression
+1104,validation,0,0.301435300674589,0,Logistic Regression
+1105,validation,0,0.0065401299242196,0,Logistic Regression
+1106,validation,0,0.0454409203237285,0,Logistic Regression
+1107,validation,0,0.6328277004134705,1,Logistic Regression
+1108,validation,0,0.1999572041992098,0,Logistic Regression
+1109,validation,0,0.203398238615939,0,Logistic Regression
+1110,validation,0,0.3353624411886207,0,Logistic Regression
+1111,validation,1,0.9972549030845892,1,Logistic Regression
+1112,validation,0,0.191789782874272,0,Logistic Regression
+1113,validation,0,0.3804785049270198,0,Logistic Regression
+1114,validation,0,0.2956939577613557,0,Logistic Regression
+1115,validation,0,0.2496074387657549,0,Logistic Regression
+1116,validation,0,0.1289197926463672,0,Logistic Regression
+1117,validation,0,0.0312732393935196,0,Logistic Regression
+1118,validation,0,0.8643497546319605,1,Logistic Regression
+1119,validation,0,0.220319851790792,0,Logistic Regression
+1120,validation,0,0.1361629683793253,0,Logistic Regression
+1121,validation,0,0.1991579814516314,0,Logistic Regression
+1122,validation,0,0.3086565168451188,0,Logistic Regression
+1123,validation,1,0.9331957481027636,1,Logistic Regression
+1124,validation,0,0.1645514649614777,0,Logistic Regression
+1125,validation,0,0.0089609086068874,0,Logistic Regression
+1126,validation,1,0.1806416288718396,0,Logistic Regression
+1127,validation,0,0.1399219897633299,0,Logistic Regression
+1128,validation,0,0.5484098386508071,1,Logistic Regression
+1129,validation,0,0.1232769663604248,0,Logistic Regression
+1130,validation,0,0.1687268941626883,0,Logistic Regression
+1131,validation,1,0.2704948159899273,0,Logistic Regression
+1132,validation,0,0.1365091387545658,0,Logistic Regression
+1133,validation,0,0.1758333222321478,0,Logistic Regression
+1134,validation,0,0.5092043085953734,1,Logistic Regression
+1135,validation,0,0.4223778034282224,0,Logistic Regression
+1136,validation,0,0.236909448730953,0,Logistic Regression
+1137,validation,0,0.1333740980768693,0,Logistic Regression
+1138,validation,0,0.666749833099395,1,Logistic Regression
+1139,validation,0,0.0495072056296222,0,Logistic Regression
+1140,validation,0,0.1584796209644225,0,Logistic Regression
+1141,validation,0,0.1971292857760588,0,Logistic Regression
+1142,validation,0,0.144973906062203,0,Logistic Regression
+1143,validation,0,0.0918722748203383,0,Logistic Regression
+1144,validation,1,0.9999652848737268,1,Logistic Regression
+1145,validation,0,0.0370029082187512,0,Logistic Regression
+1146,validation,0,0.1466192467759503,0,Logistic Regression
+1147,validation,0,0.0633920899192207,0,Logistic Regression
+1148,validation,0,0.3664080464889078,0,Logistic Regression
+1149,validation,0,0.1513045818869215,0,Logistic Regression
+1150,validation,0,0.0857746108527087,0,Logistic Regression
+1151,validation,0,0.1882973973352255,0,Logistic Regression
+1152,validation,1,0.9611782293204728,1,Logistic Regression
+1153,validation,1,0.999870220843344,1,Logistic Regression
+1154,validation,0,0.1425721281943954,0,Logistic Regression
+1155,validation,1,0.3446453303236299,0,Logistic Regression
+1156,validation,1,0.6721870378213969,1,Logistic Regression
+1157,validation,1,0.3979725612034266,0,Logistic Regression
+1158,validation,0,0.3057963044914523,0,Logistic Regression
+1159,validation,0,0.238543753503715,0,Logistic Regression
+1160,validation,0,0.1838292848647256,0,Logistic Regression
+1161,validation,0,0.1420905393942851,0,Logistic Regression
+1162,validation,0,0.0232546090425053,0,Logistic Regression
+1163,validation,1,0.8393423231853924,1,Logistic Regression
+1164,validation,1,0.870917948595951,1,Logistic Regression
+1165,validation,0,0.2122977747669319,0,Logistic Regression
+1166,validation,0,0.2547507159209891,0,Logistic Regression
+1167,validation,0,0.3205733722519588,0,Logistic Regression
+1168,validation,0,0.1954739506118516,0,Logistic Regression
+1169,validation,1,0.1104382105629879,0,Logistic Regression
+1170,validation,1,0.4687675938660483,0,Logistic Regression
+1171,validation,0,0.2054671664187245,0,Logistic Regression
+1172,validation,0,0.6238417637089122,1,Logistic Regression
+1173,validation,0,0.0133238774552286,0,Logistic Regression
+1174,validation,0,0.0293085494207994,0,Logistic Regression
+1175,validation,0,0.6024479497805727,1,Logistic Regression
+1176,validation,0,0.2316392276238622,0,Logistic Regression
+1177,validation,0,0.2032537941989521,0,Logistic Regression
+1178,validation,0,0.4273668334366705,0,Logistic Regression
+1179,validation,0,0.1711145086787641,0,Logistic Regression
+1180,validation,1,0.7349746187488997,1,Logistic Regression
+1181,validation,0,0.7867173858528226,1,Logistic Regression
+1182,validation,0,0.1108692161176197,0,Logistic Regression
+1183,validation,0,0.4034375994734371,0,Logistic Regression
+1184,validation,0,0.9835019530759432,1,Logistic Regression
+1185,validation,0,0.1672271464497079,0,Logistic Regression
+1186,validation,0,0.9997661222015014,1,Logistic Regression
+1187,validation,0,0.2286255674205713,0,Logistic Regression
+1188,validation,0,0.806948648204407,1,Logistic Regression
+1189,validation,0,0.711725248004005,1,Logistic Regression
+1190,validation,0,0.4598464769727669,0,Logistic Regression
+1191,validation,0,0.9324678250263398,1,Logistic Regression
+1192,validation,1,0.9921485566260834,1,Logistic Regression
+1193,validation,0,0.4588976286887368,0,Logistic Regression
+1194,validation,0,0.2446362892769325,0,Logistic Regression
+1195,validation,0,0.3855985724601213,0,Logistic Regression
+1196,validation,0,0.215124935565236,0,Logistic Regression
+1197,validation,0,0.2252748272173078,0,Logistic Regression
+1198,validation,0,0.3420592694386515,0,Logistic Regression
+1199,validation,0,0.3121436864921237,0,Logistic Regression
+1200,validation,0,0.616252214695303,1,Logistic Regression
+1201,validation,0,0.0561210307670865,0,Logistic Regression
+1202,validation,0,0.6134909073652675,1,Logistic Regression
+1203,validation,0,0.1260026310474425,0,Logistic Regression
+1204,validation,0,0.1256362470180732,0,Logistic Regression
+1205,validation,0,0.1860766557046249,0,Logistic Regression
+1206,validation,0,0.0098226880394087,0,Logistic Regression
+1207,validation,1,0.5649199248743693,1,Logistic Regression
+1208,validation,0,0.119217632271383,0,Logistic Regression
+1209,validation,0,0.0759467146235263,0,Logistic Regression
+1210,validation,0,0.1295893695830192,0,Logistic Regression
+1211,validation,0,0.3322639105895511,0,Logistic Regression
+1212,validation,0,0.4835341154041468,0,Logistic Regression
+1213,validation,0,0.2309292210977561,0,Logistic Regression
+1214,validation,0,0.0931528708583166,0,Logistic Regression
+1215,validation,0,0.1232848452518979,0,Logistic Regression
+1216,validation,0,0.4015611322084553,0,Logistic Regression
+1217,validation,0,0.0525205971675688,0,Logistic Regression
+1218,validation,0,0.5847791753104754,1,Logistic Regression
+1219,validation,1,0.8294647361614198,1,Logistic Regression
+1220,validation,0,0.2083498381393541,0,Logistic Regression
+0,validation,0,0.0001920090357193,0,Random Forest
+1,validation,0,0.0001920090357193,0,Random Forest
+2,validation,0,0.2134457814638499,0,Random Forest
+3,validation,0,0.221183792913172,0,Random Forest
+4,validation,0,0.1028884142617485,0,Random Forest
+5,validation,1,0.84887364324147,1,Random Forest
+6,validation,0,0.0313804783547755,0,Random Forest
+7,validation,0,0.0483765119410226,0,Random Forest
+8,validation,0,0.00900276018311,0,Random Forest
+9,validation,0,0.6010479323001692,1,Random Forest
+10,validation,0,0.6548980256903913,1,Random Forest
+11,validation,0,0.1251603253001958,0,Random Forest
+12,validation,0,0.0067137987446969,0,Random Forest
+13,validation,1,0.8531886246421301,1,Random Forest
+14,validation,0,0.0570972168255872,0,Random Forest
+15,validation,0,0.0988554943908667,0,Random Forest
+16,validation,0,0.0377012292580434,0,Random Forest
+17,validation,0,0.0128150820103355,0,Random Forest
+18,validation,0,0.0129999342008977,0,Random Forest
+19,validation,0,0.4798469687366656,0,Random Forest
+20,validation,0,0.0102890721159246,0,Random Forest
+21,validation,0,0.0752986257203364,0,Random Forest
+22,validation,0,0.0149997387894421,0,Random Forest
+23,validation,0,0.1167619559707318,0,Random Forest
+24,validation,0,0.0350848952577761,0,Random Forest
+25,validation,0,0.0211794023984766,0,Random Forest
+26,validation,0,0.0988378918638496,0,Random Forest
+27,validation,0,0.000174058351082,0,Random Forest
+28,validation,0,0.2538975241840586,0,Random Forest
+29,validation,0,0.3836854644026894,0,Random Forest
+30,validation,0,0.2907794945721373,0,Random Forest
+31,validation,0,0.0153542429864883,0,Random Forest
+32,validation,0,0.0070619796191203,0,Random Forest
+33,validation,0,0.7038896075642801,1,Random Forest
+34,validation,0,0.0320577327477808,0,Random Forest
+35,validation,0,0.1293003709774167,0,Random Forest
+36,validation,0,0.0247755754413298,0,Random Forest
+37,validation,0,0.000361159691976,0,Random Forest
+38,validation,0,0.0122774322996411,0,Random Forest
+39,validation,0,0.3273118975388245,0,Random Forest
+40,validation,0,0.0131669580046515,0,Random Forest
+41,validation,0,0.0028124390339069,0,Random Forest
+42,validation,0,0.0116789439941758,0,Random Forest
+43,validation,1,0.8997514650333182,1,Random Forest
+44,validation,0,0.1837037509050951,0,Random Forest
+45,validation,1,0.1621022000538577,0,Random Forest
+46,validation,0,0.0028124390339069,0,Random Forest
+47,validation,1,0.890670946407534,1,Random Forest
+48,validation,1,0.8526269900016343,1,Random Forest
+49,validation,0,0.0096293823396836,0,Random Forest
+50,validation,0,0.5954299829355759,1,Random Forest
+51,validation,1,0.8261114003703444,1,Random Forest
+52,validation,0,0.0148180799824181,0,Random Forest
+53,validation,0,0.042549760027127,0,Random Forest
+54,validation,0,0.0066885707919809,0,Random Forest
+55,validation,0,0.046476053387208,0,Random Forest
+56,validation,1,0.3501087270848082,0,Random Forest
+57,validation,0,0.0143399923389323,0,Random Forest
+58,validation,0,0.0341213772340163,0,Random Forest
+59,validation,0,0.1237058599488593,0,Random Forest
+60,validation,0,0.0455212069141771,0,Random Forest
+61,validation,0,0.3612154422823172,0,Random Forest
+62,validation,0,0.1422916604585077,0,Random Forest
+63,validation,0,0.0548285397177154,0,Random Forest
+64,validation,0,0.1595388158098092,0,Random Forest
+65,validation,1,0.0557200774915632,0,Random Forest
+66,validation,0,0.3838268473862501,0,Random Forest
+67,validation,0,0.110945512163755,0,Random Forest
+68,validation,1,0.7203362018474276,1,Random Forest
+69,validation,0,0.0728029553401726,0,Random Forest
+70,validation,1,0.2410822033769968,0,Random Forest
+71,validation,0,0.2712082434418117,0,Random Forest
+72,validation,0,0.0056248780678138,0,Random Forest
+73,validation,0,0.0,0,Random Forest
+74,validation,0,0.0534768208319623,0,Random Forest
+75,validation,0,0.0013431723315444,0,Random Forest
+76,validation,0,0.0144413642194979,0,Random Forest
+77,validation,0,0.0028202247139471,0,Random Forest
+78,validation,1,0.6077622781170549,1,Random Forest
+79,validation,1,0.6631119479328609,1,Random Forest
+80,validation,0,0.0248267637650856,0,Random Forest
+81,validation,0,0.811034696140168,1,Random Forest
+82,validation,0,0.2280843286035911,0,Random Forest
+83,validation,0,0.0030508115886822,0,Random Forest
+84,validation,0,0.0133053332067375,0,Random Forest
+85,validation,0,0.0251214132457829,0,Random Forest
+86,validation,0,0.2782084333424872,0,Random Forest
+87,validation,0,0.0155907324507615,0,Random Forest
+88,validation,0,0.0259328265555804,0,Random Forest
+89,validation,0,0.1001360894801966,0,Random Forest
+90,validation,0,0.1182175483555874,0,Random Forest
+91,validation,1,0.8474388685531062,1,Random Forest
+92,validation,0,0.04935339960162,0,Random Forest
+93,validation,0,0.1882467902715413,0,Random Forest
+94,validation,0,0.0034902175449433,0,Random Forest
+95,validation,0,0.0867942025482299,0,Random Forest
+96,validation,0,0.1073044789052591,0,Random Forest
+97,validation,0,0.0938015563318999,0,Random Forest
+98,validation,0,0.3610501638669752,0,Random Forest
+99,validation,0,0.0464599010361252,0,Random Forest
+100,validation,0,0.2065074910676975,0,Random Forest
+101,validation,0,0.0262376051267408,0,Random Forest
+102,validation,0,0.1459330305393553,0,Random Forest
+103,validation,0,0.0249001617114813,0,Random Forest
+104,validation,0,0.0038374434088511,0,Random Forest
+105,validation,0,0.0175293478008676,0,Random Forest
+106,validation,0,0.3136281736662102,0,Random Forest
+107,validation,0,0.4482394401179903,0,Random Forest
+108,validation,0,0.109391280948843,0,Random Forest
+109,validation,0,0.0,0,Random Forest
+110,validation,0,0.0620976837183091,0,Random Forest
+111,validation,0,0.119437205760275,0,Random Forest
+112,validation,0,0.531556109845507,1,Random Forest
+113,validation,1,0.9517613964820127,1,Random Forest
+114,validation,0,0.0478753207724251,0,Random Forest
+115,validation,0,0.0003370366214042,0,Random Forest
+116,validation,0,0.0111927439614418,0,Random Forest
+117,validation,1,0.4596565858801922,0,Random Forest
+118,validation,1,0.9481795442091032,1,Random Forest
+119,validation,1,0.7642233657724833,1,Random Forest
+120,validation,0,0.0,0,Random Forest
+121,validation,0,0.0263444419781889,0,Random Forest
+122,validation,0,0.0046695765469671,0,Random Forest
+123,validation,0,0.0178965433648061,0,Random Forest
+124,validation,1,0.1736739634447106,0,Random Forest
+125,validation,0,0.2183591521678426,0,Random Forest
+126,validation,0,0.0258563719781207,0,Random Forest
+127,validation,0,0.1102404533558778,0,Random Forest
+128,validation,0,0.0572047915414741,0,Random Forest
+129,validation,0,0.0208059611316632,0,Random Forest
+130,validation,0,0.1657870597834897,0,Random Forest
+131,validation,0,0.0484228352797983,0,Random Forest
+132,validation,0,0.1024674443165633,0,Random Forest
+133,validation,0,0.0056248780678138,0,Random Forest
+134,validation,0,0.0265636497277216,0,Random Forest
+135,validation,0,0.0456810937242997,0,Random Forest
+136,validation,0,0.0124699594430352,0,Random Forest
+137,validation,1,0.7709983964671286,1,Random Forest
+138,validation,1,0.9122827728125048,1,Random Forest
+139,validation,0,0.0384089633026162,0,Random Forest
+140,validation,1,0.4320451768804164,0,Random Forest
+141,validation,0,0.4758552013959426,0,Random Forest
+142,validation,0,0.0250636350796314,0,Random Forest
+143,validation,0,0.0267374829872059,0,Random Forest
+144,validation,1,0.3523220871376162,0,Random Forest
+145,validation,0,0.0260728235108619,0,Random Forest
+146,validation,0,0.0,0,Random Forest
+147,validation,0,0.097334422801461,0,Random Forest
+148,validation,1,0.8021130297523617,1,Random Forest
+149,validation,0,0.0702406297631798,0,Random Forest
+150,validation,0,0.0217634873934452,0,Random Forest
+151,validation,0,0.0455318624099254,0,Random Forest
+152,validation,0,0.1239577497945382,0,Random Forest
+153,validation,0,0.0210239631000827,0,Random Forest
+154,validation,0,0.010489560527151,0,Random Forest
+155,validation,0,0.1416844759049172,0,Random Forest
+156,validation,0,0.427065729296905,0,Random Forest
+157,validation,0,0.7306639472890886,1,Random Forest
+158,validation,0,0.0230222933219147,0,Random Forest
+159,validation,1,0.0440622036969726,0,Random Forest
+160,validation,1,0.6931172822763667,1,Random Forest
+161,validation,0,0.0106888651983571,0,Random Forest
+162,validation,0,0.2437898379974951,0,Random Forest
+163,validation,0,0.3488549659858291,0,Random Forest
+164,validation,0,0.0174305822963277,0,Random Forest
+165,validation,1,0.8585848054120866,1,Random Forest
+166,validation,0,0.006985832056542,0,Random Forest
+167,validation,0,0.0058632506225891,0,Random Forest
+168,validation,0,0.0256708592764398,0,Random Forest
+169,validation,0,0.0115886145615508,0,Random Forest
+170,validation,0,0.0664320747387903,0,Random Forest
+171,validation,0,0.6439228760357849,1,Random Forest
+172,validation,0,0.0096928117744326,0,Random Forest
+173,validation,0,0.2788510444065341,0,Random Forest
+174,validation,0,0.562376257609178,1,Random Forest
+175,validation,0,0.0054760843069056,0,Random Forest
+176,validation,0,0.0,0,Random Forest
+177,validation,0,0.12331123207295,0,Random Forest
+178,validation,0,0.0251636057719884,0,Random Forest
+179,validation,0,0.0089291290458398,0,Random Forest
+180,validation,1,0.9491975449659372,1,Random Forest
+181,validation,0,0.0689622367024222,0,Random Forest
+182,validation,1,0.935956165066821,1,Random Forest
+183,validation,1,0.7726017231319159,1,Random Forest
+184,validation,0,0.1132317561599933,0,Random Forest
+185,validation,0,0.0143021190737382,0,Random Forest
+186,validation,0,0.0,0,Random Forest
+187,validation,1,0.5035229009405168,1,Random Forest
+188,validation,0,0.0133498819887004,0,Random Forest
+189,validation,0,0.4047249628820975,0,Random Forest
+190,validation,0,0.0106291024189502,0,Random Forest
+191,validation,0,0.3203657991351474,0,Random Forest
+192,validation,0,0.0129252354024992,0,Random Forest
+193,validation,0,0.0349439302671658,0,Random Forest
+194,validation,1,0.2355358696626869,0,Random Forest
+195,validation,0,0.2233131753611104,0,Random Forest
+196,validation,0,0.0364206047864803,0,Random Forest
+197,validation,1,0.171749469282597,0,Random Forest
+198,validation,0,0.0108421120218155,0,Random Forest
+199,validation,0,0.33035804713158,0,Random Forest
+200,validation,0,0.0013952362978233,0,Random Forest
+201,validation,0,0.2329971860649793,0,Random Forest
+202,validation,0,0.0187780838679636,0,Random Forest
+203,validation,0,0.0228745269282315,0,Random Forest
+204,validation,0,0.1356536274898286,0,Random Forest
+205,validation,0,0.0202400935180011,0,Random Forest
+206,validation,1,0.3381046209381997,0,Random Forest
+207,validation,0,0.0107525771749608,0,Random Forest
+208,validation,0,0.1664433825954774,0,Random Forest
+209,validation,0,0.0625291559835548,0,Random Forest
+210,validation,0,0.0768866667878345,0,Random Forest
+211,validation,0,0.0144868499672266,0,Random Forest
+212,validation,0,0.1147796016155943,0,Random Forest
+213,validation,1,0.6329116755064899,1,Random Forest
+214,validation,0,0.1041757406076757,0,Random Forest
+215,validation,0,0.1903290481279935,0,Random Forest
+216,validation,0,0.0780985139120524,0,Random Forest
+217,validation,0,0.0,0,Random Forest
+218,validation,1,0.0475710414684574,0,Random Forest
+219,validation,1,0.5721141867600636,1,Random Forest
+220,validation,0,0.1385551828480727,0,Random Forest
+221,validation,0,0.7156533986831038,1,Random Forest
+222,validation,0,0.7985632650402096,1,Random Forest
+223,validation,0,0.163310135800283,0,Random Forest
+224,validation,0,0.0924652265748186,0,Random Forest
+225,validation,1,0.0540188876338936,0,Random Forest
+226,validation,0,0.0110682690370647,0,Random Forest
+227,validation,1,0.8092835621392829,1,Random Forest
+228,validation,0,0.0745907595494666,0,Random Forest
+229,validation,0,0.4358053921511356,0,Random Forest
+230,validation,1,0.7169602015744699,1,Random Forest
+231,validation,1,0.2072344811123262,0,Random Forest
+232,validation,0,0.0100194462387121,0,Random Forest
+233,validation,0,0.034892506052276,0,Random Forest
+234,validation,0,0.0252082935747707,0,Random Forest
+235,validation,0,0.0104534993348025,0,Random Forest
+236,validation,0,0.5978493284511962,1,Random Forest
+237,validation,0,0.0584156572172558,0,Random Forest
+238,validation,1,0.7579896497330313,1,Random Forest
+239,validation,0,0.1778281878776866,0,Random Forest
+240,validation,1,0.0605782201640955,0,Random Forest
+241,validation,0,0.0947878804437883,0,Random Forest
+242,validation,0,0.2370477600582445,0,Random Forest
+243,validation,0,0.0629255022526241,0,Random Forest
+244,validation,1,0.5912654436293093,1,Random Forest
+245,validation,0,0.0189856175877773,0,Random Forest
+246,validation,0,0.2470670985921663,0,Random Forest
+247,validation,0,0.0727544661457061,0,Random Forest
+248,validation,1,0.7412863775682785,1,Random Forest
+249,validation,0,0.0135778523863509,0,Random Forest
+250,validation,0,0.1439338929467556,0,Random Forest
+251,validation,1,0.7306620133534053,1,Random Forest
+252,validation,0,0.7280514116552653,1,Random Forest
+253,validation,0,0.0164760596194481,0,Random Forest
+254,validation,0,0.0388160762100583,0,Random Forest
+255,validation,1,0.6654099137859844,1,Random Forest
+256,validation,0,0.0030508115886822,0,Random Forest
+257,validation,1,0.6175176846371968,1,Random Forest
+258,validation,0,0.0079084255365743,0,Random Forest
+259,validation,0,0.036512927959781,0,Random Forest
+260,validation,0,0.0,0,Random Forest
+261,validation,0,0.0152219298453171,0,Random Forest
+262,validation,0,0.0294694942514737,0,Random Forest
+263,validation,1,0.9189060972146652,1,Random Forest
+264,validation,0,0.0,0,Random Forest
+265,validation,0,0.80591505051373,1,Random Forest
+266,validation,0,0.0030303313095243,0,Random Forest
+267,validation,0,0.014303684513774,0,Random Forest
+268,validation,0,0.0411024319449824,0,Random Forest
+269,validation,1,0.7869443428241615,1,Random Forest
+270,validation,0,0.0413513173486008,0,Random Forest
+271,validation,0,0.133066901543096,0,Random Forest
+272,validation,0,0.0001920090357193,0,Random Forest
+273,validation,0,0.1639545744532106,0,Random Forest
+274,validation,0,0.5173487081834869,1,Random Forest
+275,validation,0,0.0322080560621094,0,Random Forest
+276,validation,0,0.1121084236599738,0,Random Forest
+277,validation,0,0.0780811344474648,0,Random Forest
+278,validation,0,0.0229570383465108,0,Random Forest
+279,validation,0,0.0397605674297024,0,Random Forest
+280,validation,0,0.0001630219677077,0,Random Forest
+281,validation,0,0.0235168692822971,0,Random Forest
+282,validation,0,0.0299414651716198,0,Random Forest
+283,validation,0,0.0341960527844945,0,Random Forest
+284,validation,0,0.2102089597164467,0,Random Forest
+285,validation,0,0.1051471921323675,0,Random Forest
+286,validation,0,0.0079876009665874,0,Random Forest
+287,validation,0,0.0253758730714145,0,Random Forest
+288,validation,1,0.8376088880370429,1,Random Forest
+289,validation,0,0.0001630219677077,0,Random Forest
+290,validation,0,0.0429867339893941,0,Random Forest
+291,validation,0,0.0920196167021332,0,Random Forest
+292,validation,0,0.0024323412296686,0,Random Forest
+293,validation,0,0.0283693016725352,0,Random Forest
+294,validation,0,0.0199882948228496,0,Random Forest
+295,validation,0,0.0161497685760504,0,Random Forest
+296,validation,1,0.916062838021026,1,Random Forest
+297,validation,0,0.0385085262982375,0,Random Forest
+298,validation,0,0.6649548594703112,1,Random Forest
+299,validation,0,0.4884279750198304,0,Random Forest
+300,validation,0,0.1610667520639766,0,Random Forest
+301,validation,0,0.011445062786642,0,Random Forest
+302,validation,0,0.0,0,Random Forest
+303,validation,0,0.0040575315494941,0,Random Forest
+304,validation,0,0.0281675695834956,0,Random Forest
+305,validation,0,0.0455053298317886,0,Random Forest
+306,validation,0,0.4411183236580134,0,Random Forest
+307,validation,0,0.0107705408367725,0,Random Forest
+308,validation,0,0.1567761351889573,0,Random Forest
+309,validation,0,0.0718023556885645,0,Random Forest
+310,validation,0,0.0271712517798084,0,Random Forest
+311,validation,0,0.0031034185826229,0,Random Forest
+312,validation,0,0.0012498916228823,0,Random Forest
+313,validation,0,0.5613982106109795,1,Random Forest
+314,validation,0,0.0090015026223086,0,Random Forest
+315,validation,0,0.6603850103880585,1,Random Forest
+316,validation,0,0.0106065977807911,0,Random Forest
+317,validation,0,0.1845212429549456,0,Random Forest
+318,validation,0,0.1101072949851722,0,Random Forest
+319,validation,0,0.0639165166559848,0,Random Forest
+320,validation,0,0.1178451831569547,0,Random Forest
+321,validation,0,0.025086573165385,0,Random Forest
+322,validation,0,0.374224179853068,0,Random Forest
+323,validation,0,0.0,0,Random Forest
+324,validation,0,0.0594339757573341,0,Random Forest
+325,validation,0,0.1462095627123875,0,Random Forest
+326,validation,0,0.1878304261648674,0,Random Forest
+327,validation,0,0.2631891326570512,0,Random Forest
+328,validation,0,0.8142666746626123,1,Random Forest
+329,validation,0,0.0077780311985108,0,Random Forest
+330,validation,0,0.0028124390339069,0,Random Forest
+331,validation,0,0.0797703960047044,0,Random Forest
+332,validation,0,0.4487584445410296,0,Random Forest
+333,validation,0,0.0359541594366065,0,Random Forest
+334,validation,0,0.0,0,Random Forest
+335,validation,0,0.0764802926654482,0,Random Forest
+336,validation,0,0.0114948244472648,0,Random Forest
+337,validation,0,0.0028124390339069,0,Random Forest
+338,validation,0,0.0005084148010213,0,Random Forest
+339,validation,0,0.0143005677243098,0,Random Forest
+340,validation,0,0.1460329942808171,0,Random Forest
+341,validation,0,0.0392411077791627,0,Random Forest
+342,validation,1,0.6088972177570259,1,Random Forest
+343,validation,1,0.9096857750778896,1,Random Forest
+344,validation,0,0.0,0,Random Forest
+345,validation,0,0.014470239752674,0,Random Forest
+346,validation,0,0.1076298950588378,0,Random Forest
+347,validation,0,0.0005824575863726,0,Random Forest
+348,validation,0,0.0169593342183594,0,Random Forest
+349,validation,0,0.0394635670250027,0,Random Forest
+350,validation,0,0.014723885964149,0,Random Forest
+351,validation,0,0.0220759093128103,0,Random Forest
+352,validation,0,0.0174817039071011,0,Random Forest
+353,validation,1,0.3504454812652984,0,Random Forest
+354,validation,0,0.0114305809127779,0,Random Forest
+355,validation,0,0.083057102330315,0,Random Forest
+356,validation,0,0.0296547623151596,0,Random Forest
+357,validation,0,0.0080572192974824,0,Random Forest
+358,validation,0,0.2609494867055296,0,Random Forest
+359,validation,0,0.0310077798594219,0,Random Forest
+360,validation,0,0.0435658402884279,0,Random Forest
+361,validation,1,0.8952042480134389,1,Random Forest
+362,validation,0,0.1274442260554774,0,Random Forest
+363,validation,0,0.0156178325762919,0,Random Forest
+364,validation,0,0.0682670709058039,0,Random Forest
+365,validation,0,0.0115999787423009,0,Random Forest
+366,validation,0,0.0624346595744425,0,Random Forest
+367,validation,0,0.0058168871035331,0,Random Forest
+368,validation,0,0.0890917602985574,0,Random Forest
+369,validation,0,0.0056248780678138,0,Random Forest
+370,validation,0,0.1712902443161011,0,Random Forest
+371,validation,0,0.1067854752689154,0,Random Forest
+372,validation,0,0.0492910373257996,0,Random Forest
+373,validation,0,0.0319242830946803,0,Random Forest
+374,validation,0,0.1691949123047691,0,Random Forest
+375,validation,0,0.0145494734379967,0,Random Forest
+376,validation,0,0.0773349660479533,0,Random Forest
+377,validation,0,0.1419594701637505,0,Random Forest
+378,validation,0,0.0877778114667009,0,Random Forest
+379,validation,0,0.02893424864353,0,Random Forest
+380,validation,0,0.0033734522965246,0,Random Forest
+381,validation,0,0.0651343578898423,0,Random Forest
+382,validation,0,0.0184886241004662,0,Random Forest
+383,validation,0,0.0205441114111388,0,Random Forest
+384,validation,0,0.0435630845150168,0,Random Forest
+385,validation,1,0.350721137408947,0,Random Forest
+386,validation,0,0.0045220734541452,0,Random Forest
+387,validation,0,0.0192938116826195,0,Random Forest
+388,validation,0,0.3572187431261858,0,Random Forest
+389,validation,1,0.812091169561555,1,Random Forest
+390,validation,0,0.0,0,Random Forest
+391,validation,0,0.0,0,Random Forest
+392,validation,0,0.1522064752887909,0,Random Forest
+393,validation,0,0.0005388594838671,0,Random Forest
+394,validation,1,0.0416063525837565,0,Random Forest
+395,validation,0,0.1114597432764765,0,Random Forest
+396,validation,0,0.0012498916228823,0,Random Forest
+397,validation,1,0.9075179822498146,1,Random Forest
+398,validation,0,0.3705080967909093,0,Random Forest
+399,validation,0,0.1886426983878092,0,Random Forest
+400,validation,0,0.2964295594462213,0,Random Forest
+401,validation,0,0.3612747888835065,0,Random Forest
+402,validation,0,0.0898488780558209,0,Random Forest
+403,validation,0,0.0092626274051577,0,Random Forest
+404,validation,0,0.0701973705249154,0,Random Forest
+405,validation,1,0.021504214829132,0,Random Forest
+406,validation,0,0.0357524337940791,0,Random Forest
+407,validation,0,0.1315255797752492,0,Random Forest
+408,validation,0,0.0054210560109077,0,Random Forest
+409,validation,0,0.3787221438064465,0,Random Forest
+410,validation,0,0.0957929848494553,0,Random Forest
+411,validation,0,0.0078856121954746,0,Random Forest
+412,validation,0,0.2787279156795074,0,Random Forest
+413,validation,0,0.0112430404486299,0,Random Forest
+414,validation,1,0.8680518094966599,1,Random Forest
+415,validation,0,0.0348961909763462,0,Random Forest
+416,validation,0,0.0565724951396453,0,Random Forest
+417,validation,1,0.8505677899028009,1,Random Forest
+418,validation,0,0.0079471818547675,0,Random Forest
+419,validation,0,0.0466430547822167,0,Random Forest
+420,validation,1,0.8883452952703855,1,Random Forest
+421,validation,1,0.9469013255316412,1,Random Forest
+422,validation,0,0.0647819146698673,0,Random Forest
+423,validation,0,0.0042195374699287,0,Random Forest
+424,validation,0,0.0063003210669301,0,Random Forest
+425,validation,0,0.1110757674478582,0,Random Forest
+426,validation,0,0.0254437513461618,0,Random Forest
+427,validation,0,0.3793433812959885,0,Random Forest
+428,validation,0,0.0275884852494789,0,Random Forest
+429,validation,0,0.2520626953835329,0,Random Forest
+430,validation,0,0.0553261631360846,0,Random Forest
+431,validation,0,0.0154474306044251,0,Random Forest
+432,validation,1,0.3486752342268834,0,Random Forest
+433,validation,0,0.1041458305074559,0,Random Forest
+434,validation,0,0.171466097423714,0,Random Forest
+435,validation,0,0.0161260117376477,0,Random Forest
+436,validation,0,0.0067936039490603,0,Random Forest
+437,validation,0,0.1563186661475513,0,Random Forest
+438,validation,0,0.0692865241075285,0,Random Forest
+439,validation,1,0.7130559081343537,1,Random Forest
+440,validation,0,0.0202767502027459,0,Random Forest
+441,validation,0,0.043524450899389,0,Random Forest
+442,validation,0,0.0544032714244387,0,Random Forest
+443,validation,0,0.523880116300002,1,Random Forest
+444,validation,0,0.0553981129274767,0,Random Forest
+445,validation,1,0.6658354961946265,1,Random Forest
+446,validation,0,0.0834463594677831,0,Random Forest
+447,validation,0,0.0131115367139772,0,Random Forest
+448,validation,0,0.0024323412296686,0,Random Forest
+449,validation,0,0.0323175735337695,0,Random Forest
+450,validation,0,0.024072290907167,0,Random Forest
+451,validation,0,0.0269090868540027,0,Random Forest
+452,validation,0,0.5611630253919815,1,Random Forest
+453,validation,0,0.0107137187021258,0,Random Forest
+454,validation,0,0.0296645699459119,0,Random Forest
+455,validation,0,0.0388176972851095,0,Random Forest
+456,validation,0,0.0006568611369311,0,Random Forest
+457,validation,0,0.3604291543438667,0,Random Forest
+458,validation,0,0.0043392707742109,0,Random Forest
+459,validation,1,0.228149195073916,0,Random Forest
+460,validation,0,0.79807778796039,1,Random Forest
+461,validation,0,0.090394063031638,0,Random Forest
+462,validation,0,0.0235849208977961,0,Random Forest
+463,validation,0,0.5302880862986186,1,Random Forest
+464,validation,0,0.7561889893374508,1,Random Forest
+465,validation,1,0.3312564918540861,0,Random Forest
+466,validation,0,0.0610811111370501,0,Random Forest
+467,validation,0,0.0221472418939058,0,Random Forest
+468,validation,0,0.0241742849529081,0,Random Forest
+469,validation,0,0.5957764118031527,1,Random Forest
+470,validation,1,0.7586000959479373,1,Random Forest
+471,validation,1,0.7702127148923769,1,Random Forest
+472,validation,0,0.0168136096600971,0,Random Forest
+473,validation,0,0.0024323412296686,0,Random Forest
+474,validation,0,0.8014875607036718,1,Random Forest
+475,validation,0,0.0872473185251545,0,Random Forest
+476,validation,1,0.0865911572418379,0,Random Forest
+477,validation,0,0.3092160454064032,0,Random Forest
+478,validation,0,0.0068192566384501,0,Random Forest
+479,validation,1,0.7498996654121574,1,Random Forest
+480,validation,0,0.2594561630637827,0,Random Forest
+481,validation,0,0.0,0,Random Forest
+482,validation,0,0.0189100327317179,0,Random Forest
+483,validation,0,0.0303860902371848,0,Random Forest
+484,validation,0,0.0133400682855869,0,Random Forest
+485,validation,0,0.1048183738246677,0,Random Forest
+486,validation,0,0.0131145318669576,0,Random Forest
+487,validation,0,0.079579077393359,0,Random Forest
+488,validation,0,0.0088164861516841,0,Random Forest
+489,validation,0,0.8834362666322403,1,Random Forest
+490,validation,0,0.0189259488745969,0,Random Forest
+491,validation,0,0.1656704451305932,0,Random Forest
+492,validation,0,0.42508296158405,0,Random Forest
+493,validation,0,0.0007691486864289,0,Random Forest
+494,validation,1,0.7519242269849706,1,Random Forest
+495,validation,0,0.0675039153750134,0,Random Forest
+496,validation,0,0.1275329905815417,0,Random Forest
+497,validation,1,0.1627128734141546,0,Random Forest
+498,validation,0,0.0113905526308157,0,Random Forest
+499,validation,0,0.0719848492639334,0,Random Forest
+500,validation,0,0.0007018814515748,0,Random Forest
+501,validation,0,0.0063841449220155,0,Random Forest
+502,validation,0,0.1752117114823073,0,Random Forest
+503,validation,0,0.0057951607184658,0,Random Forest
+504,validation,0,0.0677109885251122,0,Random Forest
+505,validation,1,0.7492685381041093,1,Random Forest
+506,validation,0,0.0089051841235228,0,Random Forest
+507,validation,1,0.6174479479713744,1,Random Forest
+508,validation,1,0.3533964731384202,0,Random Forest
+509,validation,0,0.0,0,Random Forest
+510,validation,0,0.0099122281016683,0,Random Forest
+511,validation,1,0.2625593958157779,0,Random Forest
+512,validation,0,0.424085237778037,0,Random Forest
+513,validation,0,0.0372797038736565,0,Random Forest
+514,validation,0,0.4969120030978955,0,Random Forest
+515,validation,0,0.0074429452364163,0,Random Forest
+516,validation,0,0.089962041914017,0,Random Forest
+517,validation,1,0.6796983679067581,1,Random Forest
+518,validation,0,0.5313607531004633,1,Random Forest
+519,validation,0,0.0165960578212687,0,Random Forest
+520,validation,0,0.0,0,Random Forest
+521,validation,0,0.0526735817361819,0,Random Forest
+522,validation,1,0.7875986762822503,1,Random Forest
+523,validation,0,0.0517427732238308,0,Random Forest
+524,validation,0,0.0054831528183508,0,Random Forest
+525,validation,0,0.011566828378148,0,Random Forest
+526,validation,1,0.3945565738852205,0,Random Forest
+527,validation,0,0.0289813082430618,0,Random Forest
+528,validation,0,0.03451157882536,0,Random Forest
+529,validation,1,0.7878730268903333,1,Random Forest
+530,validation,0,0.0021427509735723,0,Random Forest
+531,validation,0,0.0605320570668871,0,Random Forest
+532,validation,0,0.1092018334147079,0,Random Forest
+533,validation,1,0.4908920406250318,0,Random Forest
+534,validation,0,0.0053802601034313,0,Random Forest
+535,validation,0,0.0536731142254034,0,Random Forest
+536,validation,0,0.0425161874827052,0,Random Forest
+537,validation,0,0.021869092677624,0,Random Forest
+538,validation,0,0.0155390936072989,0,Random Forest
+539,validation,0,0.0033612794211709,0,Random Forest
+540,validation,0,0.0092559535780559,0,Random Forest
+541,validation,0,0.0139479519064956,0,Random Forest
+542,validation,0,0.0727340250714667,0,Random Forest
+543,validation,0,0.0153115176677393,0,Random Forest
+544,validation,0,0.0850086459055236,0,Random Forest
+545,validation,0,0.0819584272428226,0,Random Forest
+546,validation,1,0.343203757550725,0,Random Forest
+547,validation,0,0.0156511237172815,0,Random Forest
+548,validation,0,0.0604681584854665,0,Random Forest
+549,validation,0,0.0489076253246711,0,Random Forest
+550,validation,0,0.0395929904529562,0,Random Forest
+551,validation,0,0.0271495582744596,0,Random Forest
+552,validation,0,0.0437523119001035,0,Random Forest
+553,validation,0,0.0060262725902968,0,Random Forest
+554,validation,0,0.0192140405992748,0,Random Forest
+555,validation,0,0.3014312780420098,0,Random Forest
+556,validation,0,0.6873720343415034,1,Random Forest
+557,validation,1,0.2023141431330021,0,Random Forest
+558,validation,0,0.0279717689377862,0,Random Forest
+559,validation,0,0.1700703232161467,0,Random Forest
+560,validation,1,0.9431512030712323,1,Random Forest
+561,validation,0,0.0479289705240041,0,Random Forest
+562,validation,0,0.0180372969745484,0,Random Forest
+563,validation,1,0.6497540806219226,1,Random Forest
+564,validation,0,0.0152432439097211,0,Random Forest
+565,validation,0,0.0417534124944946,0,Random Forest
+566,validation,1,0.3346038088965891,0,Random Forest
+567,validation,0,0.0367272475918239,0,Random Forest
+568,validation,0,0.0208056151210377,0,Random Forest
+569,validation,1,0.1042347648045837,0,Random Forest
+570,validation,0,0.007788068705602,0,Random Forest
+571,validation,0,0.1401687783930188,0,Random Forest
+572,validation,0,0.000803486829638,0,Random Forest
+573,validation,0,0.1199656503805115,0,Random Forest
+574,validation,0,0.1432164021227643,0,Random Forest
+575,validation,0,0.1427832555217278,0,Random Forest
+576,validation,0,0.008820174632833,0,Random Forest
+577,validation,1,0.4269032029892596,0,Random Forest
+578,validation,0,0.0028124390339069,0,Random Forest
+579,validation,0,0.6386916958062505,1,Random Forest
+580,validation,0,0.0437731036381335,0,Random Forest
+581,validation,0,0.0102911087768436,0,Random Forest
+582,validation,1,0.8782724226956384,1,Random Forest
+583,validation,0,0.010668209555015,0,Random Forest
+584,validation,0,0.5999675733954528,1,Random Forest
+585,validation,0,0.0269034305041344,0,Random Forest
+586,validation,0,0.0162087451852361,0,Random Forest
+587,validation,0,0.0139137542330738,0,Random Forest
+588,validation,0,0.0050437416589688,0,Random Forest
+589,validation,0,0.0003370366214042,0,Random Forest
+590,validation,0,0.0024323412296686,0,Random Forest
+591,validation,0,0.1283178102696839,0,Random Forest
+592,validation,0,0.0290835103466939,0,Random Forest
+593,validation,1,0.8188172372358938,1,Random Forest
+594,validation,0,0.0150462914694379,0,Random Forest
+595,validation,0,0.0355302283162166,0,Random Forest
+596,validation,0,0.1484777183839893,0,Random Forest
+597,validation,0,0.0630775615320171,0,Random Forest
+598,validation,0,0.0259031970279385,0,Random Forest
+599,validation,0,0.0257634813887109,0,Random Forest
+600,validation,1,0.2138511392382482,0,Random Forest
+601,validation,0,0.0193214889510922,0,Random Forest
+602,validation,0,0.0019431595347218,0,Random Forest
+603,validation,1,0.930523386165348,1,Random Forest
+604,validation,0,0.0811399197736082,0,Random Forest
+605,validation,0,0.0031858211511475,0,Random Forest
+606,validation,0,0.0239761559356365,0,Random Forest
+607,validation,0,0.0019226628329293,0,Random Forest
+608,validation,0,0.0109497842243959,0,Random Forest
+609,validation,0,0.031311734394986,0,Random Forest
+610,validation,0,0.0542425022160913,0,Random Forest
+611,validation,1,0.3907161062999998,0,Random Forest
+612,validation,1,0.820541397218123,1,Random Forest
+613,validation,0,0.0171585675039417,0,Random Forest
+614,validation,0,0.0068747696906961,0,Random Forest
+615,validation,0,0.0042742253367227,0,Random Forest
+616,validation,0,0.3930376499472593,0,Random Forest
+617,validation,0,0.152756182439476,0,Random Forest
+618,validation,0,0.0155942631743543,0,Random Forest
+619,validation,0,0.175952771055173,0,Random Forest
+620,validation,0,0.0148214620237362,0,Random Forest
+621,validation,0,0.0363023058383861,0,Random Forest
+622,validation,0,0.0137305211037112,0,Random Forest
+623,validation,1,0.8485259838155127,1,Random Forest
+624,validation,0,0.0431081862009909,0,Random Forest
+625,validation,0,0.7636908459773386,1,Random Forest
+626,validation,0,0.0190774013535371,0,Random Forest
+627,validation,0,0.0763492709102165,0,Random Forest
+628,validation,1,0.4530983161060914,0,Random Forest
+629,validation,1,0.3296045300368836,0,Random Forest
+630,validation,0,0.0324798294044701,0,Random Forest
+631,validation,0,0.1666748518358045,0,Random Forest
+632,validation,0,0.5909305048867513,1,Random Forest
+633,validation,0,0.0107592128154435,0,Random Forest
+634,validation,0,0.033096820944826,0,Random Forest
+635,validation,0,0.4907792260740424,0,Random Forest
+636,validation,0,0.0,0,Random Forest
+637,validation,0,0.1150663879856907,0,Random Forest
+638,validation,0,0.0219734536342595,0,Random Forest
+639,validation,0,0.0019455720738261,0,Random Forest
+640,validation,0,0.044716924774019,0,Random Forest
+641,validation,0,0.0170291829031312,0,Random Forest
+642,validation,0,0.1937121728446147,0,Random Forest
+643,validation,0,0.3209342864604004,0,Random Forest
+644,validation,1,0.9061747679667326,1,Random Forest
+645,validation,0,0.0923508318801801,0,Random Forest
+646,validation,0,0.0144413642194979,0,Random Forest
+647,validation,0,0.0879012764771206,0,Random Forest
+648,validation,0,0.0047272196098286,0,Random Forest
+649,validation,0,0.0303306478038335,0,Random Forest
+650,validation,0,0.2615495910409656,0,Random Forest
+651,validation,0,0.0359807608356627,0,Random Forest
+652,validation,0,0.072077152975507,0,Random Forest
+653,validation,1,0.8304303793059288,1,Random Forest
+654,validation,0,0.1973664755484604,0,Random Forest
+655,validation,1,0.8995192927322393,1,Random Forest
+656,validation,0,0.0692670318635943,0,Random Forest
+657,validation,0,0.1629900299395258,0,Random Forest
+658,validation,1,0.7073324531525432,1,Random Forest
+659,validation,0,0.0057794267675036,0,Random Forest
+660,validation,0,0.53984036164046,1,Random Forest
+661,validation,1,0.9318974627543842,1,Random Forest
+662,validation,0,0.1224555894428662,0,Random Forest
+663,validation,0,0.6439953536431954,1,Random Forest
+664,validation,0,0.0268978186196187,0,Random Forest
+665,validation,0,0.0258319725182939,0,Random Forest
+666,validation,0,0.0,0,Random Forest
+667,validation,0,0.0080572192974824,0,Random Forest
+668,validation,1,0.7221983314601593,1,Random Forest
+669,validation,0,0.1155184437575524,0,Random Forest
+670,validation,0,0.0190117410256225,0,Random Forest
+671,validation,0,0.1966949166175409,0,Random Forest
+672,validation,1,0.7771685612852292,1,Random Forest
+673,validation,0,0.0130307136535822,0,Random Forest
+674,validation,0,0.0394395636532911,0,Random Forest
+675,validation,0,0.0511317421711195,0,Random Forest
+676,validation,0,0.0179597696947532,0,Random Forest
+677,validation,0,0.0802672761779868,0,Random Forest
+678,validation,0,0.0749968421721454,0,Random Forest
+679,validation,0,0.1118659859196237,0,Random Forest
+680,validation,0,0.1066583105451068,0,Random Forest
+681,validation,0,0.2386321012525913,0,Random Forest
+682,validation,1,0.857454557081389,1,Random Forest
+683,validation,0,0.0760500726464463,0,Random Forest
+684,validation,0,0.0057344434502631,0,Random Forest
+685,validation,0,0.168244738206493,0,Random Forest
+686,validation,0,0.010907138601907,0,Random Forest
+687,validation,0,0.5549544163915363,1,Random Forest
+688,validation,0,0.1686320342152664,0,Random Forest
+689,validation,1,0.2330956402035729,0,Random Forest
+690,validation,0,0.0049710800472462,0,Random Forest
+691,validation,0,0.1220312616381598,0,Random Forest
+692,validation,1,0.7086191371145413,1,Random Forest
+693,validation,1,0.3535420453185519,0,Random Forest
+694,validation,0,0.0762505074933282,0,Random Forest
+695,validation,0,0.1168454417886749,0,Random Forest
+696,validation,0,0.0001920090357193,0,Random Forest
+697,validation,0,0.0065790841955545,0,Random Forest
+698,validation,0,0.0028124390339069,0,Random Forest
+699,validation,0,0.0368801083352288,0,Random Forest
+700,validation,0,0.1013213739348343,0,Random Forest
+701,validation,0,0.614794523588898,1,Random Forest
+702,validation,0,0.0097468394781554,0,Random Forest
+703,validation,0,0.0206478315818201,0,Random Forest
+704,validation,0,0.9190593815111642,1,Random Forest
+705,validation,0,0.0095919020691659,0,Random Forest
+706,validation,0,0.0058632506225891,0,Random Forest
+707,validation,0,0.0106478315818201,0,Random Forest
+708,validation,0,0.1166113784982618,0,Random Forest
+709,validation,0,0.0,0,Random Forest
+710,validation,0,0.1070640961448,0,Random Forest
+711,validation,0,0.0172290552902503,0,Random Forest
+712,validation,1,0.5839522191458963,1,Random Forest
+713,validation,1,0.6948545146397188,1,Random Forest
+714,validation,1,0.7519589509859701,1,Random Forest
+715,validation,0,0.2964821778129407,0,Random Forest
+716,validation,0,0.0046272589354802,0,Random Forest
+717,validation,0,0.012451203217709,0,Random Forest
+718,validation,0,0.0205942054657536,0,Random Forest
+719,validation,0,0.2242136103696568,0,Random Forest
+720,validation,1,0.586584743505282,1,Random Forest
+721,validation,1,0.1456224421038552,0,Random Forest
+722,validation,0,0.1394218417149235,0,Random Forest
+723,validation,0,0.0092901931842753,0,Random Forest
+724,validation,0,0.0,0,Random Forest
+725,validation,0,0.0494019151923826,0,Random Forest
+726,validation,0,0.0698366839008658,0,Random Forest
+727,validation,0,0.2346238569124996,0,Random Forest
+728,validation,1,0.6190043764094184,1,Random Forest
+729,validation,0,0.0837236740547551,0,Random Forest
+730,validation,1,0.1106534893670367,0,Random Forest
+731,validation,1,0.8733910057425419,1,Random Forest
+732,validation,0,0.0484355994379148,0,Random Forest
+733,validation,0,0.0211431537748256,0,Random Forest
+734,validation,0,0.0252941913060019,0,Random Forest
+735,validation,1,0.7809533502272173,1,Random Forest
+736,validation,0,0.0059519485944278,0,Random Forest
+737,validation,0,0.1681347105200521,0,Random Forest
+738,validation,0,0.045871534696106,0,Random Forest
+739,validation,0,0.0135013158804145,0,Random Forest
+740,validation,0,0.0655040122395299,0,Random Forest
+741,validation,0,0.0136308796639752,0,Random Forest
+742,validation,0,0.0092075376350495,0,Random Forest
+743,validation,0,0.0691824976885669,0,Random Forest
+744,validation,0,0.0206312445854396,0,Random Forest
+745,validation,0,0.00173065379721,0,Random Forest
+746,validation,1,0.6983365701089326,1,Random Forest
+747,validation,0,0.0055651062960779,0,Random Forest
+748,validation,0,0.0308111599007261,0,Random Forest
+749,validation,1,0.0420980854882183,0,Random Forest
+750,validation,0,0.3826768548283543,0,Random Forest
+751,validation,0,0.0089795701974439,0,Random Forest
+752,validation,0,0.026610360842538,0,Random Forest
+753,validation,0,0.0340574457048048,0,Random Forest
+754,validation,0,0.0027208381680248,0,Random Forest
+755,validation,0,0.418545729596317,0,Random Forest
+756,validation,0,0.0,0,Random Forest
+757,validation,0,0.2129568020332282,0,Random Forest
+758,validation,0,0.0,0,Random Forest
+759,validation,0,0.054351990066306,0,Random Forest
+760,validation,0,0.694911880123463,1,Random Forest
+761,validation,0,0.7009162178130844,1,Random Forest
+762,validation,0,0.0144639085296742,0,Random Forest
+763,validation,0,0.029237280952034,0,Random Forest
+764,validation,0,0.0092580091487571,0,Random Forest
+765,validation,0,0.0132125150632711,0,Random Forest
+766,validation,0,0.0131115094339251,0,Random Forest
+767,validation,0,0.0461113927946143,0,Random Forest
+768,validation,0,0.0026451279207056,0,Random Forest
+769,validation,0,0.1453201864211496,0,Random Forest
+770,validation,0,0.377244064168812,0,Random Forest
+771,validation,0,0.1211402436278057,0,Random Forest
+772,validation,0,0.0192411327378853,0,Random Forest
+773,validation,0,0.0019147805759217,0,Random Forest
+774,validation,0,0.0274945874406569,0,Random Forest
+775,validation,0,0.0415000517803779,0,Random Forest
+776,validation,0,0.3638394117336116,0,Random Forest
+777,validation,1,0.1946725672193168,0,Random Forest
+778,validation,0,0.0445738667938873,0,Random Forest
+779,validation,0,0.6425841538685835,1,Random Forest
+780,validation,0,0.563027700666672,1,Random Forest
+781,validation,1,0.2682197198097567,0,Random Forest
+782,validation,0,0.0891020921851805,0,Random Forest
+783,validation,0,0.0056248780678138,0,Random Forest
+784,validation,0,0.040316903027935,0,Random Forest
+785,validation,0,0.0067333100898605,0,Random Forest
+786,validation,0,0.0295285219779459,0,Random Forest
+787,validation,0,0.0594363418840509,0,Random Forest
+788,validation,0,0.0127844389073111,0,Random Forest
+789,validation,0,0.0531025202161277,0,Random Forest
+790,validation,0,0.0043975157246296,0,Random Forest
+791,validation,0,0.0425509555040837,0,Random Forest
+792,validation,0,0.0208074567270464,0,Random Forest
+793,validation,0,0.0591252805010924,0,Random Forest
+794,validation,0,0.0613832553922723,0,Random Forest
+795,validation,0,0.0024323412296686,0,Random Forest
+796,validation,0,0.04111181631492,0,Random Forest
+797,validation,0,0.0888285080879376,0,Random Forest
+798,validation,0,0.0032853694554796,0,Random Forest
+799,validation,0,0.2775909038911881,0,Random Forest
+800,validation,0,0.0001630219677077,0,Random Forest
+801,validation,1,0.120924520648345,0,Random Forest
+802,validation,1,0.4078430610606748,0,Random Forest
+803,validation,0,0.0181211139346738,0,Random Forest
+804,validation,0,0.0028124390339069,0,Random Forest
+805,validation,0,0.1272185525317294,0,Random Forest
+806,validation,0,0.1409147594629118,0,Random Forest
+807,validation,0,0.0937153880814282,0,Random Forest
+808,validation,0,0.0109547350379765,0,Random Forest
+809,validation,0,0.0470717834658197,0,Random Forest
+810,validation,0,0.0,0,Random Forest
+811,validation,0,0.0078764261644502,0,Random Forest
+812,validation,0,0.1114992400349991,0,Random Forest
+813,validation,0,0.0512423828641485,0,Random Forest
+814,validation,0,0.046040522563094,0,Random Forest
+815,validation,0,0.0123853648127289,0,Random Forest
+816,validation,1,0.7697510516711432,1,Random Forest
+817,validation,1,0.4149323952600035,0,Random Forest
+818,validation,1,0.2539997400698934,0,Random Forest
+819,validation,1,0.930130698845296,1,Random Forest
+820,validation,0,0.0702791683448948,0,Random Forest
+821,validation,0,0.0660925814753579,0,Random Forest
+822,validation,0,0.0255788214361915,0,Random Forest
+823,validation,0,0.0287376170561924,0,Random Forest
+824,validation,0,0.0054831528183508,0,Random Forest
+825,validation,0,0.0167023303489726,0,Random Forest
+826,validation,0,0.0061022296377345,0,Random Forest
+827,validation,0,0.0814256196066808,0,Random Forest
+828,validation,0,0.3589860057636466,0,Random Forest
+829,validation,0,0.0417970646842156,0,Random Forest
+830,validation,0,0.0200131217807898,0,Random Forest
+831,validation,0,0.0203956626253397,0,Random Forest
+832,validation,0,0.3884343091031366,0,Random Forest
+833,validation,0,0.0456301944246265,0,Random Forest
+834,validation,0,0.0206646867053296,0,Random Forest
+835,validation,0,0.052192398690925,0,Random Forest
+836,validation,0,0.0592333196817388,0,Random Forest
+837,validation,0,0.0342347606098951,0,Random Forest
+838,validation,0,0.2875871419367503,0,Random Forest
+839,validation,0,0.0053079750127284,0,Random Forest
+840,validation,0,0.2096277566868579,0,Random Forest
+841,validation,0,0.0526267970716947,0,Random Forest
+842,validation,0,0.0753011353918219,0,Random Forest
+843,validation,0,0.0309280011916831,0,Random Forest
+844,validation,0,0.052517274887357,0,Random Forest
+845,validation,0,0.1726017832267559,0,Random Forest
+846,validation,0,0.6105835806813189,1,Random Forest
+847,validation,0,0.0503315589258608,0,Random Forest
+848,validation,0,0.3011224736910666,0,Random Forest
+849,validation,0,0.2114290671571447,0,Random Forest
+850,validation,0,0.0324636254928019,0,Random Forest
+851,validation,0,0.0029407560306899,0,Random Forest
+852,validation,0,0.0061903211492031,0,Random Forest
+853,validation,1,0.7422672043132088,1,Random Forest
+854,validation,1,0.5599402051865584,1,Random Forest
+855,validation,0,0.0322576168650149,0,Random Forest
+856,validation,0,0.0379882547126636,0,Random Forest
+857,validation,0,0.5119204502851411,1,Random Forest
+858,validation,0,0.0881361803772091,0,Random Forest
+859,validation,0,0.019434438370526,0,Random Forest
+860,validation,0,0.5327953528468354,1,Random Forest
+861,validation,0,0.0326522400049012,0,Random Forest
+862,validation,0,0.0,0,Random Forest
+863,validation,0,0.0258997292040769,0,Random Forest
+864,validation,0,0.0173968939597542,0,Random Forest
+865,validation,0,0.0568979390647661,0,Random Forest
+866,validation,0,0.2208991111974264,0,Random Forest
+867,validation,0,0.0090990786818957,0,Random Forest
+868,validation,0,0.0061849577262312,0,Random Forest
+869,validation,0,0.0690809131330705,0,Random Forest
+870,validation,0,0.0013431723315444,0,Random Forest
+871,validation,1,0.8205215305998083,1,Random Forest
+872,validation,1,0.8617110898460024,1,Random Forest
+873,validation,0,0.0365125156452072,0,Random Forest
+874,validation,0,0.0078203657576868,0,Random Forest
+875,validation,0,0.0103167967240121,0,Random Forest
+876,validation,0,0.0,0,Random Forest
+877,validation,0,0.4057681966733155,0,Random Forest
+878,validation,0,0.1022850303469897,0,Random Forest
+879,validation,0,0.0,0,Random Forest
+880,validation,0,0.0481945640981912,0,Random Forest
+881,validation,0,0.1163312150912632,0,Random Forest
+882,validation,0,0.0224236356095928,0,Random Forest
+883,validation,0,0.0092944607816901,0,Random Forest
+884,validation,0,0.0302672134360626,0,Random Forest
+885,validation,0,0.2229617274310143,0,Random Forest
+886,validation,0,0.0455278299005928,0,Random Forest
+887,validation,0,0.0201558210811789,0,Random Forest
+888,validation,0,0.1113667884341862,0,Random Forest
+889,validation,1,0.3188446612451825,0,Random Forest
+890,validation,0,0.0526299290707468,0,Random Forest
+891,validation,0,0.0024323412296686,0,Random Forest
+892,validation,0,0.3595721147550413,0,Random Forest
+893,validation,0,0.0079969771880638,0,Random Forest
+894,validation,0,0.2069157805464858,0,Random Forest
+895,validation,0,0.2186547431184886,0,Random Forest
+896,validation,0,0.654159729265193,1,Random Forest
+897,validation,0,0.009282325562731,0,Random Forest
+898,validation,0,0.0042369684134267,0,Random Forest
+899,validation,0,0.5063373116240418,1,Random Forest
+900,validation,0,0.0399127747369603,0,Random Forest
+901,validation,1,0.7717600465371478,1,Random Forest
+902,validation,0,0.0273690768799722,0,Random Forest
+903,validation,0,0.0543026555072291,0,Random Forest
+904,validation,1,0.7028314251714324,1,Random Forest
+905,validation,0,0.0001630219677077,0,Random Forest
+906,validation,1,0.4208096726993054,0,Random Forest
+907,validation,0,0.033279476822052,0,Random Forest
+908,validation,0,0.137077721285439,0,Random Forest
+909,validation,0,0.2331612851708514,0,Random Forest
+910,validation,0,0.0601979639051184,0,Random Forest
+911,validation,0,0.0,0,Random Forest
+912,validation,0,0.0503574672576592,0,Random Forest
+913,validation,0,0.0804418178247157,0,Random Forest
+914,validation,0,0.0447637055977024,0,Random Forest
+915,validation,0,0.2232118213167866,0,Random Forest
+916,validation,0,0.0026243502653879,0,Random Forest
+917,validation,0,0.0637176985634945,0,Random Forest
+918,validation,0,0.0009788849006986,0,Random Forest
+919,validation,1,0.9475888991039912,1,Random Forest
+920,validation,0,0.6514422670622249,1,Random Forest
+921,validation,0,0.000361159691976,0,Random Forest
+922,validation,0,0.0137508910521552,0,Random Forest
+923,validation,1,0.4552009904645084,0,Random Forest
+924,validation,0,0.1391916294266126,0,Random Forest
+925,validation,0,0.0013431723315444,0,Random Forest
+926,validation,0,0.1068340031008663,0,Random Forest
+927,validation,0,0.5191662010335434,1,Random Forest
+928,validation,0,0.0982733324507436,0,Random Forest
+929,validation,0,0.0031395095605209,0,Random Forest
+930,validation,1,0.8047031345708272,1,Random Forest
+931,validation,0,0.0001630219677077,0,Random Forest
+932,validation,0,0.0154831528183508,0,Random Forest
+933,validation,1,0.832579501035515,1,Random Forest
+934,validation,0,0.0800435680868209,0,Random Forest
+935,validation,0,0.0001920090357193,0,Random Forest
+936,validation,0,0.0,0,Random Forest
+937,validation,0,0.0681596195991691,0,Random Forest
+938,validation,0,0.0648418615979316,0,Random Forest
+939,validation,0,0.054177161510912,0,Random Forest
+940,validation,0,0.0160830497207699,0,Random Forest
+941,validation,0,0.0085052542729173,0,Random Forest
+942,validation,0,0.0385888754428056,0,Random Forest
+943,validation,1,0.2870605167624172,0,Random Forest
+944,validation,1,0.1475572942910273,0,Random Forest
+945,validation,0,0.4295354885767311,0,Random Forest
+946,validation,0,0.1637379980456433,0,Random Forest
+947,validation,0,0.431651812863138,0,Random Forest
+948,validation,0,0.0244456451866213,0,Random Forest
+949,validation,1,0.7061985614611336,1,Random Forest
+950,validation,0,0.0001920090357193,0,Random Forest
+951,validation,0,0.0382187099279064,0,Random Forest
+952,validation,0,0.1450573696709028,0,Random Forest
+953,validation,0,0.132653135076409,0,Random Forest
+954,validation,0,0.2670606148053268,0,Random Forest
+955,validation,0,0.2265468611434604,0,Random Forest
+956,validation,0,0.1556883919908271,0,Random Forest
+957,validation,0,0.599837162877768,1,Random Forest
+958,validation,0,0.0131661172463425,0,Random Forest
+959,validation,0,0.709393279040686,1,Random Forest
+960,validation,1,0.3394490148096132,0,Random Forest
+961,validation,0,0.0630746119572125,0,Random Forest
+962,validation,0,0.0021427509735723,0,Random Forest
+963,validation,0,0.0,0,Random Forest
+964,validation,1,0.6160130244836464,1,Random Forest
+965,validation,1,0.9753738829132644,1,Random Forest
+966,validation,0,0.0357439774943831,0,Random Forest
+967,validation,0,0.1900802433890005,0,Random Forest
+968,validation,0,0.5883136236482628,1,Random Forest
+969,validation,0,0.0019147805759217,0,Random Forest
+970,validation,0,0.0588698701668229,0,Random Forest
+971,validation,0,0.0249990942884581,0,Random Forest
+972,validation,0,0.3083676407728118,0,Random Forest
+973,validation,1,0.4843788968532021,0,Random Forest
+974,validation,0,0.0791449837149242,0,Random Forest
+975,validation,1,0.3375987706897001,0,Random Forest
+976,validation,0,0.0203930550295977,0,Random Forest
+977,validation,0,0.0388687575750041,0,Random Forest
+978,validation,1,0.6423853099736954,1,Random Forest
+979,validation,0,0.0067923202400087,0,Random Forest
+980,validation,0,0.0084718675995899,0,Random Forest
+981,validation,0,0.0094479074155528,0,Random Forest
+982,validation,0,0.0142064587102277,0,Random Forest
+983,validation,0,0.0795972379618682,0,Random Forest
+984,validation,0,0.0,0,Random Forest
+985,validation,0,0.7326911897486681,1,Random Forest
+986,validation,1,0.689844748769656,1,Random Forest
+987,validation,0,0.7097876393020741,1,Random Forest
+988,validation,0,0.0255493951056625,0,Random Forest
+989,validation,0,0.086934283341496,0,Random Forest
+990,validation,0,0.0345952149340924,0,Random Forest
+991,validation,0,0.0343223900155414,0,Random Forest
+992,validation,0,0.0678398363124044,0,Random Forest
+993,validation,0,0.7244967914006073,1,Random Forest
+994,validation,0,0.1001357787160496,0,Random Forest
+995,validation,0,0.3185301459932381,0,Random Forest
+996,validation,1,0.9129608840337732,1,Random Forest
+997,validation,0,0.0218979736898404,0,Random Forest
+998,validation,0,0.0156373395188387,0,Random Forest
+999,validation,0,0.1171136308278476,0,Random Forest
+1000,validation,0,0.0034271027358586,0,Random Forest
+1001,validation,0,0.6393875571285642,1,Random Forest
+1002,validation,1,0.791536732838075,1,Random Forest
+1003,validation,0,0.0432591233780276,0,Random Forest
+1004,validation,1,0.1219506834291347,0,Random Forest
+1005,validation,0,0.0351087599927345,0,Random Forest
+1006,validation,0,0.4206043935485724,0,Random Forest
+1007,validation,0,0.0003370366214042,0,Random Forest
+1008,validation,0,0.0359888954095098,0,Random Forest
+1009,validation,0,0.0455994328019357,0,Random Forest
+1010,validation,1,0.6902889614568916,1,Random Forest
+1011,validation,0,0.5282722653685341,1,Random Forest
+1012,validation,0,0.0924395068647687,0,Random Forest
+1013,validation,0,0.0261328651115282,0,Random Forest
+1014,validation,0,0.0257030053904523,0,Random Forest
+1015,validation,1,0.50213163111529,1,Random Forest
+1016,validation,1,0.9111423953341928,1,Random Forest
+1017,validation,0,0.0066898662846825,0,Random Forest
+1018,validation,0,0.0103892189379768,0,Random Forest
+1019,validation,0,0.3068855427368989,0,Random Forest
+1020,validation,0,0.01271672380982,0,Random Forest
+1021,validation,0,0.6203422974340733,1,Random Forest
+1022,validation,1,0.769595905667066,1,Random Forest
+1023,validation,0,0.0,0,Random Forest
+1024,validation,0,0.1032501319934517,0,Random Forest
+1025,validation,0,0.1493397751768072,0,Random Forest
+1026,validation,0,0.0275635473204921,0,Random Forest
+1027,validation,0,0.0581792779959738,0,Random Forest
+1028,validation,0,0.0,0,Random Forest
+1029,validation,0,0.0330451659073074,0,Random Forest
+1030,validation,1,0.7299652061140608,1,Random Forest
+1031,validation,0,0.0381738481459798,0,Random Forest
+1032,validation,0,0.0308164908708917,0,Random Forest
+1033,validation,0,0.0,0,Random Forest
+1034,validation,0,0.0361746863627604,0,Random Forest
+1035,validation,1,0.9364512538559128,1,Random Forest
+1036,validation,0,0.0240924265946837,0,Random Forest
+1037,validation,0,0.3030683770846815,0,Random Forest
+1038,validation,0,0.4940905521137169,0,Random Forest
+1039,validation,1,0.146588727784781,0,Random Forest
+1040,validation,0,0.0151421250545672,0,Random Forest
+1041,validation,0,0.0812201698028396,0,Random Forest
+1042,validation,0,0.0119158994829741,0,Random Forest
+1043,validation,0,0.0026086169770008,0,Random Forest
+1044,validation,0,0.8248291925483062,1,Random Forest
+1045,validation,1,0.4579658416846023,0,Random Forest
+1046,validation,0,0.0692826705659547,0,Random Forest
+1047,validation,0,0.0216880989614576,0,Random Forest
+1048,validation,0,0.0238004991344952,0,Random Forest
+1049,validation,0,0.0152725513330713,0,Random Forest
+1050,validation,1,0.7142963792505719,1,Random Forest
+1051,validation,0,0.0209534501925336,0,Random Forest
+1052,validation,0,0.0062594685907249,0,Random Forest
+1053,validation,0,0.1973324924559473,0,Random Forest
+1054,validation,0,0.4658895744781555,0,Random Forest
+1055,validation,0,0.0109275456964084,0,Random Forest
+1056,validation,0,0.0962891983934953,0,Random Forest
+1057,validation,0,0.0143618811632633,0,Random Forest
+1058,validation,0,0.1487737354048225,0,Random Forest
+1059,validation,0,0.1753572152438542,0,Random Forest
+1060,validation,0,0.2246496362542943,0,Random Forest
+1061,validation,0,0.0281381998162562,0,Random Forest
+1062,validation,1,0.6267748406057781,1,Random Forest
+1063,validation,1,0.825957342305448,1,Random Forest
+1064,validation,0,0.0684508542635145,0,Random Forest
+1065,validation,0,0.2483995761136914,0,Random Forest
+1066,validation,0,0.0222649477175367,0,Random Forest
+1067,validation,0,0.0115177496380495,0,Random Forest
+1068,validation,0,0.5762454126321437,1,Random Forest
+1069,validation,0,0.0077045206285893,0,Random Forest
+1070,validation,1,0.066322094107901,0,Random Forest
+1071,validation,0,0.0200075785714366,0,Random Forest
+1072,validation,1,0.8594702149416681,1,Random Forest
+1073,validation,0,0.0961793992235652,0,Random Forest
+1074,validation,0,0.128609174670785,0,Random Forest
+1075,validation,0,0.0134719946157208,0,Random Forest
+1076,validation,0,0.3497811202234407,0,Random Forest
+1077,validation,0,0.0084590406761865,0,Random Forest
+1078,validation,0,0.0012498916228823,0,Random Forest
+1079,validation,1,0.0560234637248823,0,Random Forest
+1080,validation,0,0.00173065379721,0,Random Forest
+1081,validation,0,0.1595154066737353,0,Random Forest
+1082,validation,0,0.0204988382069865,0,Random Forest
+1083,validation,0,0.0712694052149731,0,Random Forest
+1084,validation,0,0.0704323686237559,0,Random Forest
+1085,validation,0,0.0547980745713157,0,Random Forest
+1086,validation,0,0.0783956924293032,0,Random Forest
+1087,validation,0,0.0156633101867857,0,Random Forest
+1088,validation,0,0.046356299931005,0,Random Forest
+1089,validation,0,0.3432773981172344,0,Random Forest
+1090,validation,0,0.0091919208411781,0,Random Forest
+1091,validation,0,0.0102793310661358,0,Random Forest
+1092,validation,0,0.0528032437428964,0,Random Forest
+1093,validation,1,0.9075740749237938,1,Random Forest
+1094,validation,0,0.0441092659178312,0,Random Forest
+1095,validation,1,0.90155463533587,1,Random Forest
+1096,validation,0,0.0008822629407948,0,Random Forest
+1097,validation,0,0.0724837932999818,0,Random Forest
+1098,validation,0,0.0032142697881828,0,Random Forest
+1099,validation,0,0.0539182789278767,0,Random Forest
+1100,validation,0,0.4486591060199439,0,Random Forest
+1101,validation,0,0.1519253507654945,0,Random Forest
+1102,validation,0,0.0001630219677077,0,Random Forest
+1103,validation,1,0.5911778227805872,1,Random Forest
+1104,validation,0,0.1123987006031368,0,Random Forest
+1105,validation,0,0.0,0,Random Forest
+1106,validation,0,0.0487974744929324,0,Random Forest
+1107,validation,0,0.2466362883366101,0,Random Forest
+1108,validation,0,0.0221467849617001,0,Random Forest
+1109,validation,0,0.0408535108289427,0,Random Forest
+1110,validation,0,0.1017115272255001,0,Random Forest
+1111,validation,1,0.7494368634913486,1,Random Forest
+1112,validation,0,0.0203420483449652,0,Random Forest
+1113,validation,0,0.1215865197774676,0,Random Forest
+1114,validation,0,0.1007992580704914,0,Random Forest
+1115,validation,0,0.0157222789192159,0,Random Forest
+1116,validation,0,0.0299757523496415,0,Random Forest
+1117,validation,0,0.0030377953302855,0,Random Forest
+1118,validation,0,0.6315523569957068,1,Random Forest
+1119,validation,0,0.0814341736752716,0,Random Forest
+1120,validation,0,0.016696279488288,0,Random Forest
+1121,validation,0,0.0033333333333333,0,Random Forest
+1122,validation,0,0.069897382758736,0,Random Forest
+1123,validation,1,0.6762460099419887,1,Random Forest
+1124,validation,0,0.037424091400785,0,Random Forest
+1125,validation,0,0.0018299664611487,0,Random Forest
+1126,validation,1,0.1094896036226022,0,Random Forest
+1127,validation,0,0.009439830627451,0,Random Forest
+1128,validation,0,0.2139807206153335,0,Random Forest
+1129,validation,0,0.0117095936370437,0,Random Forest
+1130,validation,0,0.0720385646769804,0,Random Forest
+1131,validation,1,0.6456647082553646,1,Random Forest
+1132,validation,0,0.1980077514065542,0,Random Forest
+1133,validation,0,0.0700386086867337,0,Random Forest
+1134,validation,0,0.0820836330965284,0,Random Forest
+1135,validation,0,0.141828144187868,0,Random Forest
+1136,validation,0,0.026416208263199,0,Random Forest
+1137,validation,0,0.0372420691879209,0,Random Forest
+1138,validation,0,0.4382792805433861,0,Random Forest
+1139,validation,0,0.0028124390339069,0,Random Forest
+1140,validation,0,0.0085781135969088,0,Random Forest
+1141,validation,0,0.0357906242531017,0,Random Forest
+1142,validation,0,0.0141105011069279,0,Random Forest
+1143,validation,0,0.2898228299383168,0,Random Forest
+1144,validation,1,0.6590339172448813,1,Random Forest
+1145,validation,0,0.0158527261910648,0,Random Forest
+1146,validation,0,0.1330762809004868,0,Random Forest
+1147,validation,0,0.0071674430965048,0,Random Forest
+1148,validation,0,0.056556769475735,0,Random Forest
+1149,validation,0,0.0232636641205649,0,Random Forest
+1150,validation,0,0.0073958915715436,0,Random Forest
+1151,validation,0,0.3797781376055129,0,Random Forest
+1152,validation,1,0.9429508065777285,1,Random Forest
+1153,validation,1,0.7533907156294626,1,Random Forest
+1154,validation,0,0.0210164493274382,0,Random Forest
+1155,validation,1,0.4870308223914295,0,Random Forest
+1156,validation,1,0.2948072468338431,0,Random Forest
+1157,validation,1,0.173519419126157,0,Random Forest
+1158,validation,0,0.1282144758393089,0,Random Forest
+1159,validation,0,0.0204638458595297,0,Random Forest
+1160,validation,0,0.0351934339206129,0,Random Forest
+1161,validation,0,0.0197073844956104,0,Random Forest
+1162,validation,0,0.0,0,Random Forest
+1163,validation,1,0.7960652266185044,1,Random Forest
+1164,validation,1,0.3707780786010607,0,Random Forest
+1165,validation,0,0.0580727853976773,0,Random Forest
+1166,validation,0,0.0946667477581782,0,Random Forest
+1167,validation,0,0.0511186722785475,0,Random Forest
+1168,validation,0,0.0174954682626854,0,Random Forest
+1169,validation,1,0.1409981197334728,0,Random Forest
+1170,validation,1,0.0645829753296562,0,Random Forest
+1171,validation,0,0.0345223160949181,0,Random Forest
+1172,validation,0,0.2142650099637645,0,Random Forest
+1173,validation,0,0.0033612794211709,0,Random Forest
+1174,validation,0,0.0321287092148927,0,Random Forest
+1175,validation,0,0.4625122678805241,0,Random Forest
+1176,validation,0,0.0054760843069056,0,Random Forest
+1177,validation,0,0.0677587152608335,0,Random Forest
+1178,validation,0,0.1546062588016803,0,Random Forest
+1179,validation,0,0.0195302822107202,0,Random Forest
+1180,validation,1,0.6766517173802629,1,Random Forest
+1181,validation,0,0.783477239941983,1,Random Forest
+1182,validation,0,0.0032068078517606,0,Random Forest
+1183,validation,0,0.0972445975103544,0,Random Forest
+1184,validation,0,0.7411318987144132,1,Random Forest
+1185,validation,0,0.0240273347975013,0,Random Forest
+1186,validation,0,0.876665965554173,1,Random Forest
+1187,validation,0,0.0546595053307154,0,Random Forest
+1188,validation,0,0.6758289428066591,1,Random Forest
+1189,validation,0,0.2507373154759235,0,Random Forest
+1190,validation,0,0.2314215195939245,0,Random Forest
+1191,validation,0,0.6643880219436584,1,Random Forest
+1192,validation,1,0.5219549682960686,1,Random Forest
+1193,validation,0,0.1711992035953783,0,Random Forest
+1194,validation,0,0.0462480222801104,0,Random Forest
+1195,validation,0,0.0297802791404076,0,Random Forest
+1196,validation,0,0.0301766417971258,0,Random Forest
+1197,validation,0,0.1288698092878638,0,Random Forest
+1198,validation,0,0.4771332155290354,0,Random Forest
+1199,validation,0,0.0290164564227389,0,Random Forest
+1200,validation,0,0.2672372101895005,0,Random Forest
+1201,validation,0,0.0345857887364144,0,Random Forest
+1202,validation,0,0.3346108679181744,0,Random Forest
+1203,validation,0,0.0061577619757081,0,Random Forest
+1204,validation,0,0.0,0,Random Forest
+1205,validation,0,0.0077146017637618,0,Random Forest
+1206,validation,0,0.0,0,Random Forest
+1207,validation,1,0.2855423529636462,0,Random Forest
+1208,validation,0,0.0029669877335967,0,Random Forest
+1209,validation,0,0.0049042525230929,0,Random Forest
+1210,validation,0,0.018345527305624,0,Random Forest
+1211,validation,0,0.0571951914690427,0,Random Forest
+1212,validation,0,0.1005255844380796,0,Random Forest
+1213,validation,0,0.046033578510348,0,Random Forest
+1214,validation,0,0.0065912416594631,0,Random Forest
+1215,validation,0,0.0200662422873117,0,Random Forest
+1216,validation,0,0.0658546169100413,0,Random Forest
+1217,validation,0,0.0,0,Random Forest
+1218,validation,0,0.4112166174992113,0,Random Forest
+1219,validation,1,0.946515094238705,1,Random Forest
+1220,validation,0,0.039055947227878,0,Random Forest
+0,validation,0,2.0089855e-07,0,MLP_final_seed42
+1,validation,0,3.1232605e-05,0,MLP_final_seed42
+2,validation,0,0.13727528,0,MLP_final_seed42
+3,validation,0,0.4009599,0,MLP_final_seed42
+4,validation,0,0.4097535,0,MLP_final_seed42
+5,validation,1,0.8997116,1,MLP_final_seed42
+6,validation,0,0.00013013501,0,MLP_final_seed42
+7,validation,0,0.05707693,0,MLP_final_seed42
+8,validation,0,4.1123716e-05,0,MLP_final_seed42
+9,validation,0,0.9332411,1,MLP_final_seed42
+10,validation,0,0.79432863,1,MLP_final_seed42
+11,validation,0,0.42221224,0,MLP_final_seed42
+12,validation,0,0.036040686,0,MLP_final_seed42
+13,validation,1,0.93417805,1,MLP_final_seed42
+14,validation,0,0.28906086,0,MLP_final_seed42
+15,validation,0,0.520586,1,MLP_final_seed42
+16,validation,0,0.4130321,0,MLP_final_seed42
+17,validation,0,0.00084509276,0,MLP_final_seed42
+18,validation,0,0.00069000066,0,MLP_final_seed42
+19,validation,0,0.71149284,1,MLP_final_seed42
+20,validation,0,0.0005242549,0,MLP_final_seed42
+21,validation,0,0.24191058,0,MLP_final_seed42
+22,validation,0,0.00031319697,0,MLP_final_seed42
+23,validation,0,0.16344556,0,MLP_final_seed42
+24,validation,0,7.8923644e-05,0,MLP_final_seed42
+25,validation,0,1.5094618e-05,0,MLP_final_seed42
+26,validation,0,0.06307894,0,MLP_final_seed42
+27,validation,0,0.007917552,0,MLP_final_seed42
+28,validation,0,0.59021926,1,MLP_final_seed42
+29,validation,0,0.65984976,1,MLP_final_seed42
+30,validation,0,0.7667531,1,MLP_final_seed42
+31,validation,0,0.00013405687,0,MLP_final_seed42
+32,validation,0,0.00041651173,0,MLP_final_seed42
+33,validation,0,0.7903369,1,MLP_final_seed42
+34,validation,0,8.024059e-05,0,MLP_final_seed42
+35,validation,0,0.38666824,0,MLP_final_seed42
+36,validation,0,0.008329954,0,MLP_final_seed42
+37,validation,0,2.3123486e-05,0,MLP_final_seed42
+38,validation,0,1.5348821e-06,0,MLP_final_seed42
+39,validation,0,0.6875342,1,MLP_final_seed42
+40,validation,0,0.00055466016,0,MLP_final_seed42
+41,validation,0,1.6727261e-05,0,MLP_final_seed42
+42,validation,0,0.0013689043,0,MLP_final_seed42
+43,validation,1,0.98293483,1,MLP_final_seed42
+44,validation,0,0.29468066,0,MLP_final_seed42
+45,validation,1,0.30295005,0,MLP_final_seed42
+46,validation,0,2.518925e-06,0,MLP_final_seed42
+47,validation,1,0.9866445,1,MLP_final_seed42
+48,validation,1,0.97517663,1,MLP_final_seed42
+49,validation,0,0.19934958,0,MLP_final_seed42
+50,validation,0,0.9271771,1,MLP_final_seed42
+51,validation,1,0.9077426,1,MLP_final_seed42
+52,validation,0,0.0703684,0,MLP_final_seed42
+53,validation,0,0.010201364,0,MLP_final_seed42
+54,validation,0,0.0048574777,0,MLP_final_seed42
+55,validation,0,0.07661174,0,MLP_final_seed42
+56,validation,1,0.2663188,0,MLP_final_seed42
+57,validation,0,0.011148445,0,MLP_final_seed42
+58,validation,0,0.08644894,0,MLP_final_seed42
+59,validation,0,0.22137628,0,MLP_final_seed42
+60,validation,0,0.09264726,0,MLP_final_seed42
+61,validation,0,0.5980722,1,MLP_final_seed42
+62,validation,0,0.42446694,0,MLP_final_seed42
+63,validation,0,0.36323902,0,MLP_final_seed42
+64,validation,0,0.46729696,0,MLP_final_seed42
+65,validation,1,0.28012848,0,MLP_final_seed42
+66,validation,0,0.7741025,1,MLP_final_seed42
+67,validation,0,0.40242946,0,MLP_final_seed42
+68,validation,1,0.8929893,1,MLP_final_seed42
+69,validation,0,0.2582942,0,MLP_final_seed42
+70,validation,1,0.6129708,1,MLP_final_seed42
+71,validation,0,0.6379925,1,MLP_final_seed42
+72,validation,0,4.4694076e-05,0,MLP_final_seed42
+73,validation,0,3.787228e-08,0,MLP_final_seed42
+74,validation,0,0.04363741,0,MLP_final_seed42
+75,validation,0,3.1743627e-06,0,MLP_final_seed42
+76,validation,0,0.27518663,0,MLP_final_seed42
+77,validation,0,0.008648362,0,MLP_final_seed42
+78,validation,1,0.80238456,1,MLP_final_seed42
+79,validation,1,0.95945305,1,MLP_final_seed42
+80,validation,0,5.5538952e-05,0,MLP_final_seed42
+81,validation,0,0.9278485,1,MLP_final_seed42
+82,validation,0,0.6077859,1,MLP_final_seed42
+83,validation,0,0.004222912,0,MLP_final_seed42
+84,validation,0,0.23005518,0,MLP_final_seed42
+85,validation,0,0.16567202,0,MLP_final_seed42
+86,validation,0,0.85935295,1,MLP_final_seed42
+87,validation,0,0.022803178,0,MLP_final_seed42
+88,validation,0,0.055937137,0,MLP_final_seed42
+89,validation,0,0.53255165,1,MLP_final_seed42
+90,validation,0,0.30858937,0,MLP_final_seed42
+91,validation,1,0.8882722,1,MLP_final_seed42
+92,validation,0,0.00021164445,0,MLP_final_seed42
+93,validation,0,0.40463743,0,MLP_final_seed42
+94,validation,0,0.00010956101,0,MLP_final_seed42
+95,validation,0,0.06368519,0,MLP_final_seed42
+96,validation,0,1.1003241e-05,0,MLP_final_seed42
+97,validation,0,0.14628889,0,MLP_final_seed42
+98,validation,0,0.5069982,1,MLP_final_seed42
+99,validation,0,0.34331632,0,MLP_final_seed42
+100,validation,0,0.4313962,0,MLP_final_seed42
+101,validation,0,0.23840666,0,MLP_final_seed42
+102,validation,0,0.06848185,0,MLP_final_seed42
+103,validation,0,0.0007455024,0,MLP_final_seed42
+104,validation,0,5.927052e-05,0,MLP_final_seed42
+105,validation,0,2.3711005e-05,0,MLP_final_seed42
+106,validation,0,0.5852644,1,MLP_final_seed42
+107,validation,0,0.73263615,1,MLP_final_seed42
+108,validation,0,0.4635357,0,MLP_final_seed42
+109,validation,0,8.2755423e-07,0,MLP_final_seed42
+110,validation,0,0.41214985,0,MLP_final_seed42
+111,validation,0,0.41104633,0,MLP_final_seed42
+112,validation,0,0.43486518,0,MLP_final_seed42
+113,validation,1,0.9986319,1,MLP_final_seed42
+114,validation,0,0.010248396,0,MLP_final_seed42
+115,validation,0,0.00016915299,0,MLP_final_seed42
+116,validation,0,0.0013907009,0,MLP_final_seed42
+117,validation,1,0.6760229,1,MLP_final_seed42
+118,validation,1,0.9975435,1,MLP_final_seed42
+119,validation,1,0.90816945,1,MLP_final_seed42
+120,validation,0,0.004258176,0,MLP_final_seed42
+121,validation,0,0.0026159154,0,MLP_final_seed42
+122,validation,0,1.5272254e-07,0,MLP_final_seed42
+123,validation,0,0.00041352928,0,MLP_final_seed42
+124,validation,1,0.44850868,0,MLP_final_seed42
+125,validation,0,0.7015455,1,MLP_final_seed42
+126,validation,0,0.024785666,0,MLP_final_seed42
+127,validation,0,0.362034,0,MLP_final_seed42
+128,validation,0,0.15276426,0,MLP_final_seed42
+129,validation,0,0.19525968,0,MLP_final_seed42
+130,validation,0,0.6573907,1,MLP_final_seed42
+131,validation,0,2.7036435e-07,0,MLP_final_seed42
+132,validation,0,0.067878656,0,MLP_final_seed42
+133,validation,0,9.57954e-09,0,MLP_final_seed42
+134,validation,0,0.00037256101,0,MLP_final_seed42
+135,validation,0,0.24238268,0,MLP_final_seed42
+136,validation,0,0.0029478176,0,MLP_final_seed42
+137,validation,1,0.92331696,1,MLP_final_seed42
+138,validation,1,0.95894986,1,MLP_final_seed42
+139,validation,0,0.0009601196,0,MLP_final_seed42
+140,validation,1,0.7372646,1,MLP_final_seed42
+141,validation,0,0.8768061,1,MLP_final_seed42
+142,validation,0,0.0072683697,0,MLP_final_seed42
+143,validation,0,0.21956687,0,MLP_final_seed42
+144,validation,1,0.8079279,1,MLP_final_seed42
+145,validation,0,0.23531699,0,MLP_final_seed42
+146,validation,0,2.1477293e-09,0,MLP_final_seed42
+147,validation,0,0.3624226,0,MLP_final_seed42
+148,validation,1,0.8172734,1,MLP_final_seed42
+149,validation,0,0.09884079,0,MLP_final_seed42
+150,validation,0,0.04710107,0,MLP_final_seed42
+151,validation,0,0.38222462,0,MLP_final_seed42
+152,validation,0,0.39371938,0,MLP_final_seed42
+153,validation,0,0.14399444,0,MLP_final_seed42
+154,validation,0,7.0496135e-06,0,MLP_final_seed42
+155,validation,0,0.14614388,0,MLP_final_seed42
+156,validation,0,0.8003864,1,MLP_final_seed42
+157,validation,0,0.9053701,1,MLP_final_seed42
+158,validation,0,0.014605654,0,MLP_final_seed42
+159,validation,1,0.4821124,0,MLP_final_seed42
+160,validation,1,0.72845197,1,MLP_final_seed42
+161,validation,0,0.0028624868,0,MLP_final_seed42
+162,validation,0,0.55965227,1,MLP_final_seed42
+163,validation,0,0.09467204,0,MLP_final_seed42
+164,validation,0,0.0021065641,0,MLP_final_seed42
+165,validation,1,0.9479884,1,MLP_final_seed42
+166,validation,0,0.029789174,0,MLP_final_seed42
+167,validation,0,0.00023013736,0,MLP_final_seed42
+168,validation,0,0.050872587,0,MLP_final_seed42
+169,validation,0,1.642447e-05,0,MLP_final_seed42
+170,validation,0,0.3409561,0,MLP_final_seed42
+171,validation,0,0.7138889,1,MLP_final_seed42
+172,validation,0,7.2716744e-10,0,MLP_final_seed42
+173,validation,0,0.25136253,0,MLP_final_seed42
+174,validation,0,0.7459905,1,MLP_final_seed42
+175,validation,0,1.9755933e-05,0,MLP_final_seed42
+176,validation,0,8.6771615e-07,0,MLP_final_seed42
+177,validation,0,0.30997062,0,MLP_final_seed42
+178,validation,0,0.22869883,0,MLP_final_seed42
+179,validation,0,0.0015891304,0,MLP_final_seed42
+180,validation,1,0.9592579,1,MLP_final_seed42
+181,validation,0,0.47574636,0,MLP_final_seed42
+182,validation,1,0.9764655,1,MLP_final_seed42
+183,validation,1,0.90298927,1,MLP_final_seed42
+184,validation,0,0.319724,0,MLP_final_seed42
+185,validation,0,4.3062437e-06,0,MLP_final_seed42
+186,validation,0,2.7138052e-05,0,MLP_final_seed42
+187,validation,1,0.86415595,1,MLP_final_seed42
+188,validation,0,0.013664005,0,MLP_final_seed42
+189,validation,0,0.66514003,1,MLP_final_seed42
+190,validation,0,4.7752088e-05,0,MLP_final_seed42
+191,validation,0,0.5769781,1,MLP_final_seed42
+192,validation,0,6.175128e-05,0,MLP_final_seed42
+193,validation,0,0.0011251137,0,MLP_final_seed42
+194,validation,1,0.3786996,0,MLP_final_seed42
+195,validation,0,0.6104494,1,MLP_final_seed42
+196,validation,0,0.09034196,0,MLP_final_seed42
+197,validation,1,0.3801618,0,MLP_final_seed42
+198,validation,0,0.00233337,0,MLP_final_seed42
+199,validation,0,0.72782147,1,MLP_final_seed42
+200,validation,0,0.000541181,0,MLP_final_seed42
+201,validation,0,0.55830014,1,MLP_final_seed42
+202,validation,0,0.013951125,0,MLP_final_seed42
+203,validation,0,0.19314216,0,MLP_final_seed42
+204,validation,0,0.51527256,1,MLP_final_seed42
+205,validation,0,0.21059604,0,MLP_final_seed42
+206,validation,1,0.41570723,0,MLP_final_seed42
+207,validation,0,0.0004194103,0,MLP_final_seed42
+208,validation,0,0.29595676,0,MLP_final_seed42
+209,validation,0,0.47311944,0,MLP_final_seed42
+210,validation,0,0.0148955425,0,MLP_final_seed42
+211,validation,0,0.22786336,0,MLP_final_seed42
+212,validation,0,0.31726265,0,MLP_final_seed42
+213,validation,1,0.904741,1,MLP_final_seed42
+214,validation,0,0.6641772,1,MLP_final_seed42
+215,validation,0,0.08669167,0,MLP_final_seed42
+216,validation,0,0.38646305,0,MLP_final_seed42
+217,validation,0,0.00016075982,0,MLP_final_seed42
+218,validation,1,0.40138954,0,MLP_final_seed42
+219,validation,1,0.8388606,1,MLP_final_seed42
+220,validation,0,0.4964525,0,MLP_final_seed42
+221,validation,0,0.718601,1,MLP_final_seed42
+222,validation,0,0.9467788,1,MLP_final_seed42
+223,validation,0,0.37222415,0,MLP_final_seed42
+224,validation,0,0.3684384,0,MLP_final_seed42
+225,validation,1,0.01608224,0,MLP_final_seed42
+226,validation,0,0.0005649891,0,MLP_final_seed42
+227,validation,1,0.9798565,1,MLP_final_seed42
+228,validation,0,0.42172876,0,MLP_final_seed42
+229,validation,0,0.7084705,1,MLP_final_seed42
+230,validation,1,0.97454584,1,MLP_final_seed42
+231,validation,1,0.3921659,0,MLP_final_seed42
+232,validation,0,0.00046761526,0,MLP_final_seed42
+233,validation,0,0.41131827,0,MLP_final_seed42
+234,validation,0,0.0027142009,0,MLP_final_seed42
+235,validation,0,0.003939595,0,MLP_final_seed42
+236,validation,0,0.8030517,1,MLP_final_seed42
+237,validation,0,0.073837034,0,MLP_final_seed42
+238,validation,1,0.90790373,1,MLP_final_seed42
+239,validation,0,0.3839291,0,MLP_final_seed42
+240,validation,1,0.40131998,0,MLP_final_seed42
+241,validation,0,0.5135752,1,MLP_final_seed42
+242,validation,0,0.4852697,0,MLP_final_seed42
+243,validation,0,0.00040156196,0,MLP_final_seed42
+244,validation,1,0.75114304,1,MLP_final_seed42
+245,validation,0,0.033942204,0,MLP_final_seed42
+246,validation,0,0.55359674,1,MLP_final_seed42
+247,validation,0,0.41300285,0,MLP_final_seed42
+248,validation,1,0.80781794,1,MLP_final_seed42
+249,validation,0,7.259441e-05,0,MLP_final_seed42
+250,validation,0,0.337868,0,MLP_final_seed42
+251,validation,1,0.84981036,1,MLP_final_seed42
+252,validation,0,0.8960661,1,MLP_final_seed42
+253,validation,0,0.0006021119,0,MLP_final_seed42
+254,validation,0,0.23960644,0,MLP_final_seed42
+255,validation,1,0.8026918,1,MLP_final_seed42
+256,validation,0,0.004444854,0,MLP_final_seed42
+257,validation,1,0.7788267,1,MLP_final_seed42
+258,validation,0,5.267461e-07,0,MLP_final_seed42
+259,validation,0,0.00021050498,0,MLP_final_seed42
+260,validation,0,8.2791514e-05,0,MLP_final_seed42
+261,validation,0,0.13821954,0,MLP_final_seed42
+262,validation,0,0.020065758,0,MLP_final_seed42
+263,validation,1,0.9180169,1,MLP_final_seed42
+264,validation,0,1.0450332e-05,0,MLP_final_seed42
+265,validation,0,0.87092954,1,MLP_final_seed42
+266,validation,0,1.9077897e-06,0,MLP_final_seed42
+267,validation,0,0.0009904032,0,MLP_final_seed42
+268,validation,0,0.07630163,0,MLP_final_seed42
+269,validation,1,0.8249744,1,MLP_final_seed42
+270,validation,0,0.024064632,0,MLP_final_seed42
+271,validation,0,0.4778011,0,MLP_final_seed42
+272,validation,0,9.465711e-06,0,MLP_final_seed42
+273,validation,0,0.4595714,0,MLP_final_seed42
+274,validation,0,0.8265362,1,MLP_final_seed42
+275,validation,0,0.31892115,0,MLP_final_seed42
+276,validation,0,0.39619341,0,MLP_final_seed42
+277,validation,0,0.29754353,0,MLP_final_seed42
+278,validation,0,0.00026368542,0,MLP_final_seed42
+279,validation,0,0.0023388457,0,MLP_final_seed42
+280,validation,0,0.0026607218,0,MLP_final_seed42
+281,validation,0,0.3078354,0,MLP_final_seed42
+282,validation,0,0.03214569,0,MLP_final_seed42
+283,validation,0,0.35088918,0,MLP_final_seed42
+284,validation,0,0.6785966,1,MLP_final_seed42
+285,validation,0,0.00035461262,0,MLP_final_seed42
+286,validation,0,0.00036363653,0,MLP_final_seed42
+287,validation,0,0.0016564673,0,MLP_final_seed42
+288,validation,1,0.9679824,1,MLP_final_seed42
+289,validation,0,0.0006113522,0,MLP_final_seed42
+290,validation,0,0.017899372,0,MLP_final_seed42
+291,validation,0,0.30837664,0,MLP_final_seed42
+292,validation,0,8.666973e-05,0,MLP_final_seed42
+293,validation,0,0.25143322,0,MLP_final_seed42
+294,validation,0,5.409964e-05,0,MLP_final_seed42
+295,validation,0,0.004874918,0,MLP_final_seed42
+296,validation,1,0.99032587,1,MLP_final_seed42
+297,validation,0,0.26941374,0,MLP_final_seed42
+298,validation,0,0.90443534,1,MLP_final_seed42
+299,validation,0,0.7077269,1,MLP_final_seed42
+300,validation,0,0.72086704,1,MLP_final_seed42
+301,validation,0,0.0024358078,0,MLP_final_seed42
+302,validation,0,5.512885e-07,0,MLP_final_seed42
+303,validation,0,0.000873148,0,MLP_final_seed42
+304,validation,0,0.27382067,0,MLP_final_seed42
+305,validation,0,0.29839796,0,MLP_final_seed42
+306,validation,0,0.7637468,1,MLP_final_seed42
+307,validation,0,0.27779737,0,MLP_final_seed42
+308,validation,0,0.5911286,1,MLP_final_seed42
+309,validation,0,0.3582235,0,MLP_final_seed42
+310,validation,0,0.15840988,0,MLP_final_seed42
+311,validation,0,0.0010264551,0,MLP_final_seed42
+312,validation,0,6.166707e-05,0,MLP_final_seed42
+313,validation,0,0.84728086,1,MLP_final_seed42
+314,validation,0,0.01633392,0,MLP_final_seed42
+315,validation,0,0.7703841,1,MLP_final_seed42
+316,validation,0,0.0055111973,0,MLP_final_seed42
+317,validation,0,0.41987312,0,MLP_final_seed42
+318,validation,0,0.35960776,0,MLP_final_seed42
+319,validation,0,0.301565,0,MLP_final_seed42
+320,validation,0,0.3164529,0,MLP_final_seed42
+321,validation,0,0.22280079,0,MLP_final_seed42
+322,validation,0,0.7751638,1,MLP_final_seed42
+323,validation,0,4.625342e-06,0,MLP_final_seed42
+324,validation,0,0.012818202,0,MLP_final_seed42
+325,validation,0,0.4486896,0,MLP_final_seed42
+326,validation,0,0.27310216,0,MLP_final_seed42
+327,validation,0,0.6221317,1,MLP_final_seed42
+328,validation,0,0.9460049,1,MLP_final_seed42
+329,validation,0,0.00061129226,0,MLP_final_seed42
+330,validation,0,0.0071440674,0,MLP_final_seed42
+331,validation,0,0.38041088,0,MLP_final_seed42
+332,validation,0,0.86899626,1,MLP_final_seed42
+333,validation,0,0.42979774,0,MLP_final_seed42
+334,validation,0,7.704553e-07,0,MLP_final_seed42
+335,validation,0,0.44892526,0,MLP_final_seed42
+336,validation,0,0.0026931893,0,MLP_final_seed42
+337,validation,0,1.0837496e-06,0,MLP_final_seed42
+338,validation,0,0.00038096565,0,MLP_final_seed42
+339,validation,0,0.0010067793,0,MLP_final_seed42
+340,validation,0,0.42142907,0,MLP_final_seed42
+341,validation,0,0.09079457,0,MLP_final_seed42
+342,validation,1,0.86779946,1,MLP_final_seed42
+343,validation,1,0.91394657,1,MLP_final_seed42
+344,validation,0,7.447561e-08,0,MLP_final_seed42
+345,validation,0,0.0019355624,0,MLP_final_seed42
+346,validation,0,0.28626198,0,MLP_final_seed42
+347,validation,0,7.970778e-07,0,MLP_final_seed42
+348,validation,0,0.014101271,0,MLP_final_seed42
+349,validation,0,0.00029172667,0,MLP_final_seed42
+350,validation,0,0.0073352084,0,MLP_final_seed42
+351,validation,0,0.3044414,0,MLP_final_seed42
+352,validation,0,0.00012498829,0,MLP_final_seed42
+353,validation,1,0.66789055,1,MLP_final_seed42
+354,validation,0,0.0007931733,0,MLP_final_seed42
+355,validation,0,0.35741425,0,MLP_final_seed42
+356,validation,0,0.007957852,0,MLP_final_seed42
+357,validation,0,0.05775553,0,MLP_final_seed42
+358,validation,0,0.5643034,1,MLP_final_seed42
+359,validation,0,0.22486734,0,MLP_final_seed42
+360,validation,0,0.1639888,0,MLP_final_seed42
+361,validation,1,0.99076945,1,MLP_final_seed42
+362,validation,0,0.4010044,0,MLP_final_seed42
+363,validation,0,3.0932897e-05,0,MLP_final_seed42
+364,validation,0,0.28643653,0,MLP_final_seed42
+365,validation,0,0.005510434,0,MLP_final_seed42
+366,validation,0,0.00022952816,0,MLP_final_seed42
+367,validation,0,7.470775e-05,0,MLP_final_seed42
+368,validation,0,0.40019596,0,MLP_final_seed42
+369,validation,0,2.0721623e-06,0,MLP_final_seed42
+370,validation,0,0.16211277,0,MLP_final_seed42
+371,validation,0,0.30964735,0,MLP_final_seed42
+372,validation,0,0.27671805,0,MLP_final_seed42
+373,validation,0,0.0844392,0,MLP_final_seed42
+374,validation,0,0.57880294,1,MLP_final_seed42
+375,validation,0,0.0006255861,0,MLP_final_seed42
+376,validation,0,0.00048233385,0,MLP_final_seed42
+377,validation,0,0.45125818,0,MLP_final_seed42
+378,validation,0,0.25435865,0,MLP_final_seed42
+379,validation,0,2.0531002e-11,0,MLP_final_seed42
+380,validation,0,0.00073963153,0,MLP_final_seed42
+381,validation,0,0.23505315,0,MLP_final_seed42
+382,validation,0,0.016584534,0,MLP_final_seed42
+383,validation,0,0.00031354532,0,MLP_final_seed42
+384,validation,0,0.43395427,0,MLP_final_seed42
+385,validation,1,0.74729586,1,MLP_final_seed42
+386,validation,0,0.05006242,0,MLP_final_seed42
+387,validation,0,0.0028768475,0,MLP_final_seed42
+388,validation,0,0.744035,1,MLP_final_seed42
+389,validation,1,0.9529895,1,MLP_final_seed42
+390,validation,0,2.7581772e-08,0,MLP_final_seed42
+391,validation,0,1.14912045e-10,0,MLP_final_seed42
+392,validation,0,0.2704517,0,MLP_final_seed42
+393,validation,0,1.0387499e-14,0,MLP_final_seed42
+394,validation,1,0.13581443,0,MLP_final_seed42
+395,validation,0,0.43096274,0,MLP_final_seed42
+396,validation,0,3.506212e-14,0,MLP_final_seed42
+397,validation,1,0.9312073,1,MLP_final_seed42
+398,validation,0,0.8052709,1,MLP_final_seed42
+399,validation,0,0.15261395,0,MLP_final_seed42
+400,validation,0,0.8514419,1,MLP_final_seed42
+401,validation,0,0.6470532,1,MLP_final_seed42
+402,validation,0,0.3061521,0,MLP_final_seed42
+403,validation,0,0.003917381,0,MLP_final_seed42
+404,validation,0,0.29805905,0,MLP_final_seed42
+405,validation,1,0.1893633,0,MLP_final_seed42
+406,validation,0,0.009615162,0,MLP_final_seed42
+407,validation,0,0.41947585,0,MLP_final_seed42
+408,validation,0,1.3372301e-14,0,MLP_final_seed42
+409,validation,0,0.8102244,1,MLP_final_seed42
+410,validation,0,0.51753205,1,MLP_final_seed42
+411,validation,0,6.194378e-05,0,MLP_final_seed42
+412,validation,0,0.47326198,0,MLP_final_seed42
+413,validation,0,6.9490154e-05,0,MLP_final_seed42
+414,validation,1,0.98904496,1,MLP_final_seed42
+415,validation,0,0.12604998,0,MLP_final_seed42
+416,validation,0,0.5019252,1,MLP_final_seed42
+417,validation,1,0.9739203,1,MLP_final_seed42
+418,validation,0,5.8765903e-07,0,MLP_final_seed42
+419,validation,0,1.8595852e-05,0,MLP_final_seed42
+420,validation,1,0.8956428,1,MLP_final_seed42
+421,validation,1,0.99706846,1,MLP_final_seed42
+422,validation,0,0.29237363,0,MLP_final_seed42
+423,validation,0,7.711023e-06,0,MLP_final_seed42
+424,validation,0,5.6041237e-05,0,MLP_final_seed42
+425,validation,0,0.3122537,0,MLP_final_seed42
+426,validation,0,0.00051808247,0,MLP_final_seed42
+427,validation,0,0.7207658,1,MLP_final_seed42
+428,validation,0,0.34511906,0,MLP_final_seed42
+429,validation,0,0.5253866,1,MLP_final_seed42
+430,validation,0,0.64479756,1,MLP_final_seed42
+431,validation,0,0.5397272,1,MLP_final_seed42
+432,validation,1,0.6843264,1,MLP_final_seed42
+433,validation,0,0.43875024,0,MLP_final_seed42
+434,validation,0,0.5519614,1,MLP_final_seed42
+435,validation,0,0.0041440944,0,MLP_final_seed42
+436,validation,0,0.00039930482,0,MLP_final_seed42
+437,validation,0,0.33526254,0,MLP_final_seed42
+438,validation,0,0.38751057,0,MLP_final_seed42
+439,validation,1,0.90941155,1,MLP_final_seed42
+440,validation,0,0.16471094,0,MLP_final_seed42
+441,validation,0,0.396179,0,MLP_final_seed42
+442,validation,0,0.2538295,0,MLP_final_seed42
+443,validation,0,0.78221506,1,MLP_final_seed42
+444,validation,0,0.34575117,0,MLP_final_seed42
+445,validation,1,0.8511084,1,MLP_final_seed42
+446,validation,0,0.61319053,1,MLP_final_seed42
+447,validation,0,2.1574731e-05,0,MLP_final_seed42
+448,validation,0,0.122606546,0,MLP_final_seed42
+449,validation,0,0.0037083188,0,MLP_final_seed42
+450,validation,0,0.03405009,0,MLP_final_seed42
+451,validation,0,0.28506577,0,MLP_final_seed42
+452,validation,0,0.8177972,1,MLP_final_seed42
+453,validation,0,0.004521734,0,MLP_final_seed42
+454,validation,0,0.1480026,0,MLP_final_seed42
+455,validation,0,0.16438802,0,MLP_final_seed42
+456,validation,0,4.556044e-06,0,MLP_final_seed42
+457,validation,0,0.71891534,1,MLP_final_seed42
+458,validation,0,0.06662009,0,MLP_final_seed42
+459,validation,1,0.20402335,0,MLP_final_seed42
+460,validation,0,0.96152616,1,MLP_final_seed42
+461,validation,0,0.31436116,0,MLP_final_seed42
+462,validation,0,0.0036261033,0,MLP_final_seed42
+463,validation,0,0.81270796,1,MLP_final_seed42
+464,validation,0,0.92390424,1,MLP_final_seed42
+465,validation,1,0.7821055,1,MLP_final_seed42
+466,validation,0,0.03383407,0,MLP_final_seed42
+467,validation,0,0.008860217,0,MLP_final_seed42
+468,validation,0,0.00048616016,0,MLP_final_seed42
+469,validation,0,0.72503805,1,MLP_final_seed42
+470,validation,1,0.9061227,1,MLP_final_seed42
+471,validation,1,0.781062,1,MLP_final_seed42
+472,validation,0,0.000114235845,0,MLP_final_seed42
+473,validation,0,0.0044641816,0,MLP_final_seed42
+474,validation,0,0.98421395,1,MLP_final_seed42
+475,validation,0,0.3306141,0,MLP_final_seed42
+476,validation,1,0.4242284,0,MLP_final_seed42
+477,validation,0,0.49407497,0,MLP_final_seed42
+478,validation,0,0.0017184615,0,MLP_final_seed42
+479,validation,1,0.9078184,1,MLP_final_seed42
+480,validation,0,0.3469062,0,MLP_final_seed42
+481,validation,0,8.8031065e-06,0,MLP_final_seed42
+482,validation,0,0.04519217,0,MLP_final_seed42
+483,validation,0,0.0023213695,0,MLP_final_seed42
+484,validation,0,3.259448e-05,0,MLP_final_seed42
+485,validation,0,0.4525874,0,MLP_final_seed42
+486,validation,0,0.06589098,0,MLP_final_seed42
+487,validation,0,0.20999742,0,MLP_final_seed42
+488,validation,0,5.890887e-05,0,MLP_final_seed42
+489,validation,0,0.95123166,1,MLP_final_seed42
+490,validation,0,0.0057217497,0,MLP_final_seed42
+491,validation,0,0.41872895,0,MLP_final_seed42
+492,validation,0,0.7659554,1,MLP_final_seed42
+493,validation,0,4.054352e-17,0,MLP_final_seed42
+494,validation,1,0.98819304,1,MLP_final_seed42
+495,validation,0,0.34979528,0,MLP_final_seed42
+496,validation,0,0.53962326,1,MLP_final_seed42
+497,validation,1,0.494219,0,MLP_final_seed42
+498,validation,0,2.3465229e-05,0,MLP_final_seed42
+499,validation,0,0.5121144,1,MLP_final_seed42
+500,validation,0,2.9044227e-07,0,MLP_final_seed42
+501,validation,0,0.065729365,0,MLP_final_seed42
+502,validation,0,0.41631305,0,MLP_final_seed42
+503,validation,0,0.0035997597,0,MLP_final_seed42
+504,validation,0,0.1229394,0,MLP_final_seed42
+505,validation,1,0.8674229,1,MLP_final_seed42
+506,validation,0,0.00042454913,0,MLP_final_seed42
+507,validation,1,0.7068929,1,MLP_final_seed42
+508,validation,1,0.059470035,0,MLP_final_seed42
+509,validation,0,0.07552889,0,MLP_final_seed42
+510,validation,0,2.5353512e-07,0,MLP_final_seed42
+511,validation,1,0.613577,1,MLP_final_seed42
+512,validation,0,0.81736124,1,MLP_final_seed42
+513,validation,0,0.029993406,0,MLP_final_seed42
+514,validation,0,0.7704884,1,MLP_final_seed42
+515,validation,0,2.9239429e-08,0,MLP_final_seed42
+516,validation,0,0.08992956,0,MLP_final_seed42
+517,validation,1,0.90935725,1,MLP_final_seed42
+518,validation,0,0.85529566,1,MLP_final_seed42
+519,validation,0,6.318397e-07,0,MLP_final_seed42
+520,validation,0,1.5701322e-07,0,MLP_final_seed42
+521,validation,0,0.19269493,0,MLP_final_seed42
+522,validation,1,0.87177694,1,MLP_final_seed42
+523,validation,0,0.24598265,0,MLP_final_seed42
+524,validation,0,1.5104713e-05,0,MLP_final_seed42
+525,validation,0,2.7166952e-05,0,MLP_final_seed42
+526,validation,1,0.8164147,1,MLP_final_seed42
+527,validation,0,1.961263e-06,0,MLP_final_seed42
+528,validation,0,0.31231177,0,MLP_final_seed42
+529,validation,1,0.973734,1,MLP_final_seed42
+530,validation,0,8.8772947e-07,0,MLP_final_seed42
+531,validation,0,0.50110275,1,MLP_final_seed42
+532,validation,0,0.4254096,0,MLP_final_seed42
+533,validation,1,0.7062111,1,MLP_final_seed42
+534,validation,0,0.00294595,0,MLP_final_seed42
+535,validation,0,0.093242176,0,MLP_final_seed42
+536,validation,0,0.04359202,0,MLP_final_seed42
+537,validation,0,0.01820325,0,MLP_final_seed42
+538,validation,0,9.036369e-05,0,MLP_final_seed42
+539,validation,0,0.04648192,0,MLP_final_seed42
+540,validation,0,5.1742918e-05,0,MLP_final_seed42
+541,validation,0,5.1649797e-05,0,MLP_final_seed42
+542,validation,0,0.34106824,0,MLP_final_seed42
+543,validation,0,9.711043e-06,0,MLP_final_seed42
+544,validation,0,0.5853624,1,MLP_final_seed42
+545,validation,0,0.07218158,0,MLP_final_seed42
+546,validation,1,0.6666431,1,MLP_final_seed42
+547,validation,0,0.3810304,0,MLP_final_seed42
+548,validation,0,0.37992617,0,MLP_final_seed42
+549,validation,0,0.20929821,0,MLP_final_seed42
+550,validation,0,0.013444208,0,MLP_final_seed42
+551,validation,0,0.016203621,0,MLP_final_seed42
+552,validation,0,0.014135305,0,MLP_final_seed42
+553,validation,0,0.0006644498,0,MLP_final_seed42
+554,validation,0,0.31430075,0,MLP_final_seed42
+555,validation,0,0.83830893,1,MLP_final_seed42
+556,validation,0,0.8162197,1,MLP_final_seed42
+557,validation,1,0.4899504,0,MLP_final_seed42
+558,validation,0,3.9214424e-06,0,MLP_final_seed42
+559,validation,0,0.36939424,0,MLP_final_seed42
+560,validation,1,0.93314976,1,MLP_final_seed42
+561,validation,0,1.56982e-10,0,MLP_final_seed42
+562,validation,0,0.37503743,0,MLP_final_seed42
+563,validation,1,0.89771676,1,MLP_final_seed42
+564,validation,0,0.0034987172,0,MLP_final_seed42
+565,validation,0,0.002336904,0,MLP_final_seed42
+566,validation,1,0.6396663,1,MLP_final_seed42
+567,validation,0,0.09751231,0,MLP_final_seed42
+568,validation,0,0.009230958,0,MLP_final_seed42
+569,validation,1,0.31785798,0,MLP_final_seed42
+570,validation,0,9.294464e-09,0,MLP_final_seed42
+571,validation,0,0.39677507,0,MLP_final_seed42
+572,validation,0,0.00034881503,0,MLP_final_seed42
+573,validation,0,0.34235328,0,MLP_final_seed42
+574,validation,0,0.34907746,0,MLP_final_seed42
+575,validation,0,0.38054794,0,MLP_final_seed42
+576,validation,0,0.1651723,0,MLP_final_seed42
+577,validation,1,0.95559776,1,MLP_final_seed42
+578,validation,0,4.7170585e-07,0,MLP_final_seed42
+579,validation,0,0.8189279,1,MLP_final_seed42
+580,validation,0,0.10789594,0,MLP_final_seed42
+581,validation,0,0.0023002753,0,MLP_final_seed42
+582,validation,1,0.89377695,1,MLP_final_seed42
+583,validation,0,0.0003076099,0,MLP_final_seed42
+584,validation,0,0.71818936,1,MLP_final_seed42
+585,validation,0,0.00013896039,0,MLP_final_seed42
+586,validation,0,0.0011837053,0,MLP_final_seed42
+587,validation,0,0.0001685547,0,MLP_final_seed42
+588,validation,0,3.6221938e-06,0,MLP_final_seed42
+589,validation,0,0.00032026565,0,MLP_final_seed42
+590,validation,0,8.1441955e-05,0,MLP_final_seed42
+591,validation,0,0.38291577,0,MLP_final_seed42
+592,validation,0,0.12995748,0,MLP_final_seed42
+593,validation,1,0.9584342,1,MLP_final_seed42
+594,validation,0,0.014039745,0,MLP_final_seed42
+595,validation,0,0.15801442,0,MLP_final_seed42
+596,validation,0,0.20578203,0,MLP_final_seed42
+597,validation,0,0.000669488,0,MLP_final_seed42
+598,validation,0,0.020146953,0,MLP_final_seed42
+599,validation,0,0.06095767,0,MLP_final_seed42
+600,validation,1,0.6113164,1,MLP_final_seed42
+601,validation,0,0.0052298713,0,MLP_final_seed42
+602,validation,0,0.00041269028,0,MLP_final_seed42
+603,validation,1,0.914017,1,MLP_final_seed42
+604,validation,0,0.004161756,0,MLP_final_seed42
+605,validation,0,3.321571e-05,0,MLP_final_seed42
+606,validation,0,1.6832185e-08,0,MLP_final_seed42
+607,validation,0,2.3598597e-05,0,MLP_final_seed42
+608,validation,0,0.10976097,0,MLP_final_seed42
+609,validation,0,0.001452224,0,MLP_final_seed42
+610,validation,0,0.00013344901,0,MLP_final_seed42
+611,validation,1,0.33269295,0,MLP_final_seed42
+612,validation,1,0.8983583,1,MLP_final_seed42
+613,validation,0,0.00021683495,0,MLP_final_seed42
+614,validation,0,1.2301353e-05,0,MLP_final_seed42
+615,validation,0,0.0016638472,0,MLP_final_seed42
+616,validation,0,0.56416476,1,MLP_final_seed42
+617,validation,0,0.40385044,0,MLP_final_seed42
+618,validation,0,0.005171832,0,MLP_final_seed42
+619,validation,0,0.76309067,1,MLP_final_seed42
+620,validation,0,0.00026957318,0,MLP_final_seed42
+621,validation,0,0.2714935,0,MLP_final_seed42
+622,validation,0,0.23586456,0,MLP_final_seed42
+623,validation,1,0.82287323,1,MLP_final_seed42
+624,validation,0,0.0051350472,0,MLP_final_seed42
+625,validation,0,0.83796006,1,MLP_final_seed42
+626,validation,0,0.047087576,0,MLP_final_seed42
+627,validation,0,0.109614916,0,MLP_final_seed42
+628,validation,1,0.61704093,1,MLP_final_seed42
+629,validation,1,0.7195976,1,MLP_final_seed42
+630,validation,0,0.34639105,0,MLP_final_seed42
+631,validation,0,0.6020941,1,MLP_final_seed42
+632,validation,0,0.83941525,1,MLP_final_seed42
+633,validation,0,7.9797665e-13,0,MLP_final_seed42
+634,validation,0,1.1635439e-05,0,MLP_final_seed42
+635,validation,0,0.7813039,1,MLP_final_seed42
+636,validation,0,6.319315e-06,0,MLP_final_seed42
+637,validation,0,0.34007806,0,MLP_final_seed42
+638,validation,0,0.009055263,0,MLP_final_seed42
+639,validation,0,2.4983624e-09,0,MLP_final_seed42
+640,validation,0,0.4127846,0,MLP_final_seed42
+641,validation,0,0.00013637402,0,MLP_final_seed42
+642,validation,0,0.6211272,1,MLP_final_seed42
+643,validation,0,0.8339868,1,MLP_final_seed42
+644,validation,1,0.9995997,1,MLP_final_seed42
+645,validation,0,0.35743743,0,MLP_final_seed42
+646,validation,0,0.00024843487,0,MLP_final_seed42
+647,validation,0,0.19840889,0,MLP_final_seed42
+648,validation,0,6.7743116e-05,0,MLP_final_seed42
+649,validation,0,0.001372451,0,MLP_final_seed42
+650,validation,0,0.42416334,0,MLP_final_seed42
+651,validation,0,0.16605406,0,MLP_final_seed42
+652,validation,0,0.061548788,0,MLP_final_seed42
+653,validation,1,0.8735579,1,MLP_final_seed42
+654,validation,0,0.43875933,0,MLP_final_seed42
+655,validation,1,0.94647765,1,MLP_final_seed42
+656,validation,0,0.45538226,0,MLP_final_seed42
+657,validation,0,0.4115497,0,MLP_final_seed42
+658,validation,1,0.85777247,1,MLP_final_seed42
+659,validation,0,0.0006065241,0,MLP_final_seed42
+660,validation,0,0.87667173,1,MLP_final_seed42
+661,validation,1,0.9761929,1,MLP_final_seed42
+662,validation,0,0.39594552,0,MLP_final_seed42
+663,validation,0,0.9188167,1,MLP_final_seed42
+664,validation,0,9.752481e-06,0,MLP_final_seed42
+665,validation,0,0.21634813,0,MLP_final_seed42
+666,validation,0,6.737492e-08,0,MLP_final_seed42
+667,validation,0,0.010389831,0,MLP_final_seed42
+668,validation,1,0.91426855,1,MLP_final_seed42
+669,validation,0,0.20598204,0,MLP_final_seed42
+670,validation,0,0.00015334159,0,MLP_final_seed42
+671,validation,0,0.3343644,0,MLP_final_seed42
+672,validation,1,0.8692457,1,MLP_final_seed42
+673,validation,0,0.0010584791,0,MLP_final_seed42
+674,validation,0,0.32803333,0,MLP_final_seed42
+675,validation,0,0.33450648,0,MLP_final_seed42
+676,validation,0,0.0005286219,0,MLP_final_seed42
+677,validation,0,0.08987977,0,MLP_final_seed42
+678,validation,0,0.36663476,0,MLP_final_seed42
+679,validation,0,0.45827186,0,MLP_final_seed42
+680,validation,0,0.49441585,0,MLP_final_seed42
+681,validation,0,0.6378976,1,MLP_final_seed42
+682,validation,1,0.9333441,1,MLP_final_seed42
+683,validation,0,0.46500456,0,MLP_final_seed42
+684,validation,0,3.5260586e-09,0,MLP_final_seed42
+685,validation,0,0.5972343,1,MLP_final_seed42
+686,validation,0,0.0013948586,0,MLP_final_seed42
+687,validation,0,0.8293089,1,MLP_final_seed42
+688,validation,0,0.23997472,0,MLP_final_seed42
+689,validation,1,0.13899748,0,MLP_final_seed42
+690,validation,0,2.0063764e-09,0,MLP_final_seed42
+691,validation,0,0.28233886,0,MLP_final_seed42
+692,validation,1,0.8478137,1,MLP_final_seed42
+693,validation,1,0.71590626,1,MLP_final_seed42
+694,validation,0,0.39740393,0,MLP_final_seed42
+695,validation,0,0.40451914,0,MLP_final_seed42
+696,validation,0,3.7070834e-07,0,MLP_final_seed42
+697,validation,0,0.001992189,0,MLP_final_seed42
+698,validation,0,2.8109636e-07,0,MLP_final_seed42
+699,validation,0,0.023997193,0,MLP_final_seed42
+700,validation,0,0.49445602,0,MLP_final_seed42
+701,validation,0,0.7681347,1,MLP_final_seed42
+702,validation,0,0.018977419,0,MLP_final_seed42
+703,validation,0,0.03325311,0,MLP_final_seed42
+704,validation,0,0.9734925,1,MLP_final_seed42
+705,validation,0,0.23801689,0,MLP_final_seed42
+706,validation,0,0.0014133046,0,MLP_final_seed42
+707,validation,0,0.00033147293,0,MLP_final_seed42
+708,validation,0,0.36429197,0,MLP_final_seed42
+709,validation,0,1.2814321e-07,0,MLP_final_seed42
+710,validation,0,0.47061014,0,MLP_final_seed42
+711,validation,0,0.00039102172,0,MLP_final_seed42
+712,validation,1,0.73841816,1,MLP_final_seed42
+713,validation,1,0.8119485,1,MLP_final_seed42
+714,validation,1,0.9043255,1,MLP_final_seed42
+715,validation,0,0.74626374,1,MLP_final_seed42
+716,validation,0,0.0002599313,0,MLP_final_seed42
+717,validation,0,0.00052100146,0,MLP_final_seed42
+718,validation,0,0.0060910406,0,MLP_final_seed42
+719,validation,0,0.69789124,1,MLP_final_seed42
+720,validation,1,0.94366807,1,MLP_final_seed42
+721,validation,1,0.4685572,0,MLP_final_seed42
+722,validation,0,0.3249474,0,MLP_final_seed42
+723,validation,0,0.007730215,0,MLP_final_seed42
+724,validation,0,2.898611e-08,0,MLP_final_seed42
+725,validation,0,0.11887104,0,MLP_final_seed42
+726,validation,0,0.41571724,0,MLP_final_seed42
+727,validation,0,0.13822241,0,MLP_final_seed42
+728,validation,1,0.9230308,1,MLP_final_seed42
+729,validation,0,0.39349243,0,MLP_final_seed42
+730,validation,1,0.42120546,0,MLP_final_seed42
+731,validation,1,0.96606576,1,MLP_final_seed42
+732,validation,0,0.3044884,0,MLP_final_seed42
+733,validation,0,0.0018532579,0,MLP_final_seed42
+734,validation,0,0.056657687,0,MLP_final_seed42
+735,validation,1,0.9907844,1,MLP_final_seed42
+736,validation,0,0.027324822,0,MLP_final_seed42
+737,validation,0,0.34129155,0,MLP_final_seed42
+738,validation,0,0.5026771,1,MLP_final_seed42
+739,validation,0,0.00092474715,0,MLP_final_seed42
+740,validation,0,0.037014954,0,MLP_final_seed42
+741,validation,0,0.25477612,0,MLP_final_seed42
+742,validation,0,2.4543026e-06,0,MLP_final_seed42
+743,validation,0,0.42983392,0,MLP_final_seed42
+744,validation,0,9.859062e-05,0,MLP_final_seed42
+745,validation,0,2.1082584e-05,0,MLP_final_seed42
+746,validation,1,0.9000714,1,MLP_final_seed42
+747,validation,0,2.5154104e-06,0,MLP_final_seed42
+748,validation,0,0.053560406,0,MLP_final_seed42
+749,validation,1,0.2538017,0,MLP_final_seed42
+750,validation,0,0.79328406,1,MLP_final_seed42
+751,validation,0,0.012748782,0,MLP_final_seed42
+752,validation,0,0.0007606007,0,MLP_final_seed42
+753,validation,0,0.17834157,0,MLP_final_seed42
+754,validation,0,4.836206e-05,0,MLP_final_seed42
+755,validation,0,0.6955628,1,MLP_final_seed42
+756,validation,0,5.531565e-14,0,MLP_final_seed42
+757,validation,0,0.58321995,1,MLP_final_seed42
+758,validation,0,7.323547e-06,0,MLP_final_seed42
+759,validation,0,0.00041280262,0,MLP_final_seed42
+760,validation,0,0.7734101,1,MLP_final_seed42
+761,validation,0,0.78149045,1,MLP_final_seed42
+762,validation,0,0.00028829405,0,MLP_final_seed42
+763,validation,0,0.001124578,0,MLP_final_seed42
+764,validation,0,0.29625356,0,MLP_final_seed42
+765,validation,0,0.1488336,0,MLP_final_seed42
+766,validation,0,0.00032852383,0,MLP_final_seed42
+767,validation,0,0.09003139,0,MLP_final_seed42
+768,validation,0,0.0054147476,0,MLP_final_seed42
+769,validation,0,0.41945705,0,MLP_final_seed42
+770,validation,0,0.5578429,1,MLP_final_seed42
+771,validation,0,0.35465968,0,MLP_final_seed42
+772,validation,0,0.0021552488,0,MLP_final_seed42
+773,validation,0,0.00031125467,0,MLP_final_seed42
+774,validation,0,0.0007451622,0,MLP_final_seed42
+775,validation,0,0.4150247,0,MLP_final_seed42
+776,validation,0,0.6769617,1,MLP_final_seed42
+777,validation,1,0.6266043,1,MLP_final_seed42
+778,validation,0,0.00012941062,0,MLP_final_seed42
+779,validation,0,0.88641995,1,MLP_final_seed42
+780,validation,0,0.83669853,1,MLP_final_seed42
+781,validation,1,0.5268198,1,MLP_final_seed42
+782,validation,0,0.5403594,1,MLP_final_seed42
+783,validation,0,0.0019534884,0,MLP_final_seed42
+784,validation,0,0.35505456,0,MLP_final_seed42
+785,validation,0,2.9328685e-06,0,MLP_final_seed42
+786,validation,0,0.00033900564,0,MLP_final_seed42
+787,validation,0,0.24388786,0,MLP_final_seed42
+788,validation,0,0.001608543,0,MLP_final_seed42
+789,validation,0,0.18898354,0,MLP_final_seed42
+790,validation,0,0.000102044585,0,MLP_final_seed42
+791,validation,0,0.24809685,0,MLP_final_seed42
+792,validation,0,0.053564556,0,MLP_final_seed42
+793,validation,0,0.28835323,0,MLP_final_seed42
+794,validation,0,0.08877687,0,MLP_final_seed42
+795,validation,0,1.18232016e-07,0,MLP_final_seed42
+796,validation,0,0.24394298,0,MLP_final_seed42
+797,validation,0,0.45150045,0,MLP_final_seed42
+798,validation,0,6.932118e-05,0,MLP_final_seed42
+799,validation,0,0.49395344,0,MLP_final_seed42
+800,validation,0,6.742955e-08,0,MLP_final_seed42
+801,validation,1,0.39071256,0,MLP_final_seed42
+802,validation,1,0.8240882,1,MLP_final_seed42
+803,validation,0,0.18903391,0,MLP_final_seed42
+804,validation,0,0.00024323007,0,MLP_final_seed42
+805,validation,0,0.34324288,0,MLP_final_seed42
+806,validation,0,0.40317225,0,MLP_final_seed42
+807,validation,0,0.14346604,0,MLP_final_seed42
+808,validation,0,0.008118018,0,MLP_final_seed42
+809,validation,0,0.122593455,0,MLP_final_seed42
+810,validation,0,3.322917e-09,0,MLP_final_seed42
+811,validation,0,0.0035670479,0,MLP_final_seed42
+812,validation,0,0.43713427,0,MLP_final_seed42
+813,validation,0,0.13504441,0,MLP_final_seed42
+814,validation,0,0.08204877,0,MLP_final_seed42
+815,validation,0,0.008701338,0,MLP_final_seed42
+816,validation,1,0.9307784,1,MLP_final_seed42
+817,validation,1,0.75683224,1,MLP_final_seed42
+818,validation,1,0.40450108,0,MLP_final_seed42
+819,validation,1,0.9738619,1,MLP_final_seed42
+820,validation,0,0.0057772035,0,MLP_final_seed42
+821,validation,0,0.21749575,0,MLP_final_seed42
+822,validation,0,0.00016280502,0,MLP_final_seed42
+823,validation,0,0.00022293374,0,MLP_final_seed42
+824,validation,0,2.0567718e-06,0,MLP_final_seed42
+825,validation,0,0.056840006,0,MLP_final_seed42
+826,validation,0,5.909798e-05,0,MLP_final_seed42
+827,validation,0,0.37338606,0,MLP_final_seed42
+828,validation,0,0.8742089,1,MLP_final_seed42
+829,validation,0,0.040233742,0,MLP_final_seed42
+830,validation,0,1.1107068e-05,0,MLP_final_seed42
+831,validation,0,0.06879654,0,MLP_final_seed42
+832,validation,0,0.6140027,1,MLP_final_seed42
+833,validation,0,0.033771954,0,MLP_final_seed42
+834,validation,0,0.16487353,0,MLP_final_seed42
+835,validation,0,2.6827829e-05,0,MLP_final_seed42
+836,validation,0,0.23755902,0,MLP_final_seed42
+837,validation,0,0.20515402,0,MLP_final_seed42
+838,validation,0,0.787833,1,MLP_final_seed42
+839,validation,0,0.0061227228,0,MLP_final_seed42
+840,validation,0,0.3792411,0,MLP_final_seed42
+841,validation,0,0.32042247,0,MLP_final_seed42
+842,validation,0,0.27892572,0,MLP_final_seed42
+843,validation,0,0.0029237503,0,MLP_final_seed42
+844,validation,0,0.09887083,0,MLP_final_seed42
+845,validation,0,0.0033321776,0,MLP_final_seed42
+846,validation,0,0.7682094,1,MLP_final_seed42
+847,validation,0,0.00035439196,0,MLP_final_seed42
+848,validation,0,0.8192146,1,MLP_final_seed42
+849,validation,0,0.52348864,1,MLP_final_seed42
+850,validation,0,0.21056408,0,MLP_final_seed42
+851,validation,0,6.427497e-06,0,MLP_final_seed42
+852,validation,0,4.663165e-05,0,MLP_final_seed42
+853,validation,1,0.87966514,1,MLP_final_seed42
+854,validation,1,0.75462687,1,MLP_final_seed42
+855,validation,0,0.34076685,0,MLP_final_seed42
+856,validation,0,0.37870792,0,MLP_final_seed42
+857,validation,0,0.799217,1,MLP_final_seed42
+858,validation,0,0.27381653,0,MLP_final_seed42
+859,validation,0,7.4598296e-07,0,MLP_final_seed42
+860,validation,0,0.8732778,1,MLP_final_seed42
+861,validation,0,0.0020305975,0,MLP_final_seed42
+862,validation,0,6.141226e-05,0,MLP_final_seed42
+863,validation,0,0.020012178,0,MLP_final_seed42
+864,validation,0,0.0038652173,0,MLP_final_seed42
+865,validation,0,0.25203034,0,MLP_final_seed42
+866,validation,0,0.4975399,0,MLP_final_seed42
+867,validation,0,0.00033379806,0,MLP_final_seed42
+868,validation,0,0.0016926747,0,MLP_final_seed42
+869,validation,0,0.11444333,0,MLP_final_seed42
+870,validation,0,0.00017413424,0,MLP_final_seed42
+871,validation,1,0.96079654,1,MLP_final_seed42
+872,validation,1,0.96133745,1,MLP_final_seed42
+873,validation,0,0.28000957,0,MLP_final_seed42
+874,validation,0,4.36315e-06,0,MLP_final_seed42
+875,validation,0,2.3119705e-12,0,MLP_final_seed42
+876,validation,0,0.0010133012,0,MLP_final_seed42
+877,validation,0,0.9064111,1,MLP_final_seed42
+878,validation,0,0.44074535,0,MLP_final_seed42
+879,validation,0,7.8680765e-05,0,MLP_final_seed42
+880,validation,0,0.099152,0,MLP_final_seed42
+881,validation,0,0.13650513,0,MLP_final_seed42
+882,validation,0,0.34795567,0,MLP_final_seed42
+883,validation,0,0.0007693007,0,MLP_final_seed42
+884,validation,0,0.0057376465,0,MLP_final_seed42
+885,validation,0,0.4680432,0,MLP_final_seed42
+886,validation,0,0.0017258279,0,MLP_final_seed42
+887,validation,0,0.00012285743,0,MLP_final_seed42
+888,validation,0,0.02973196,0,MLP_final_seed42
+889,validation,1,0.67218804,1,MLP_final_seed42
+890,validation,0,0.091548264,0,MLP_final_seed42
+891,validation,0,2.7506087e-05,0,MLP_final_seed42
+892,validation,0,0.65506864,1,MLP_final_seed42
+893,validation,0,8.818558e-06,0,MLP_final_seed42
+894,validation,0,0.66087127,1,MLP_final_seed42
+895,validation,0,0.6176375,1,MLP_final_seed42
+896,validation,0,0.80500597,1,MLP_final_seed42
+897,validation,0,0.098095596,0,MLP_final_seed42
+898,validation,0,0.000207437,0,MLP_final_seed42
+899,validation,0,0.88071823,1,MLP_final_seed42
+900,validation,0,0.025686543,0,MLP_final_seed42
+901,validation,1,0.9606487,1,MLP_final_seed42
+902,validation,0,1.8786273e-05,0,MLP_final_seed42
+903,validation,0,0.41488844,0,MLP_final_seed42
+904,validation,1,0.8785025,1,MLP_final_seed42
+905,validation,0,1.9383541e-14,0,MLP_final_seed42
+906,validation,1,0.8694322,1,MLP_final_seed42
+907,validation,0,0.3100031,0,MLP_final_seed42
+908,validation,0,0.5846218,1,MLP_final_seed42
+909,validation,0,0.26391992,0,MLP_final_seed42
+910,validation,0,0.30296656,0,MLP_final_seed42
+911,validation,0,3.4470474e-08,0,MLP_final_seed42
+912,validation,0,0.011402552,0,MLP_final_seed42
+913,validation,0,0.047852524,0,MLP_final_seed42
+914,validation,0,0.3878457,0,MLP_final_seed42
+915,validation,0,0.58507,1,MLP_final_seed42
+916,validation,0,3.3050347e-07,0,MLP_final_seed42
+917,validation,0,0.00043934802,0,MLP_final_seed42
+918,validation,0,5.4493955e-07,0,MLP_final_seed42
+919,validation,1,0.9814543,1,MLP_final_seed42
+920,validation,0,0.8971015,1,MLP_final_seed42
+921,validation,0,3.0640078e-06,0,MLP_final_seed42
+922,validation,0,0.13927951,0,MLP_final_seed42
+923,validation,1,0.8806192,1,MLP_final_seed42
+924,validation,0,0.3204479,0,MLP_final_seed42
+925,validation,0,5.893697e-05,0,MLP_final_seed42
+926,validation,0,0.44008058,0,MLP_final_seed42
+927,validation,0,0.75353736,1,MLP_final_seed42
+928,validation,0,0.36229098,0,MLP_final_seed42
+929,validation,0,0.010939328,0,MLP_final_seed42
+930,validation,1,0.80607355,1,MLP_final_seed42
+931,validation,0,0.001820287,0,MLP_final_seed42
+932,validation,0,0.0007931707,0,MLP_final_seed42
+933,validation,1,0.9522856,1,MLP_final_seed42
+934,validation,0,0.22201723,0,MLP_final_seed42
+935,validation,0,6.332913e-05,0,MLP_final_seed42
+936,validation,0,8.8393584e-08,0,MLP_final_seed42
+937,validation,0,0.009268977,0,MLP_final_seed42
+938,validation,0,0.4643371,0,MLP_final_seed42
+939,validation,0,0.3991609,0,MLP_final_seed42
+940,validation,0,0.0024680828,0,MLP_final_seed42
+941,validation,0,9.104691e-05,0,MLP_final_seed42
+942,validation,0,0.049011417,0,MLP_final_seed42
+943,validation,1,0.73078704,1,MLP_final_seed42
+944,validation,1,0.047839172,0,MLP_final_seed42
+945,validation,0,0.5172858,1,MLP_final_seed42
+946,validation,0,0.429002,0,MLP_final_seed42
+947,validation,0,0.8245349,1,MLP_final_seed42
+948,validation,0,3.8396653e-10,0,MLP_final_seed42
+949,validation,1,0.9740097,1,MLP_final_seed42
+950,validation,0,7.0110023e-06,0,MLP_final_seed42
+951,validation,0,0.0014192207,0,MLP_final_seed42
+952,validation,0,0.428948,0,MLP_final_seed42
+953,validation,0,0.44886753,0,MLP_final_seed42
+954,validation,0,0.5977518,1,MLP_final_seed42
+955,validation,0,0.27224582,0,MLP_final_seed42
+956,validation,0,0.35973,0,MLP_final_seed42
+957,validation,0,0.813824,1,MLP_final_seed42
+958,validation,0,0.000890516,0,MLP_final_seed42
+959,validation,0,0.9110325,1,MLP_final_seed42
+960,validation,1,0.66563636,1,MLP_final_seed42
+961,validation,0,0.34889835,0,MLP_final_seed42
+962,validation,0,1.2490475e-06,0,MLP_final_seed42
+963,validation,0,2.67292e-07,0,MLP_final_seed42
+964,validation,1,0.8802872,1,MLP_final_seed42
+965,validation,1,0.99568594,1,MLP_final_seed42
+966,validation,0,0.05126702,0,MLP_final_seed42
+967,validation,0,0.45020974,0,MLP_final_seed42
+968,validation,0,0.6774814,1,MLP_final_seed42
+969,validation,0,2.7316e-06,0,MLP_final_seed42
+970,validation,0,0.23198354,0,MLP_final_seed42
+971,validation,0,0.073264845,0,MLP_final_seed42
+972,validation,0,0.6827948,1,MLP_final_seed42
+973,validation,1,0.7546417,1,MLP_final_seed42
+974,validation,0,0.32761765,0,MLP_final_seed42
+975,validation,1,0.6834645,1,MLP_final_seed42
+976,validation,0,0.0019776742,0,MLP_final_seed42
+977,validation,0,0.004353355,0,MLP_final_seed42
+978,validation,1,0.9296236,1,MLP_final_seed42
+979,validation,0,0.0150145795,0,MLP_final_seed42
+980,validation,0,0.0420951,0,MLP_final_seed42
+981,validation,0,0.0013893493,0,MLP_final_seed42
+982,validation,0,0.13813512,0,MLP_final_seed42
+983,validation,0,0.14363869,0,MLP_final_seed42
+984,validation,0,0.0004998401,0,MLP_final_seed42
+985,validation,0,0.8778817,1,MLP_final_seed42
+986,validation,1,0.85720205,1,MLP_final_seed42
+987,validation,0,0.6649349,1,MLP_final_seed42
+988,validation,0,0.20693345,0,MLP_final_seed42
+989,validation,0,0.5308713,1,MLP_final_seed42
+990,validation,0,0.33051974,0,MLP_final_seed42
+991,validation,0,0.15802306,0,MLP_final_seed42
+992,validation,0,0.3027771,0,MLP_final_seed42
+993,validation,0,0.9161793,1,MLP_final_seed42
+994,validation,0,0.3377291,0,MLP_final_seed42
+995,validation,0,0.6088457,1,MLP_final_seed42
+996,validation,1,0.9937668,1,MLP_final_seed42
+997,validation,0,0.0020147525,0,MLP_final_seed42
+998,validation,0,0.16824417,0,MLP_final_seed42
+999,validation,0,0.39043027,0,MLP_final_seed42
+1000,validation,0,0.07151768,0,MLP_final_seed42
+1001,validation,0,0.68583846,1,MLP_final_seed42
+1002,validation,1,0.8758295,1,MLP_final_seed42
+1003,validation,0,0.12246641,0,MLP_final_seed42
+1004,validation,1,0.36218014,0,MLP_final_seed42
+1005,validation,0,0.25551954,0,MLP_final_seed42
+1006,validation,0,0.6190119,1,MLP_final_seed42
+1007,validation,0,1.6037666e-06,0,MLP_final_seed42
+1008,validation,0,0.0044669476,0,MLP_final_seed42
+1009,validation,0,0.34160858,0,MLP_final_seed42
+1010,validation,1,0.8305389,1,MLP_final_seed42
+1011,validation,0,0.94147485,1,MLP_final_seed42
+1012,validation,0,0.3658496,0,MLP_final_seed42
+1013,validation,0,0.06836079,0,MLP_final_seed42
+1014,validation,0,0.2600812,0,MLP_final_seed42
+1015,validation,1,0.7469471,1,MLP_final_seed42
+1016,validation,1,0.86495566,1,MLP_final_seed42
+1017,validation,0,0.010672754,0,MLP_final_seed42
+1018,validation,0,0.005080447,0,MLP_final_seed42
+1019,validation,0,0.4116142,0,MLP_final_seed42
+1020,validation,0,0.007542496,0,MLP_final_seed42
+1021,validation,0,0.85618705,1,MLP_final_seed42
+1022,validation,1,0.86167365,1,MLP_final_seed42
+1023,validation,0,0.0010639324,0,MLP_final_seed42
+1024,validation,0,0.31452948,0,MLP_final_seed42
+1025,validation,0,0.34235132,0,MLP_final_seed42
+1026,validation,0,2.4105117e-05,0,MLP_final_seed42
+1027,validation,0,0.15338142,0,MLP_final_seed42
+1028,validation,0,0.0005088213,0,MLP_final_seed42
+1029,validation,0,9.651587e-05,0,MLP_final_seed42
+1030,validation,1,0.872052,1,MLP_final_seed42
+1031,validation,0,0.31621543,0,MLP_final_seed42
+1032,validation,0,0.0033922454,0,MLP_final_seed42
+1033,validation,0,1.3724983e-06,0,MLP_final_seed42
+1034,validation,0,0.00077558245,0,MLP_final_seed42
+1035,validation,1,0.9746609,1,MLP_final_seed42
+1036,validation,0,0.00029805364,0,MLP_final_seed42
+1037,validation,0,0.5856415,1,MLP_final_seed42
+1038,validation,0,0.5617518,1,MLP_final_seed42
+1039,validation,1,0.34995744,0,MLP_final_seed42
+1040,validation,0,1.831096e-05,0,MLP_final_seed42
+1041,validation,0,0.25918505,0,MLP_final_seed42
+1042,validation,0,0.11348447,0,MLP_final_seed42
+1043,validation,0,0.015449743,0,MLP_final_seed42
+1044,validation,0,0.8861996,1,MLP_final_seed42
+1045,validation,1,0.40002424,0,MLP_final_seed42
+1046,validation,0,0.3178775,0,MLP_final_seed42
+1047,validation,0,0.003301515,0,MLP_final_seed42
+1048,validation,0,0.040071465,0,MLP_final_seed42
+1049,validation,0,0.00714212,0,MLP_final_seed42
+1050,validation,1,0.852456,1,MLP_final_seed42
+1051,validation,0,0.023320097,0,MLP_final_seed42
+1052,validation,0,0.00025522,0,MLP_final_seed42
+1053,validation,0,6.283679e-11,0,MLP_final_seed42
+1054,validation,0,0.7168806,1,MLP_final_seed42
+1055,validation,0,0.00024082695,0,MLP_final_seed42
+1056,validation,0,0.3371666,0,MLP_final_seed42
+1057,validation,0,0.005269284,0,MLP_final_seed42
+1058,validation,0,0.48498982,0,MLP_final_seed42
+1059,validation,0,0.5476204,1,MLP_final_seed42
+1060,validation,0,0.4676854,0,MLP_final_seed42
+1061,validation,0,0.00034703052,0,MLP_final_seed42
+1062,validation,1,0.79729486,1,MLP_final_seed42
+1063,validation,1,0.9961966,1,MLP_final_seed42
+1064,validation,0,0.53013444,1,MLP_final_seed42
+1065,validation,0,0.64410377,1,MLP_final_seed42
+1066,validation,0,0.35556522,0,MLP_final_seed42
+1067,validation,0,3.9530063e-05,0,MLP_final_seed42
+1068,validation,0,0.76430523,1,MLP_final_seed42
+1069,validation,0,9.177704e-09,0,MLP_final_seed42
+1070,validation,1,0.36612183,0,MLP_final_seed42
+1071,validation,0,0.0030501205,0,MLP_final_seed42
+1072,validation,1,0.81997335,1,MLP_final_seed42
+1073,validation,0,0.27820647,0,MLP_final_seed42
+1074,validation,0,0.18110698,0,MLP_final_seed42
+1075,validation,0,0.0001689581,0,MLP_final_seed42
+1076,validation,0,0.4849895,0,MLP_final_seed42
+1077,validation,0,1.4830581e-06,0,MLP_final_seed42
+1078,validation,0,0.0054549705,0,MLP_final_seed42
+1079,validation,1,0.4576782,0,MLP_final_seed42
+1080,validation,0,1.7061204e-05,0,MLP_final_seed42
+1081,validation,0,0.330821,0,MLP_final_seed42
+1082,validation,0,0.0048137372,0,MLP_final_seed42
+1083,validation,0,0.23007599,0,MLP_final_seed42
+1084,validation,0,0.24997993,0,MLP_final_seed42
+1085,validation,0,0.001441735,0,MLP_final_seed42
+1086,validation,0,0.21682781,0,MLP_final_seed42
+1087,validation,0,0.00014976141,0,MLP_final_seed42
+1088,validation,0,0.29611805,0,MLP_final_seed42
+1089,validation,0,0.4637373,0,MLP_final_seed42
+1090,validation,0,0.0810215,0,MLP_final_seed42
+1091,validation,0,6.9713235e-05,0,MLP_final_seed42
+1092,validation,0,0.3707836,0,MLP_final_seed42
+1093,validation,1,0.9682337,1,MLP_final_seed42
+1094,validation,0,0.17474945,0,MLP_final_seed42
+1095,validation,1,0.96030456,1,MLP_final_seed42
+1096,validation,0,5.970972e-06,0,MLP_final_seed42
+1097,validation,0,0.31255227,0,MLP_final_seed42
+1098,validation,0,5.6095805e-06,0,MLP_final_seed42
+1099,validation,0,0.24384403,0,MLP_final_seed42
+1100,validation,0,0.7304978,1,MLP_final_seed42
+1101,validation,0,0.5768889,1,MLP_final_seed42
+1102,validation,0,1.2706502e-07,0,MLP_final_seed42
+1103,validation,1,0.8520781,1,MLP_final_seed42
+1104,validation,0,0.33773893,0,MLP_final_seed42
+1105,validation,0,1.0539688e-07,0,MLP_final_seed42
+1106,validation,0,1.3650401e-05,0,MLP_final_seed42
+1107,validation,0,0.637359,1,MLP_final_seed42
+1108,validation,0,0.30514923,0,MLP_final_seed42
+1109,validation,0,3.7905804e-05,0,MLP_final_seed42
+1110,validation,0,0.40151805,0,MLP_final_seed42
+1111,validation,1,0.9709643,1,MLP_final_seed42
+1112,validation,0,0.0021434305,0,MLP_final_seed42
+1113,validation,0,0.34482178,0,MLP_final_seed42
+1114,validation,0,0.10316647,0,MLP_final_seed42
+1115,validation,0,0.30987436,0,MLP_final_seed42
+1116,validation,0,0.030167138,0,MLP_final_seed42
+1117,validation,0,0.053670205,0,MLP_final_seed42
+1118,validation,0,0.87008107,1,MLP_final_seed42
+1119,validation,0,0.15498039,0,MLP_final_seed42
+1120,validation,0,0.0012667364,0,MLP_final_seed42
+1121,validation,0,0.00223967,0,MLP_final_seed42
+1122,validation,0,0.26747972,0,MLP_final_seed42
+1123,validation,1,0.8900517,1,MLP_final_seed42
+1124,validation,0,3.20646e-05,0,MLP_final_seed42
+1125,validation,0,6.914827e-05,0,MLP_final_seed42
+1126,validation,1,0.36129323,0,MLP_final_seed42
+1127,validation,0,0.0034411587,0,MLP_final_seed42
+1128,validation,0,0.6443262,1,MLP_final_seed42
+1129,validation,0,8.386127e-05,0,MLP_final_seed42
+1130,validation,0,0.0073672864,0,MLP_final_seed42
+1131,validation,1,0.8932095,1,MLP_final_seed42
+1132,validation,0,0.23311956,0,MLP_final_seed42
+1133,validation,0,0.1749728,0,MLP_final_seed42
+1134,validation,0,0.26633266,0,MLP_final_seed42
+1135,validation,0,0.52291304,1,MLP_final_seed42
+1136,validation,0,0.008816336,0,MLP_final_seed42
+1137,validation,0,0.21627906,0,MLP_final_seed42
+1138,validation,0,0.6820736,1,MLP_final_seed42
+1139,validation,0,2.7659407e-06,0,MLP_final_seed42
+1140,validation,0,0.005921807,0,MLP_final_seed42
+1141,validation,0,2.9276953e-05,0,MLP_final_seed42
+1142,validation,0,0.0001197451,0,MLP_final_seed42
+1143,validation,0,0.26530397,0,MLP_final_seed42
+1144,validation,1,0.9141668,1,MLP_final_seed42
+1145,validation,0,0.006393571,0,MLP_final_seed42
+1146,validation,0,0.0012507807,0,MLP_final_seed42
+1147,validation,0,8.7112977e-07,0,MLP_final_seed42
+1148,validation,0,0.41657183,0,MLP_final_seed42
+1149,validation,0,0.00076191453,0,MLP_final_seed42
+1150,validation,0,0.00014503597,0,MLP_final_seed42
+1151,validation,0,0.81072664,1,MLP_final_seed42
+1152,validation,1,0.94407696,1,MLP_final_seed42
+1153,validation,1,0.9298875,1,MLP_final_seed42
+1154,validation,0,0.00050063786,0,MLP_final_seed42
+1155,validation,1,0.7887464,1,MLP_final_seed42
+1156,validation,1,0.72450155,1,MLP_final_seed42
+1157,validation,1,0.54608476,1,MLP_final_seed42
+1158,validation,0,0.3544433,0,MLP_final_seed42
+1159,validation,0,0.0067359796,0,MLP_final_seed42
+1160,validation,0,0.0018584543,0,MLP_final_seed42
+1161,validation,0,0.00017175468,0,MLP_final_seed42
+1162,validation,0,1.3253389e-06,0,MLP_final_seed42
+1163,validation,1,0.76658463,1,MLP_final_seed42
+1164,validation,1,0.73324794,1,MLP_final_seed42
+1165,validation,0,0.2991771,0,MLP_final_seed42
+1166,validation,0,0.31225085,0,MLP_final_seed42
+1167,validation,0,0.33663622,0,MLP_final_seed42
+1168,validation,0,0.0025201607,0,MLP_final_seed42
+1169,validation,1,0.25455537,0,MLP_final_seed42
+1170,validation,1,0.37116674,0,MLP_final_seed42
+1171,validation,0,0.014488533,0,MLP_final_seed42
+1172,validation,0,0.6669265,1,MLP_final_seed42
+1173,validation,0,1.9354288e-13,0,MLP_final_seed42
+1174,validation,0,0.061853234,0,MLP_final_seed42
+1175,validation,0,0.6582565,1,MLP_final_seed42
+1176,validation,0,0.0036662472,0,MLP_final_seed42
+1177,validation,0,0.40893304,0,MLP_final_seed42
+1178,validation,0,0.38432997,0,MLP_final_seed42
+1179,validation,0,0.0048325597,0,MLP_final_seed42
+1180,validation,1,0.8684973,1,MLP_final_seed42
+1181,validation,0,0.84156686,1,MLP_final_seed42
+1182,validation,0,8.766252e-05,0,MLP_final_seed42
+1183,validation,0,0.4187551,0,MLP_final_seed42
+1184,validation,0,0.90977347,1,MLP_final_seed42
+1185,validation,0,0.25446635,0,MLP_final_seed42
+1186,validation,0,0.9675506,1,MLP_final_seed42
+1187,validation,0,0.08795289,0,MLP_final_seed42
+1188,validation,0,0.88567024,1,MLP_final_seed42
+1189,validation,0,0.6546671,1,MLP_final_seed42
+1190,validation,0,0.38883328,0,MLP_final_seed42
+1191,validation,0,0.7941165,1,MLP_final_seed42
+1192,validation,1,0.87173134,1,MLP_final_seed42
+1193,validation,0,0.64125085,1,MLP_final_seed42
+1194,validation,0,0.42991474,0,MLP_final_seed42
+1195,validation,0,0.42158756,0,MLP_final_seed42
+1196,validation,0,0.037835058,0,MLP_final_seed42
+1197,validation,0,0.38387614,0,MLP_final_seed42
+1198,validation,0,0.55594265,1,MLP_final_seed42
+1199,validation,0,0.0005944887,0,MLP_final_seed42
+1200,validation,0,0.47830543,0,MLP_final_seed42
+1201,validation,0,0.00014793647,0,MLP_final_seed42
+1202,validation,0,0.7560507,1,MLP_final_seed42
+1203,validation,0,6.826404e-05,0,MLP_final_seed42
+1204,validation,0,0.00019320009,0,MLP_final_seed42
+1205,validation,0,2.9476758e-05,0,MLP_final_seed42
+1206,validation,0,2.7533342e-06,0,MLP_final_seed42
+1207,validation,1,0.69531405,1,MLP_final_seed42
+1208,validation,0,0.00014725798,0,MLP_final_seed42
+1209,validation,0,2.2097418e-06,0,MLP_final_seed42
+1210,validation,0,0.00020861895,0,MLP_final_seed42
+1211,validation,0,0.22719492,0,MLP_final_seed42
+1212,validation,0,0.37726983,0,MLP_final_seed42
+1213,validation,0,0.048388276,0,MLP_final_seed42
+1214,validation,0,0.0002044572,0,MLP_final_seed42
+1215,validation,0,0.0006325908,0,MLP_final_seed42
+1216,validation,0,0.055280983,0,MLP_final_seed42
+1217,validation,0,3.7690145e-06,0,MLP_final_seed42
+1218,validation,0,0.5475857,1,MLP_final_seed42
+1219,validation,1,0.97439337,1,MLP_final_seed42
+1220,validation,0,0.34383932,0,MLP_final_seed42

@@ -1,0 +1,2 @@
+model,evaluation,threshold,n_test,n_positive,precision,recall,f1,roc_auc,average_precision,tn,fp,fn,tp,model_frozen_at
+MLP_final_seed42,held-out final test,0.66,2441,382,0.592741935483871,0.7696335078534031,0.6697038724373576,0.9275343340054772,0.7282651257745231,1857,202,88,294,2026-10-14
