@@ -265,13 +265,17 @@ def plot_both(df, mark, font_paths):
             label="검증 PR-AUC", zorder=2)
     ax.axvline(mark, color=MUTED, linestyle=":", linewidth=1.4, zorder=1)
     note = _face(font_paths, "extrabold", 13)
-    ax.text(mark, 0.97, f"최고 에폭 평균 {mark:.1f}", transform=ax.get_xaxis_transform(),
-            fontproperties=note, color=MUTED, ha="center", va="top", zorder=5)
+    ax.text(
+        mark + 0.25, 0.97, f"최고 에폭 평균 {mark:.1f}",
+        transform=ax.get_xaxis_transform(),
+        fontproperties=note, color=MUTED, ha="left", va="top", zorder=6,
+        bbox=dict(boxstyle="square,pad=0.18", facecolor=BG, edgecolor="none"),
+    )
     _gap_arrow(ax, 12, train_mean, val_mean, note, side="right")
     _gap_arrow(ax, 30, train_mean, val_mean, note, side="left")
     ax.text(29.15, train_mean[-1], f"{train_mean[-1]:.3f}",
             fontproperties=note, color=TRAIN_COLOR, ha="right", va="bottom")
-    ax.text(29.15, val_mean[-1], f"{val_mean[-1]:.3f}",
+    ax.text(29.15, 0.645, f"{val_mean[-1]:.3f}",
             fontproperties=note, color=VAL_COLOR, ha="right", va="top")
     ax.set_ylabel("PR-AUC", fontproperties=label_face, color="#4A4E55", labelpad=8)
     _legend(ax, font_paths)
