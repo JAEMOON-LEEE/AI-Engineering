@@ -20,6 +20,8 @@ OUT30 = os.path.join(FIG_DIR, "slide_epoch30.png")
 OUT300 = os.path.join(FIG_DIR, "slide_epoch300.png")
 OPT_LR_CSV = os.path.join(FIG_DIR, "opt_lr_curve.csv")
 OUT_HEATMAP = os.path.join(FIG_DIR, "opt_lr_heatmap.png")
+OPT_LR_CW_CSV = os.path.join(FIG_DIR, "opt_lr_cw_curve.csv")
+OUT_HEATMAP_CW = os.path.join(FIG_DIR, "opt_lr_cw_heatmap.png")
 FONT_DIR = os.path.join(FIG_DIR, "fonts")
 
 SEEDS = (42, 43, 44)
@@ -134,6 +136,20 @@ HEAT_EXPECTED = {
     ("Adam", 0.01): "0.6808±0.0065",
     ("Adam", 0.1): "0.6655±0.0055",
 }
+HEAT_EXPECTED_CW = {
+    ("SGD", 0.00005): "0.3432±0.0742",
+    ("SGD", 0.001): "0.6006±0.0095",
+    ("SGD", 0.01): "0.6757±0.0046",
+    ("SGD", 0.1): "0.6738±0.0229",
+    ("RMSprop", 0.00005): "0.5355±0.0347",
+    ("RMSprop", 0.001): "0.6625±0.0073",
+    ("RMSprop", 0.01): "0.6835±0.0062",
+    ("RMSprop", 0.1): "0.6389±0.0136",
+    ("Adam", 0.00005): "0.5339±0.0429",
+    ("Adam", 0.001): "0.6669±0.0191",
+    ("Adam", 0.01): "0.6915±0.0087",
+    ("Adam", 0.1): "0.6495±0.0275",
+}
 _GOTHIC_FILES = {
     "bold": "GothicA1-Bold.ttf",
     "extrabold": "GothicA1-ExtraBold.ttf",
@@ -244,7 +260,7 @@ def _cell_color(cmap, value, optimizer, lr):
     return cmap(tone)
 
 
-def _draw_heatmap(stats, font_paths):
+def _draw_heatmap(stats, font_paths, out_path=OUT_HEATMAP):
     import matplotlib
 
     matplotlib.use("Agg")
@@ -312,13 +328,15 @@ def _draw_heatmap(stats, font_paths):
         transform=ax.transAxes, ha="center", va="top",
         fontproperties=axis_face, color="#4A4E55", clip_on=False,
     )
-    fig.savefig(OUT_HEATMAP, dpi=200, facecolor=fig.get_facecolor())
+    fig.savefig(out_path, dpi=200, facecolor=fig.get_facecolor())
     plt.close(fig)
 
 
-def plot_opt_lr_heatmap():
+def plot_opt_lr_heatmap(csv_path=OPT_LR_CSV, out_path=OUT_HEATMAP, expected=None):
     """opt_lr_curve.csv로 옵티마이저 × 학습률 히트맵을 그린다. 다시 학습하지 않는다."""
-    df = pd.read_csv(OPT_LR_CSV)
+    if expected is None:
+        expected = HEAT_EXPECTED
+    df = pd.read_csv(csv_path)
     columns = _pick_column(df.columns, ("optimizer", "optimiser"), "옵티마이저"), \
         _pick_column(df.columns, ("lr", "learning_rate"), "학습률"), \
         _pick_column(df.columns, ("seed",), "시드"), \
@@ -332,9 +350,9 @@ def plot_opt_lr_heatmap():
         for lr in HEAT_LRS:
             mean, std, text = _best_val_text(df, columns, optimizer, lr)
             stats[(optimizer, lr)] = {"mean": mean, "std": std, "text": text}
-            expected = HEAT_EXPECTED[(optimizer, lr)]
-            if text != expected:
-                mismatches.append((optimizer, lr, text, expected, mean, std))
+            want = expected[(optimizer, lr)]
+            if text != want:
+                mismatches.append((optimizer, lr, text, want, mean, std))
 
     print(_heat_table(stats))
     if mismatches:
@@ -348,9 +366,14 @@ def plot_opt_lr_heatmap():
         return 1
 
     print("[확인] 12칸 모두 소수 넷째 자리까지 일치")
-    _draw_heatmap(stats, _gothic_paths())
-    print(f"저장: {OUT_HEATMAP}")
+    _draw_heatmap(stats, _gothic_paths(), out_path)
+    print(f"저장: {out_path}")
     return 0
+
+
+def plot_opt_lr_cw_heatmap():
+    """클래스 가중치 그리드 CSV로 같은 히트맵을 그린다. 기존 그림은 덮어쓰지 않는다."""
+    return plot_opt_lr_heatmap(OPT_LR_CW_CSV, OUT_HEATMAP_CW, HEAT_EXPECTED_CW)
 
 
 def main():

@@ -59,6 +59,7 @@ from __future__ import annotations
 import json
 import os
 import time
+import unicodedata
 
 import numpy as np
 import pandas as pd
@@ -262,10 +263,33 @@ def describe(cfg):
     return f"{h}{dr}, {cfg['optimizer']} {cfg['lr']:g}, 배치 {cfg['batch']}, 최대 {cfg['max_epochs']}에폭, {es}, {imb}"
 
 
+def _disp_width(text):
+    return sum(2 if unicodedata.east_asian_width(ch) in ("W", "F") else 1 for ch in text)
+
+
+def _pad(text, width):
+    return text + " " * max(0, width - _disp_width(text))
+
+
+_COL = (("후보", 28), ("PR-AUC", 18), ("학습PR", 9), ("차이", 9),
+        ("재현율", 9), ("양성예측", 10), ("최고/전체에폭", 12))
+
+
+def result_header():
+    return "  " + "".join(_pad(name, width) for name, width in _COL)
+
+
 def line(tag, s):
-    return (f"{tag:<34} PR-AUC {s['val_pr']:.4f}±{s['val_pr_std']:.4f}  학습PR {s['train_pr']:.3f}  "
-            f"차이 {s['gap']:+.3f}  재현율 {s['recall']:.3f}  양성예측 {s['pos_rate']:.3f}  "
-            f"최고/전체에폭 {s['best_epoch']:.0f}/{s['epochs']:.0f}")
+    cells = (
+        tag,
+        f"{s['val_pr']:.4f} ± {s['val_pr_std']:.4f}",
+        f"{s['train_pr']:.3f}",
+        f"{s['gap']:+.3f}",
+        f"{s['recall']:.3f}",
+        f"{s['pos_rate']:.3f}",
+        f"{s['best_epoch']:.0f} / {s['epochs']:.0f}",
+    )
+    return "  " + "".join(_pad(cell, width) for cell, (_, width) in zip(cells, _COL))
 
 
 # ---------------- 단계 진행 ----------------
@@ -282,11 +306,12 @@ def main():
         """choose_from: 선택 대상을 좁히는 함수(cfg -> bool). 없으면 전체 후보 중 1위."""
         nonlocal cfg
         print(f"  가설: {hypothesis}")
+        print(result_header())
         results = []
         for label, c in cands:
             s = evaluate(c, d)
             results.append((label, c, s))
-            print("   " + line(label, s))
+            print(line(label, s))
             step_rows.append(dict(step=step, symptom=symptom, candidate=label, config=describe(c),
                                   **{k: v for k, v in s.items()}))
         pool = [t for t in results if choose_from is None or choose_from(t[1])]
@@ -306,10 +331,11 @@ def main():
         return best_s
 
     # 0. 출발점
-    print("=== 0 출발점: 논문 + 교재 초기값 ===")
+    print("=== 0 출발점: 초기값 ===")
     print("  " + describe(cfg))
     cur = evaluate(cfg, d)
-    print("   " + line("초기값", cur))
+    print(result_header())
+    print(line("초기값", cur))
     step_rows.append(dict(step="0 출발점", symptom="-", candidate="초기값", config=describe(cfg), selected=True, **cur))
     story.append(f"- **0 출발점** (논문+교재 초기값: {describe(cfg)}): 검증 PR-AUC {cur['val_pr']:.4f}, "
                  f"재현율 {cur['recall']:.3f}, 양성 예측 비율 {cur['pos_rate']:.3f} (실제 구매율 {base_rate:.3f})")
@@ -413,11 +439,12 @@ def main():
             if h != base_h:
                 cands.append((f"{n_layers}층×{u} {h}", dict(cfg, hidden=h)))
     print("  가설: 줄인 구조만 본 4단계보다 넓은 범위에서도 현재 구조가 맞는지")
+    print(result_header())
     results = []
     for label, c in cands:
         s = evaluate(c, d)
         results.append((label, c, s))
-        print("   " + line(label, s))
+        print(line(label, s))
         step_rows.append(dict(step="7 구조 넓게 확인", symptom="확인 단계(증상 판정 아님)", candidate=label,
                               config=describe(c), **s))
     base_label, base_cfg, base_s = results[0]
@@ -447,11 +474,12 @@ def main():
     print("  가설: 드롭아웃·작은 학습률로 최고점이 늦어져 현재 최대 에폭이 부족할 수 있음")
     ep0 = cfg["max_epochs"]
     cands = [(f"최대 {e}에폭", dict(cfg, max_epochs=e)) for e in sorted({ep0, 50, 100})]
+    print(result_header())
     results = []
     for label, c in cands:
         s = evaluate(c, d)
         results.append((label, c, s))
-        print("   " + line(label, s))
+        print(line(label, s))
         step_rows.append(dict(step="8 에폭 재확인", symptom=f"최고 에폭 {cur['best_epoch']:.0f}/{ep0}", candidate=label,
                               config=describe(c), **s))
     base_r = next(t for t in results if t[1]["max_epochs"] == ep0)
