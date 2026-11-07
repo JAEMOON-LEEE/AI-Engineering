@@ -1,38 +1,37 @@
-# 최종 MLP·기준선 validation 평가 요약
+# B 파트 최종 모델 평가 요약
 
-평가 데이터는 `data/final/validation_final.csv` 1,221행이다. 최종 MLP는 2026-10-14에 동결된 seed 42 모델의 저장 예측 확률을 사용했다. test는 읽지 않았다.
+평가 대상은 C1이 2026-11-05 동결한 26차원 입력, 은닉층 56-112-56의 `MLP_final_seed42`이다. 로지스틱 회귀와 랜덤포레스트는 같은 공식 validation 1,221세션에서 비교했다. 아래 PR-AUC 수치는 `average_precision_score`로 계산한 AP이다.
 
-## 임계값 0.50 비교
+## Validation: 공통 임계값 0.50
 
-| 모델 | Precision | Recall | F1 | ROC-AUC | PR-AUC |
+| 모델 | Precision | Recall | F1 | ROC-AUC | AP |
 |---|---:|---:|---:|---:|---:|
-| 랜덤포레스트 | 0.647 | 0.634 | 0.640 | 0.921 | 0.728 |
-| 최종 MLP(seed 42) | 0.460 | 0.812 | 0.587 | 0.910 | 0.693 |
 | 로지스틱 회귀 | 0.504 | 0.723 | 0.594 | 0.880 | 0.601 |
+| 랜덤포레스트 | 0.647 | 0.634 | 0.640 | 0.921 | 0.728 |
+| 새 최종 MLP | 0.459 | 0.848 | 0.596 | 0.917 | 0.702 |
 
-## 혼동행렬 해석
+0.50에서 MLP의 FP는 191건, FN은 29건이다. 구매자를 많이 찾지만 오탐도 많다. 랜덤포레스트는 AP와 F1이 세 모델 중 가장 높다.
 
-| 모델 | TN | FP | FN | TP |
-|---|---:|---:|---:|---:|
-| 로지스틱 회귀 | 894 | 136 | 53 | 138 |
-| 랜덤포레스트 | 964 | 66 | 70 | 121 |
-| 최종 MLP(seed 42) | 848 | 182 | 36 | 155 |
+## 임계값 선택
 
-MLP는 구매 고객을 가장 많이 찾아 FN이 36건으로 가장 적다. 반면 FP는 182건으로 가장 많다. 랜덤포레스트는 FP가 66건으로 적고 PR-AUC와 F1이 가장 높다.
+새 MLP의 validation F1 최대 후보는 **0.75**이다. 이때 Precision 0.667, Recall 0.639, F1 0.652, FP 61건, FN 69건이다. 0.50에 비해 FP는 130건 줄고 FN은 40건 늘었다. 실제 프로모션 비용과 구매 누락 비용 자료가 없으므로 사업상 최적 임계값이라고 주장하지 않는다. 임계값 0.75는 새 모델의 test 결과를 보기 전에 확정했다.
 
-## validation 임계값 후보
+## Test: 고정된 모델과 임계값 0.75
 
-| 모델 | 임계값 | Precision | Recall | F1 |
-|---|---:|---:|---:|---:|
-| 최종 MLP(seed 42) | 0.66 | 0.561 | 0.770 | 0.649 |
-| 랜덤포레스트 | 0.33 | 0.564 | 0.780 | 0.655 |
-| 로지스틱 회귀 | 0.64 | 0.613 | 0.623 | 0.618 |
+| 세션 | 구매 세션 | Precision | Recall | F1 | ROC-AUC | AP | TN | FP | FN | TP |
+|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| 2,441 | 382 | 0.676 | 0.649 | 0.662 | 0.931 | 0.729 | 1,940 | 119 | 134 | 248 |
 
-위 임계값은 validation에서 F1을 최대화한 후보다. 오탐지 비용과 미탐지 비용을 팀에서 확정하기 전에는 최종 임계값으로 단정하지 않는다. MLP는 클래스 가중치로 학습했으므로 출력을 보정된 실제 구매 확률보다 순위용 점수로 해석한다.
+기존 28-56-28 모델의 같은 test 결과는 임계값 0.66에서 F1 0.670, Recall 0.770, AP 0.728이었다. 새 모델의 test AP는 거의 같고 F1과 Recall은 낮다. 따라서 새 구조가 최종 분류 성능까지 개선됐다고 단정하지 않는다. 이 test는 기존 모델 평가에도 사용했으므로 완전히 처음 보는 블라인드 test 결과로 표현하지 않는다. 새 test 결과를 확인한 뒤 임계값은 바꾸지 않았다.
 
-## 발표 핵심 해석
+## 결과 파일
 
-- 랜덤포레스트는 전체 순위 판별력(PR-AUC)과 임계값 0.5 F1에서 가장 좋았다.
-- MLP는 임계값 0.5에서 구매 고객 미탐지를 줄이는 데 강점이 있었다.
-- 임계값을 0.66으로 올리면 MLP의 오탐지가 줄고 F1이 0.587에서 0.649로 개선된다.
-- 이 프로젝트의 주제가 MLP 구축이라도 비교 모델이 더 높은 성능을 보인 사실을 그대로 보고한다.
+- `results/B/metrics/validation_model_comparison_metrics.csv`
+- `results/B/metrics/validation_model_threshold_analysis.csv`
+- `results/B/metrics/validation_model_threshold_candidates.csv`
+- `results/B/metrics/final_test_mlp_metrics.csv`
+- `results/B/predictions/validation_all_model_predictions.csv`
+- `results/B/predictions/validation_mlp_errors_at_0_5.csv`
+- `results/B/predictions/final_test_mlp_predictions.csv`
+- `results/B/figures/validation_all_model_confusion_matrices.png`
+- `results/B/figures/validation_all_model_roc_pr_curves.png`
