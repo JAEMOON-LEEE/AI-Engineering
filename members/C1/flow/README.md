@@ -35,7 +35,7 @@ python step06_batch.py       # 한 단계만 (앞 단계 결정은 캐시에서 
 - 학습률은 `0.01/3`(=0.0033333…)입니다. `0.0033`으로 넣으면 다른 결과가 나옵니다(2026-11-05 확인).
 - 같은 시드라도 라이브러리 버전·PC가 바뀌면 최대 0.004 정도 달라질 수 있습니다. 환경은 `../requirements_c1_env.txt`.
 - 평가는 '검증 PR-AUC(Keras)가 가장 높은 에폭의 가중치'로 되돌린 뒤 sklearn PR-AUC로 보고합니다. 테스트 셋은 읽지 않습니다.
-- 아직 안 한 것: 에폭 확인, 최종 모델 동결, 임계값(검증 셋), 테스트 1회 평가. 기존 `final_model/`은 새 모델 동결 전까지 그대로 둡니다(시연·B 스크립트가 사용 중).
+- 에폭 확인과 최종 모델 동결을 완료했다. B는 validation F1 기준으로 임계값 0.75를 확정하고 test 평가를 완료했다.
 
 ## 그림 (figures/)
 step03_opt_lr_heatmap · step04_val_pr_curve(의심) · step04_train_val_pr_curve(확인) · step04_loss_curve(예비) · step06_batch_pr_auc · step08_structure_heatmap

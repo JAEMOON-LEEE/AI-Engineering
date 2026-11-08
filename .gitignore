@@ -1,6 +1,11 @@
-# Excel 임시 잠금 파일
 ~$*
+.DS_Store
+*.py[cod]
 __pycache__/
+.ipynb_checkpoints/
+.matplotlib-cache/
+.venv/
+.venv-*/
 .codex/
 _build/
 members/C1/experiment_log_C1_backup.xlsx

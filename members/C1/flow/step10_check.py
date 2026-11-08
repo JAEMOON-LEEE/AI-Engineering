@@ -9,6 +9,7 @@ validation_predictions_mlp.csv 형식·PR-AUC를 확인한다.
 """
 from __future__ import annotations
 
+import math
 import os
 import sys
 
@@ -27,7 +28,7 @@ EXPECTED_PR = 0.701766
 
 
 def same6(a, b):
-    return f"{float(a):.6f}" == f"{float(b):.6f}"
+    return math.isclose(float(a), float(b), rel_tol=1e-6, abs_tol=1e-7)
 
 
 def pick_rows(va):
