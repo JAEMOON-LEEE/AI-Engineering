@@ -83,6 +83,10 @@ def cfg_of(**updates):
     cfg["batch"] = int(cfg["batch"])
     cfg["max_epochs"] = int(cfg["max_epochs"])
     cfg["early_stop"] = int(cfg["early_stop"])
+    # l2=0 은 키를 넣지 않는다. 넣으면 기존 flow_runs.csv 캐시 문자열이 바뀐다.
+    l2 = float(cfg.pop("l2", 0.0))
+    if l2 != 0.0:
+        cfg["l2"] = l2
     return cfg
 
 
@@ -118,6 +122,8 @@ def cfg_line(cfg, skip=()):
         parts.append(f"최대 {cfg['max_epochs']}에폭")
     if "dropout" not in skip:
         parts.append(f"드롭아웃 {cfg['dropout']:g}" + ("(모든 은닉층)" if cfg["dropout"] > 0 else ""))
+    if "l2" not in skip and float(cfg.get("l2", 0.0)) != 0.0:
+        parts.append(f"L2 {float(cfg['l2']):g}")
     if "early_stop" not in skip:
         parts.append(f"조기종료 p{cfg['early_stop']}" if cfg["early_stop"] else "조기종료 없음")
     if "class_weight" not in skip:
@@ -194,9 +200,17 @@ def make_optimizer(name, lr):
 def build(cfg, input_dim):
     _, keras, layers = tf_modules()
     hidden = tuple(cfg["hidden"])
+    l2 = float(cfg.get("l2", 0.0))
     seq = [layers.Input(shape=(input_dim,))]
     for i, units in enumerate(hidden):
-        seq.append(layers.Dense(units, activation="relu", kernel_initializer="he_normal"))
+        if l2 > 0:
+            # 은닉층만. 출력층 Dense 에는 규제를 붙이지 않는다.
+            seq.append(layers.Dense(
+                units, activation="relu", kernel_initializer="he_normal",
+                kernel_regularizer=keras.regularizers.L2(l2),
+            ))
+        else:
+            seq.append(layers.Dense(units, activation="relu", kernel_initializer="he_normal"))
         is_last = i == len(hidden) - 1
         where = cfg.get("drop_where", "none")
         if cfg["dropout"] > 0 and (where == "all" or (where == "last" and is_last)):
